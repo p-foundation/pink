@@ -1,0 +1,29 @@
+name: pa11y
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pa11y:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Pa11y
+        run: |
+          npm install -g pa11y
+          pa11y https://your-gh-pages-url/index.html  # Replace with your actual URL

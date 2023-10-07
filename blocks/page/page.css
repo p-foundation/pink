@@ -1,0 +1,9 @@
+.page {
+  margin: 0;
+  background-color: #fff;
+  color: #283645;
+  font-family: OpenSans, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

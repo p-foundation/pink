@@ -1,0 +1,9 @@
+.contacts__table{
+  margin: 0;
+  padding: 0;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 61px;
+}

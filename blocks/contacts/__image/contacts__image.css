@@ -1,0 +1,5 @@
+.contacts__image{
+  width: 100%;
+  background-image: url(../../../images/contacts__triangle.png);
+  z-index: 1;
+}

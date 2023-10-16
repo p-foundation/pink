@@ -1,0 +1,5 @@
+@media (max-width:610px){
+  .contacts__links_type_secondary{
+    order: 2;
+  }
+}

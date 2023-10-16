@@ -7,5 +7,18 @@
   line-height: 32.68px;
   color: #D22856;
   margin-top: 34px;
-  width: 210px;
+  width: 206px;
+}
+
+@media (max-width:610px){
+  .contacts__access{
+    margin-top: 17px;
+  }
+}
+
+@media (min-width: 320px){
+  .contacts__access{
+    margin-top: 13px;
+    margin-bottom: 35px;
+  }
 }

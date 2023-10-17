@@ -1,0 +1,26 @@
+.into{
+    max-width: 2560px;
+    height: 853px;
+    position: relative;
+    color: white;
+    background-image: url(../../images/background-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+@media(max-width:660px){
+    .into{
+        height: 729px;
+    }
+}
+
+@media(max-width:320px){
+    .into{
+        background-image: url(../../images/background-mobile.png);
+        height: 733px;
+        background-size: 320px 462px;
+
+    }
+}
+

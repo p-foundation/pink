@@ -1,0 +1,23 @@
+.into__logo{
+    width: 147px;
+    height: 40px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 27px;
+    left: 130px;
+}
+
+@media(max-width:660px){
+    .into__logo{
+        left: 24px;
+    }
+}
+
+@media(max-width:320px){
+    .into__logo{
+        top: 22px;
+        left: 20px;
+        width: 74px;
+        height: 23px;
+    }
+}

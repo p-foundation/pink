@@ -1,0 +1,27 @@
+.into__nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 78px;
+    list-style: none;
+    padding: 0;
+    margin-left: 450px;
+}
+
+.into__nav-list li{
+    transition: all 0.5s ease;
+}
+
+.into__nav-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.into__nav-list li:hover{
+    opacity: 0.7;
+}
+
+@media(max-width:660px){
+    .into__nav-list{
+        display: none;
+    }
+}

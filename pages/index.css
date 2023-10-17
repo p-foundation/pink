@@ -44,3 +44,17 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
+@import url(../blocks/into/__top-menu/into__top-menu.css);
+@import url(../blocks/into/__system/into__system.css);
+@import url(../blocks/into/__system-logo/into__system-logo.css);
+@import url(../blocks/into/__system-list/into__system-list.css);
+@import url(../blocks/into/__subtitle/into__subtitle.css);
+@import url(../blocks/into/__nav-list/into__nav-list.css);
+@import url(../blocks/into/__logo/into__logo.css);
+@import url(../blocks/into/__content/into__content.css);
+@import url(../blocks/into/into.css);
+@import url(../blocks/into/__title/into__title.css);
+@import url(../blocks/into/__button/into__button.css);
+@import url(../blocks/into/__info/into__info.css);
+@import url(../blocks/into/__menu-burger/into__menu-burger.css);

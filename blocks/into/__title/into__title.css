@@ -1,0 +1,37 @@
+.into__title{
+    display: flex;
+    width: 300px;
+    height: 174px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.2;
+    padding: 0 25px;
+    margin: 0;
+
+}
+
+@media(max-width:660px){
+    .into__title{
+        height: 127px;
+        flex-shrink: 0;
+        font-size: 40px;
+        font-weight: 300;
+        width: 300px;
+    }
+}
+
+@media(max-width:320px){
+    .into__title{
+        width: 280px;
+height: 47px;
+font-size: 24px;
+    }
+}
+

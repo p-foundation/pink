@@ -1,0 +1,18 @@
+.into__menu-burger{
+    position: absolute;
+    top: 43px;
+    right: 24px;
+}
+
+@media(min-width:660px){
+    .into__menu-burger{
+        display: none;
+    }
+}
+
+@media(max-width:320px){
+    .into__menu-burger{
+        top: 21px;
+        right: 20px;
+    }
+}

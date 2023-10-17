@@ -1,0 +1,35 @@
+.into__button{
+    text-decoration: none;
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    border: 3px solid #FFF;
+    color: white;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.into__button:hover{
+    background-color: rgba(255, 255, 255, 0.523);
+    color: black;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+@media(max-width:660px){
+    .into__button{
+        margin-top: 39px;
+        width: 280px;
+    }
+}
+
+@media(max-width:320px){
+    .into__button{
+        margin-top: 0;
+    }
+}

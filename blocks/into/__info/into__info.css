@@ -1,0 +1,17 @@
+.into__info{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:320px){
+    .into__info{
+        padding-top: 28px;
+        margin-top: 316px;
+        width: 320px;
+        height: 271px;
+        background-color: #1D2631;
+    }
+}

@@ -1,0 +1,20 @@
+.into__systems-list{
+    display: flex;
+    gap: 34px;
+    align-items: baseline;
+    list-style: none;
+    padding: 0;
+    margin: 75px 0;
+}
+
+@media(max-width:660px){
+    .into__systems-list{
+        margin: 51px 0 51px 0;
+    }
+}
+
+@media(max-width:320px){
+    .into__systems-list{
+        margin: 28px 0;
+    }
+}

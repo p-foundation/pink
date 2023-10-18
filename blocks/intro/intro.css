@@ -5,7 +5,7 @@
     margin: 0 auto;
     position: relative;
     color: rgb(255, 255, 255);
-    background-image: url(../../images/background-desktop.png);
+    background-image: url(../../images/intro-background-desktop.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
@@ -19,7 +19,7 @@
 
 @media(max-width:320px){
     .intro{
-        background-image: url(../../images/background-mobile.png);
+        background-image: url(../../images/intro-background-mobile.png);
         height: 733px;
         background-size: 320px 462px;
 

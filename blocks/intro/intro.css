@@ -1,8 +1,10 @@
 .intro{
-    max-width: 2560px;
+    width: 100%;
+    max-width: 1200px;
     height: 853px;
+    margin: 0 auto;
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
     background-image: url(../../images/background-desktop.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;

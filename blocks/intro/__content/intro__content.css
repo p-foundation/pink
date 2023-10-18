@@ -1,7 +1,6 @@
 .intro__content{
     padding: 144px 0 0 148px;
     height: 628px;
-    flex-shrink: 0;
     background-image: url(../../../images/phone-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom center;

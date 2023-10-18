@@ -1,7 +1,6 @@
 .intro__logo{
     width: 147px;
     height: 40px;
-    flex-shrink: 0;
     position: absolute;
     top: 27px;
     left: 130px;

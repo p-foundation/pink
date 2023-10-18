@@ -1,0 +1,29 @@
+.hero{
+    padding: 144px 0 0 148px;
+    height: 628px;
+    background-image: url(../../images/intro-phone-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 950px 545px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:660px){
+    .hero{
+        background-size: 800px 545px;
+        padding: 74px 0 0 0;      
+        height: 545px;  
+        align-items: baseline;
+    }
+}
+
+@media(max-width:320px){
+    .hero{
+        height: 367px;
+        padding: 29px 0 0 0;   
+        align-items: center;  
+        background-size: 320px 286px;
+        background-image: url(../../images/intro-phone-mobile.png);
+    }
+}

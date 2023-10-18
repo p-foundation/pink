@@ -50,10 +50,11 @@
 @import url(../blocks/intro/__system-list/intro__system-list.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__nav-list/intro__nav-list.css);
-@import url(../blocks/intro/__logo/intro__logo.css);
 @import url(../blocks/intro/__content/intro__content.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__info/intro__info.css);
 @import url(../blocks/intro/__menu-burger/intro__menu-burger.css);
+
+@import url(../blocks/logo/logo.css);

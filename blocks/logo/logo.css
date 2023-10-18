@@ -1,13 +1,22 @@
 .logo{
-  transition: all 0.8s ease;
-  color:rgb(255, 255, 255);
+    width: 147px;
+    height: 40px;
+    position: absolute;
+    top: 27px;
+    left: 130px;
 }
 
-.logo:hover{
-  color: rgb(178, 40, 102);
+@media(max-width:660px){
+    .logo{
+        left: 24px;
+    }
 }
 
-.logo:active{
-  color:rgb(255, 255, 255);
-  opacity: .7;
+@media(max-width:320px){
+    .logo{
+        top: 22px;
+        left: 20px;
+        width: 74px;
+        height: 23px;
+    }
 }

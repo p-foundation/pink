@@ -1,4 +1,4 @@
-.into__content{
+.intro__content{
     padding: 144px 0 0 148px;
     height: 628px;
     flex-shrink: 0;
@@ -11,7 +11,7 @@
 }
 
 @media(max-width:660px){
-    .into__content{
+    .intro__content{
         background-size: 800px 545px;
         padding: 74px 0 0 0;      
         height: 545px;  
@@ -20,7 +20,7 @@
 }
 
 @media(max-width:320px){
-    .into__content{
+    .intro__content{
         height: 367px;
         padding: 29px 0 0 0;   
         align-items: center;  

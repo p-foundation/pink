@@ -1,4 +1,4 @@
-.into__systems-list{
+.intro__systems-list{
     display: flex;
     gap: 34px;
     align-items: baseline;
@@ -8,13 +8,13 @@
 }
 
 @media(max-width:660px){
-    .into__systems-list{
+    .intro__systems-list{
         margin: 51px 0 51px 0;
     }
 }
 
 @media(max-width:320px){
-    .into__systems-list{
+    .intro__systems-list{
         margin: 28px 0;
     }
 }

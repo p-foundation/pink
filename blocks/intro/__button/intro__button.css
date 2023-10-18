@@ -1,4 +1,4 @@
-.into__button{
+.intro__button{
     text-decoration: none;
     width: 300px;
     height: 56px;
@@ -17,21 +17,21 @@
 
 }
 
-.into__button:hover{
+.intro__button:hover{
     background-color: rgba(255, 255, 255, 0.523);
     color: black;
     border: 3px solid rgba(0, 0, 0, 0);
 }
 
 @media(max-width:660px){
-    .into__button{
+    .intro__button{
         margin-top: 39px;
         width: 280px;
     }
 }
 
 @media(max-width:320px){
-    .into__button{
+    .intro__button{
         margin-top: 0;
     }
 }

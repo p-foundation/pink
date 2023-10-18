@@ -1,4 +1,4 @@
-.into__logo{
+.intro__logo{
     width: 147px;
     height: 40px;
     flex-shrink: 0;
@@ -8,13 +8,13 @@
 }
 
 @media(max-width:660px){
-    .into__logo{
+    .intro__logo{
         left: 24px;
     }
 }
 
 @media(max-width:320px){
-    .into__logo{
+    .intro__logo{
         top: 22px;
         left: 20px;
         width: 74px;

@@ -1,4 +1,4 @@
-.into__top-menu{
+.intro__top-menu{
     background-color: rgba(0, 0, 0, 0.463);
     width: 100%;
     height: 110px;
@@ -8,7 +8,7 @@
 }
 
 @media(max-width:320px){
-    .into__top-menu{
+    .intro__top-menu{
         height: 66px;
     }
 }

@@ -1,4 +1,4 @@
-.into__nav-list{
+.intro__nav-list{
     display: flex;
     flex-wrap: wrap;
     gap: 10px 78px;
@@ -7,21 +7,21 @@
     margin-left: 450px;
 }
 
-.into__nav-list li{
+.intro__nav-list li{
     transition: all 0.5s ease;
 }
 
-.into__nav-list li a{
+.intro__nav-list li a{
     color: white;
     text-decoration: none;
 }
 
-.into__nav-list li:hover{
+.intro__nav-list li:hover{
     opacity: 0.7;
 }
 
 @media(max-width:660px){
-    .into__nav-list{
+    .intro__nav-list{
         display: none;
     }
 }

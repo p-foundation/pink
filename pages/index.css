@@ -45,16 +45,15 @@
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
 
-@import url(../blocks/into/__top-menu/into__top-menu.css);
-@import url(../blocks/into/__system/into__system.css);
-@import url(../blocks/into/__system-logo/into__system-logo.css);
-@import url(../blocks/into/__system-list/into__system-list.css);
-@import url(../blocks/into/__subtitle/into__subtitle.css);
-@import url(../blocks/into/__nav-list/into__nav-list.css);
-@import url(../blocks/into/__logo/into__logo.css);
-@import url(../blocks/into/__content/into__content.css);
-@import url(../blocks/into/into.css);
-@import url(../blocks/into/__title/into__title.css);
-@import url(../blocks/into/__button/into__button.css);
-@import url(../blocks/into/__info/into__info.css);
-@import url(../blocks/into/__menu-burger/into__menu-burger.css);
+@import url(../blocks/intro/__top-menu/intro__top-menu.css);
+@import url(../blocks/intro/__system/intro__system.css);
+@import url(../blocks/intro/__system-list/intro__system-list.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__nav-list/intro__nav-list.css);
+@import url(../blocks/intro/__logo/intro__logo.css);
+@import url(../blocks/intro/__content/intro__content.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__info/intro__info.css);
+@import url(../blocks/intro/__menu-burger/intro__menu-burger.css);

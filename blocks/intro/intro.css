@@ -1,4 +1,4 @@
-.into{
+.intro{
     max-width: 2560px;
     height: 853px;
     position: relative;
@@ -10,13 +10,13 @@
 }
 
 @media(max-width:660px){
-    .into{
+    .intro{
         height: 729px;
     }
 }
 
 @media(max-width:320px){
-    .into{
+    .intro{
         background-image: url(../../images/background-mobile.png);
         height: 733px;
         background-size: 320px 462px;

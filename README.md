@@ -4,7 +4,7 @@
 
 
 **Important:** _do not delete or modify the following files and folders without authorization:_
-_`.editorconfig`, `.gitignore`_
+_`.editorconfig`, `.gitignore`, `.nojekyll`, `.github`_
 
 To get familiar with our guidelines, please refer to [CONTRIBUTING.md](Contributing.md) for instructions.
 

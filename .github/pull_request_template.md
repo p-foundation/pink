@@ -16,3 +16,8 @@ Before submitting this pull request, please ensure the following:
 
 - [ ] I've validated my HTML with [Nu Html Checker](https://validator.w3.org/nu/), and it outputs no errors
 - [ ] I've checked my HTML with [HTML Tree Generator](https://yoksel.github.io/html-tree/en/), and it outputs no errors
+- I've ensured that the layout matches the mockup for the following control points:
+  - [ ] 1200px
+  - [ ] 660px
+  - [ ] 320px
+

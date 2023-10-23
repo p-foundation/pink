@@ -3,12 +3,13 @@
   padding: 0;
   display:flex;
   flex-direction: row;
-  width: 100%;
+  width: 74%;
   justify-content: space-around;
-  margin-top: 61px;
+  gap: 70px;
+  margin-top: 40px;
 }
 
-@media (max-width: 850px){
+@media (max-width: 660px){
   .contacts__table{
     flex-wrap: wrap;
   }

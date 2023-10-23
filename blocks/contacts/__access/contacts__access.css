@@ -6,11 +6,10 @@
   font-weight: 300;
   line-height: 32.68px;
   color: #D22856;
-  margin-top: 34px;
-  width: 206px;
+  width: 211px;
 }
 
-@media (max-width:610px){
+@media (max-width:660px){
   .contacts__access{
     margin-top: 17px;
   }

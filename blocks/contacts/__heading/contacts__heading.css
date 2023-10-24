@@ -8,5 +8,11 @@
   color: #283645;
 }
 
+@media (min-width: 660px){
+  .contacts__heading{
+    margin-bottom: -4px;
+  }
+}
+
 
 

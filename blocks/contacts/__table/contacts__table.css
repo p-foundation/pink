@@ -12,6 +12,9 @@
 @media (max-width: 660px){
   .contacts__table{
     flex-wrap: wrap;
+    width: 95%;
+    margin-top: 30px;
+    gap: 1px;
   }
 }
 

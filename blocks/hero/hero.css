@@ -1,7 +1,7 @@
 .hero{
     padding: 144px 0 0 148px;
     height: 628px;
-    background-image: url(../../images/intro-phone-desktop.png);
+    background-image: url(../../images/hero-phone-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 950px 545px;
@@ -24,6 +24,6 @@
         padding: 29px 0 0 0;   
         align-items: center;  
         background-size: 320px 286px;
-        background-image: url(../../images/intro-phone-mobile.png);
+        background-image: url(../../images/hero-phone-mobile.png);
     }
 }

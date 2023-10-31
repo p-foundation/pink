@@ -1,4 +1,4 @@
-.intro__system-list{
+.hero__system-list{
     display: flex;
     gap: 34px;
     align-items: baseline;
@@ -8,13 +8,13 @@
 }
 
 @media(max-width:660px){
-    .intro__system-list{
+    .hero__system-list{
         margin: 51px 0 51px 0;
     }
 }
 
 @media(max-width:320px){
-    .intro__system-list{
+    .hero__system-list{
         margin: 28px 0;
     }
 }

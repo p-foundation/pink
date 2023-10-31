@@ -1,4 +1,4 @@
-.intro__title{
+.hero__title{
     display: flex;
     width: 300px;
     height: 174px;
@@ -17,7 +17,7 @@
 }
 
 @media(max-width:660px){
-    .intro__title{
+    .hero__title{
         height: 127px;
         flex-shrink: 0;
         font-size: 40px;
@@ -27,7 +27,7 @@
 }
 
 @media(max-width:320px){
-    .intro__title{
+    .hero__title{
         width: 280px;
         height: 47px;
         font-size: 24px;

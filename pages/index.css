@@ -46,16 +46,15 @@
 @import url(../blocks/visually-hidden/visually-hidden.css);
 
 @import url(../blocks/intro/__top-menu/intro__top-menu.css);
-@import url(../blocks/intro/__system/intro__system.css);
-@import url(../blocks/intro/__system-list/intro__system-list.css);
-@import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__nav-list/intro__nav-list.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__button/intro__button.css);
-@import url(../blocks/intro/__info/intro__info.css);
 @import url(../blocks/intro/__menu-burger/intro__menu-burger.css);
 
 @import url(../blocks/logo/logo.css);
 
 @import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__info/hero__info.css);
+@import url(../blocks/hero/__system-list/hero__system-list.css);
+@import url(../blocks/hero/__system/hero__system.css);

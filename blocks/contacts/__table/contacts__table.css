@@ -18,5 +18,13 @@
   }
 }
 
+@media (max-width:320px){
+  .contacts__table{
+    margin-top: 34px;
+  }
+}
+
+
+
 
 

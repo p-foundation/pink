@@ -1,0 +1,17 @@
+.header__link-curent{
+    position: relative;
+}
+
+.header__link-curent::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -11px;
+    left: 0;
+    height: 2px;
+    background-color: #fff;
+}
+
+.header__link-curent::after:hover{
+    background-color: rgb(178, 40, 102);
+}

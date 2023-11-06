@@ -1,5 +1,5 @@
 @media (max-width:660px){
-  .contacts__links_type_primary{
+  .contacts__item_type_adress{
     order: 3;
   }
 }

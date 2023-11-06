@@ -1,4 +1,4 @@
-.contacts__table{
+.contacts__list{
   margin: 0;
   padding: 0;
   display:flex;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 660px){
-  .contacts__table{
+  .contacts__list{
     flex-wrap: wrap;
     width: 95%;
     margin-top: 30px;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width:320px){
-  .contacts__table{
+  .contacts__list{
     margin-top: 34px;
   }
 }

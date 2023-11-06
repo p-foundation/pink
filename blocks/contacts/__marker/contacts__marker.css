@@ -6,3 +6,10 @@
   transform: translate(-50%)
 }
 
+@media (min-width: 320px){
+  .contacts__marker{
+    top: 64%;
+  }
+}
+
+

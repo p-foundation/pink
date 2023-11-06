@@ -12,6 +12,6 @@
 
 @media (min-width: 320px){
   .contacts__links{
-    gap: 0px;
+    gap: 9px;
   }
 }

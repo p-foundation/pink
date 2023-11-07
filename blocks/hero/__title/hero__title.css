@@ -1,20 +1,14 @@
 .hero__title{
-    position: relative;
-    display: flex;
     width: 270px;
-    height: 174px;
     justify-content: center;
     color: #FFF;
     text-align: center;
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 100;
-    line-height: 1.2;
-    padding: 0 40px;
-    margin: 0px;
-    flex-shrink: 1;
-    left: -16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0 15px 36px;
 
 }
 

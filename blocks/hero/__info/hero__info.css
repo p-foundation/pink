@@ -1,11 +1,10 @@
 .hero__info{
     position: relative;
-    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    left: -16px;
+    width: 300px;
 }
 
 @media(max-width:320px){

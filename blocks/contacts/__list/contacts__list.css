@@ -6,14 +6,13 @@
   width: 74%;
   justify-content: space-around;
   gap: 70px;
-  margin-top: 40px;
 }
 
 @media (max-width: 660px){
   .contacts__list{
     flex-wrap: wrap;
     width: 95%;
-    margin-top: 30px;
+    margin-top: -9px;
     gap: 1px;
   }
 }

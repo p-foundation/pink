@@ -1,12 +1,12 @@
 .contacts__item{
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  padding-top: 41px;
 }
 
 @media (min-width: 660px){
   .contacts__item{
-    gap: 0px;
+    padding-bottom: 20px;
   }
 }
 

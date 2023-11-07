@@ -1,12 +1,14 @@
 .hero{
-    padding: 254px 0 0 146px;
-    height: 628px;
+    position: relative;
+    padding: 204px 0 0 130px;
+    height: 648px;
     background-image: url(../../images/hero-phone-desktop.png);
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 950px 545px;
+    background-position: bottom right;
+    background-size: 1050px 645px;
     display: flex;
     flex-direction: column;
+    bottom: 0;
 }
 
 @media(max-width:660px){
@@ -15,15 +17,20 @@
         padding: 184px 0 0 0;      
         height: 545px;  
         align-items: baseline;
+        background-size: 660px 545px;
+        background-image: url(../../images/hero-phone-tablet.png);
+
     }
 }
 
 @media(max-width:320px){
     .hero{
         height: 367px;
-        padding: 139px 0 0 0;   
+        padding: 95px 0 0 0;   
         align-items: center;  
         background-size: 320px 286px;
         background-image: url(../../images/hero-phone-mobile.png);
+        top: 0;
+
     }
 }

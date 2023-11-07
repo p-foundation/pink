@@ -14,7 +14,7 @@
 @media(max-width:660px){
     .hero{
         background-size: 800px 545px;
-        padding: 184px 0 0 0;      
+        padding: 184px 0 0 20px;      
         height: 545px;  
         align-items: baseline;
         background-size: 660px 545px;

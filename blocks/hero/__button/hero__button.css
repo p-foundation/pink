@@ -24,13 +24,6 @@
 
 @media(max-width:660px){
     .hero__button{
-        margin-top: 39px;
         width: 280px;
-    }
-}
-
-@media(max-width:320px){
-    .hero__button{
-        margin-top: 0;
     }
 }

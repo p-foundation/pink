@@ -60,3 +60,5 @@
 @import url(../blocks/hero/__system-list/hero__system-list.css);
 @import url(../blocks/hero/__system/hero__system.css);
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
+
+@import url(../blocks/visually-hidden/visually-hidden.css);

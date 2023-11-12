@@ -8,6 +8,7 @@
   color:  rgb(209, 41, 86);
   width: 252px;
   padding-top: 17px;
+  text-decoration: none;
 }
 
 @media (max-width:660px){

@@ -3,3 +3,15 @@
   min-height: 500px;
   border: none;
 }
+
+@media (max-width: 660px){
+  .map__iframe{
+    min-height: 374px;
+  }
+}
+
+@media (max-width: 320px){
+  .map__iframe{
+    min-height: 200px;
+  }
+}

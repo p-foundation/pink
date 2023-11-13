@@ -1,8 +1,8 @@
-.header__link-curent{
+.header__link-current{
     position: relative;
 }
 
-.header__link-curent::after{
+.header__link-current::after{
     content: "";
     position: absolute;
     right: 0;

@@ -9,23 +9,6 @@
 
 
 
-.header__nav-list li a{
-    transition: all 0.5s ease;
-}
-
-.header__nav-list li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.header__nav-list li a:hover{
-    color: rgb(178, 40, 102);
-}
-
-.header__nav-list li a:active{
-    color: rgb(255, 255, 255);
-    opacity: 0.5;
-}
 
 
 @media(max-width:660px){

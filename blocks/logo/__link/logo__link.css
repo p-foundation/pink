@@ -1,7 +1,7 @@
-.logo path{
+.logo__link path{
     transition: all 0.8s ease;
 }
 
-.logo:hover path{
+.logo__link:hover path{
     fill: rgb(178, 40, 102);
 }

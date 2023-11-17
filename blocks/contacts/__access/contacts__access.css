@@ -17,7 +17,7 @@
   }
 }
 
-@media (min-width: 320px){
+@media (max-width: 320px){
   .contacts__access{
     margin-top:-9px;
     margin-bottom: 18px;

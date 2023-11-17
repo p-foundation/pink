@@ -1,12 +1,12 @@
 .contacts__item{
 }
 
-@media (min-width: 660px){
+@media (max-width: 660px){
   .contacts__item{
   }
 }
 
-@media (min-width: 320px){
+@media (max-width: 320px){
   .contacts__item{
   }
 }

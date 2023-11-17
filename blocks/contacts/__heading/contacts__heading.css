@@ -8,11 +8,6 @@
   color: rgb(38, 53, 69);
 }
 
-@media (min-width: 660px){
-  .contacts__heading{
-    padding-bottom: 5px;
-  }
-}
 
 
 

@@ -1,17 +1,12 @@
 .contacts__item{
-  display: flex;
-  flex-direction: column;
-  padding-top: 41px;
 }
 
 @media (min-width: 660px){
   .contacts__item{
-    padding-bottom: 20px;
   }
 }
 
 @media (min-width: 320px){
   .contacts__item{
-    gap: 9px;
   }
 }

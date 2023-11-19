@@ -13,9 +13,9 @@
 
 @media (max-width: 660px){
   .contacts__list{
-    width: 95%;
-    margin-top: 51px;
-    gap: 1px;
+    width: 84%;
+    margin-top: 33px;
+    gap: 44px;
   }
 }
 

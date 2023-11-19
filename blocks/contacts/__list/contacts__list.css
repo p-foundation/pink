@@ -8,11 +8,11 @@
   gap: 70px;
   margin-top: 61px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 660px){
   .contacts__list{
-    flex-wrap: wrap;
     width: 95%;
     margin-top: 51px;
     gap: 1px;

@@ -1,27 +1,23 @@
 .contacts__list{
-  margin: 0;
   padding: 0;
   display:flex;
-  flex-direction: row;
-  width: 74%;
   justify-content: space-around;
   gap: 70px;
-  margin-top: 61px;
+  margin-top: 40px;
   list-style-type: none;
   flex-wrap: wrap;
 }
 
 @media (max-width: 660px){
   .contacts__list{
-    width: 84%;
     margin-top: 33px;
-    gap: 44px;
+    gap: 42px;
   }
 }
 
 @media (max-width:320px){
   .contacts__list{
-    margin-top: 45px;
+    gap:19px;
   }
 }
 

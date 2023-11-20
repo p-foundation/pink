@@ -3,18 +3,18 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 74px;
-  padding-bottom: 6px;
+  padding: 44px 0 20px;
+
   }
 
   @media (max-width: 660px){
     .contacts{
-      padding-top: 55px;
+      padding: 42px 0 30px;
     }
   }
 
   @media (max-width: 320px){
     .contacts{
-      padding-top: 47px;
+      padding: 42px 0 35px;
     }
   }

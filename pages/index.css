@@ -21,3 +21,9 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+@import url(../blocks/research/research.css);
+@import url(../blocks/research/__image/research__image.css);
+@import url(../blocks/research/__link/research__link.css);
+@import url(../blocks/research/__paragrah/research__paragrah.css);
+@import url(../blocks/research/__texts/research__texts.css);
+@import url(../blocks/research/__title/research__title.css);

@@ -1,0 +1,10 @@
+.research__image {
+  width: 298px;
+  height: 345px;
+}
+@media screen and (max-width: 660px) {
+  .research__image {
+    width: 238px;
+    height: 276px;
+  }
+}

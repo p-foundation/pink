@@ -54,9 +54,9 @@
 @import url(../blocks/intro/intro.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_screen/logo_screen_mobile.css);
-@import url(../blocks/logo/_screen/logo_screen_tablet.css);
-@import url(../blocks/logo/_screen/logo_screen_desktop.css);
+@import url(../blocks/logo/_screen/logo__icon_screen_mobile.css);
+@import url(../blocks/logo/_screen/logo__icon_screen_tablet.css);
+@import url(../blocks/logo/_screen/logo__icon_screen_desktop.css);
 @import url(../blocks/logo/__link/logo__link.css);
 
 

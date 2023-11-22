@@ -1,11 +1,11 @@
 @media screen and (min-width: 320px) and (max-width: 660px) {
-    .logo_screen_tablet {
+    .logo__icon_screen_tablet {
         display: block;
     }
 }
 
 @media screen and (max-width: 320px), (min-width: 660px) {
-    .logo_screen_tablet {
+    .logo__icon_screen_tablet {
         display: none; 
     }
 }

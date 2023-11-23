@@ -1,25 +1,8 @@
 .logo{
     transition: all 0.8s ease;
     color:white;
-    width: 147px;
-    height: 40px;
 }
 
 .logo:hover{
     color: rgb(178, 40, 102);
-}
-
-@media(max-width:660px){
-    .logo{
-        width: 145px;
-        height: 40px;
-
-    }
-}
-
-@media(max-width:320px){
-    .logo{
-        width: 74px;
-        height: 23px;
-    }
 }

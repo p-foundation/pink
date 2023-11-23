@@ -1,18 +1,18 @@
-.hero__conteiner{
+.hero__container{
     max-width:270px;
     padding: 0 20px 36px;
 
 }
 
 @media(max-width:660px){
-    .hero__conteiner{
+    .hero__container{
         max-width:240px;
         padding: 0 30px 30px;
     }
 }
 
 @media(max-width:320px){
-    .hero__conteiner{
+    .hero__container{
         max-width:280px;
     }
 }

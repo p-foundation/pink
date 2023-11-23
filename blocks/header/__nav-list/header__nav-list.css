@@ -4,12 +4,8 @@
     gap: 10px 78px;
     list-style: none;
     padding: 0;
-    margin-left: 450px;
+    margin-left: 173px;
 }
-
-
-
-
 
 @media(max-width:660px){
     .header__nav-list{

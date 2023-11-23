@@ -1,13 +1,8 @@
 .logo{
-    position: absolute;
-    top: 27px;
-    left: 130px;
-    transition: all 0.5s ease;
-}
-
-.logo{
     transition: all 0.8s ease;
-    color:white
+    color:white;
+    width: 147px;
+    height: 40px;
 }
 
 .logo:hover{
@@ -16,14 +11,14 @@
 
 @media(max-width:660px){
     .logo{
-        left: 24px;
+        width: 145px;
+        height: 40px;
+
     }
 }
 
 @media(max-width:320px){
     .logo{
-        top: 22px;
-        left: 20px;
         width: 74px;
         height: 23px;
     }

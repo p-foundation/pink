@@ -50,6 +50,7 @@
 @import url(../blocks/header/__nav-list/header__nav-list.css);
 @import url(../blocks/header/__navigation-link/header__navigation-link.css);
 @import url(../blocks/header/__navigation-link/_active/header__navigation-link_active.css);
+@import url(../blocks/header/__conteiner/header__container.css);
 
 
 @import url(../blocks/intro/intro.css);

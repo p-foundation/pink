@@ -1,7 +1,7 @@
 .research {
   display: flex;
   background: rgb(242, 242, 242);
-  padding: 76px 125px 67px 56px;
+  padding: 76px 125px 67px 130px;
   justify-content: center;
   gap: 70px;
 }

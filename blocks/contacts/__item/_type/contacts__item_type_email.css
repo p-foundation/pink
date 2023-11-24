@@ -1,0 +1,5 @@
+@media (max-width:660px){
+  .contacts__item_type_email{
+    order: 2;
+  }
+}

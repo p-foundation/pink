@@ -1,0 +1,26 @@
+.contacts__title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 68px;
+    color: rgb(39, 53, 68);
+    width: 462px;
+  }
+
+  @media (max-width: 660px){
+    .contacts__title{
+      width: 370px;
+      line-height: 55px;
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 320px){
+    .contacts__title{
+      width: 222px;
+      line-height: 28.8px;
+      font-size: 24px;
+    }
+  }

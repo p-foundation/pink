@@ -27,4 +27,5 @@
 @import url(../blocks/research/__paragraph/research__paragraph.css);
 @import url(../blocks/research/__inner-wrapper/research__inner-wrapper.css);
 @import url(../blocks/research/__title/research__title.css);
-@import url(../blocks/research/visually-hidden/visually-hidden.css);
+
+@import url(../blocks/visually-hidden/visually-hidden.css);

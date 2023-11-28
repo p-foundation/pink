@@ -1,4 +1,4 @@
-.research__paragrah {
+.research__paragraph {
   font-size: 18px;
   line-height: 30px;
   display: flex;
@@ -8,7 +8,7 @@
   margin: 0;
 }
 @media screen and (max-width: 660px) {
-  .research__paragrah {
+  .research__paragraph {
     font-size: 14px;
     line-height: 24px;
     padding: 10px 0 10px 0;

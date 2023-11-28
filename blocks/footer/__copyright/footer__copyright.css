@@ -1,0 +1,24 @@
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 153px;
+}
+
+@media (max-width: 660px) {
+  .footer__copyright {
+    position: relative;
+    width: 130px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    top: 0;
+    padding-bottom: 0px;
+  }
+}

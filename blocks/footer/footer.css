@@ -1,0 +1,24 @@
+.footer {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 59px;
+  padding-bottom: 98px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media (max-width: 660px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 36px;
+    padding-bottom: 51px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    padding: 0;
+  }
+}

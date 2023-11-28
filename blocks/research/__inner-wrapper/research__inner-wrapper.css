@@ -1,9 +1,9 @@
-.research__texts {
+.research__inner-wrapper {
   display: flex;
   flex-direction: column;
 }
 @media screen and (max-width: 660px) {
-  .research__texts {
+  .research__inner-wrapper {
     display: flex;
     flex-direction: column;
    

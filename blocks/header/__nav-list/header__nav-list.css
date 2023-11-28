@@ -1,10 +1,12 @@
 .header__nav-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 78px;
+    gap: 20px 78px;
     list-style: none;
     padding: 0;
-    margin-left: 173px;
+    margin: 0;
+    justify-content: end;
+
 }
 
 @media(max-width:660px){

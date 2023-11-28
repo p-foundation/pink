@@ -25,6 +25,6 @@
 @import url(../blocks/research/__image/research__image.css);
 @import url(../blocks/research/__link/research__link.css);
 @import url(../blocks/research/__paragrah/research__paragraph.css);
-@import url(../blocks/research/__texts/research__inner-wrapper.css);
+@import url(../blocks/research/__inner-wrapper/research__inner-wrapper.css);
 @import url(../blocks/research/__title/research__title.css);
 @import url(../blocks/research/visually-hidden/visually-hidden.css);

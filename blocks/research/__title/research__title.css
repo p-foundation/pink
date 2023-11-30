@@ -1,7 +1,4 @@
 .research__title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: rgb(0, 0, 0);
   padding-top: 93px;
   font-size: 30px;

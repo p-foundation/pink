@@ -1,11 +1,7 @@
 .research__link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: rgb(209, 41, 86);
   font-size: 18px;
   line-height: 30px;
-  text-decoration-line: underline;
 }
 @media screen and (max-width: 660px) {
   .research__link {

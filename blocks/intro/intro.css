@@ -6,21 +6,22 @@
     color: rgb(255, 255, 255);
     background-image: url(../../images/intro-background-desktop.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: bottom center;
     overflow: hidden;
 }
 
-@media(max-width:660px){
+@media(max-width:1199px){
     .intro{
         height: 729px;
     }
 }
 
-@media(max-width:320px){
+@media(max-width:659px){
     .intro{
         background-image: url(../../images/intro-background-mobile.png);
         height: 733px;
-        background-size: 320px 462px;
+        background-size: cover;
     }
 }
 

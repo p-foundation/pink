@@ -14,7 +14,7 @@
     }
 }
 
-@media (max-width:320px){
+@media (max-width:659px){
     .header__container{
         align-items: center;
         padding: 22px 20px;

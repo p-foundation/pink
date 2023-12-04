@@ -11,8 +11,9 @@
     bottom: 0;
 }
 
-@media(max-width:660px){
+@media(max-width:1199px){
     .hero{
+        background-position: center bottom;
         background-size: 800px 545px;
         padding: 184px 0 0 20px;      
         height: 545px;  
@@ -23,7 +24,7 @@
     }
 }
 
-@media(max-width:320px){
+@media(max-width:659px){
     .hero{
         height: 367px;
         padding: 95px 0 0 0;   

@@ -3,13 +3,13 @@
   height: 40px;
 }
 
-@media (max-width: 660px) {
+@media screen and (max-width: 1199px) {
   .logo {
     width: 145px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 659px) {
   .logo {
     padding-top: 0px;
     align-self: center;

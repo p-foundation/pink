@@ -5,14 +5,14 @@
   width: 153px;
 }
 
-@media (max-width: 660px) {
+@media screen and (max-width: 1199px) {
   .footer__copyright {
     position: relative;
     width: 130px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 659px){
   .footer__copyright{
     display: flex;
     align-items: center;

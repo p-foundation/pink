@@ -4,14 +4,14 @@
   padding: 78px 160px 70px 130px;
   gap: 73px;
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width:1199px) {
   .research {
     background: rgba(255, 255, 255, 1);
     padding: 54px 25px 0 16px;
     gap: 75px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 659px) {
   .research {
     display: none;
   }

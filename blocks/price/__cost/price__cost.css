@@ -1,0 +1,17 @@
+.price__cost{
+  margin: 0;
+  padding: 0px 66px 20px 66px;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1199px){
+  .price__cost{
+    padding:0px 38px 6px 38px;
+    font-size: 18px;
+  }
+}
+
+

@@ -14,5 +14,18 @@
 @import url(../blocks/research/__inner-wrapper/research__inner-wrapper.css);
 @import url(../blocks/research/__title/research__title.css);
 
+/* Contacts Block */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__item/_type/contacts__item_type_address.css);
+@import url(../blocks/contacts/__item/_type/contacts__item_type_email.css);
+@import url(../blocks/contacts/__heading/contacts__heading.css);
+@import url(../blocks/contacts/__access/contacts__access.css);
+
+/* Map Block */
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__iframe/map__iframe.css);
+
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

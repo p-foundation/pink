@@ -1,10 +1,11 @@
 .research__title {
-  color: rgb(0, 0, 0);  
+  color: rgb(0, 0, 0);
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
   margin: 0;
 }
+
 @media screen and (max-width: 1199px) {
   .research__title {
     line-height: 36px;

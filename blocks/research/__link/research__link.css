@@ -5,6 +5,12 @@
   margin-top: 30px;
   transition: all 1.5s ease;
 }
+.research__link:hover {
+  color: rgb(40, 54, 69);
+}
+.research__link:active {
+  color: rgba(40, 54, 69, 0.3);
+}
 
 @media screen and (max-width: 1199px) {
   .research__link {
@@ -12,13 +18,4 @@
     line-height: 24px;
     margin-top: 10px;
   }
-}
-
-.research__link:hover {
-  color: rgb(40, 54, 69);
-}
-
-.research__link:active {
-  color: rgba(40, 54, 69, 0.3);
-
 }

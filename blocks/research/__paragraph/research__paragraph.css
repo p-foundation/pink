@@ -6,6 +6,7 @@
   margin: 0;
   margin-top: 25px;
 }
+
 @media screen and (max-width: 1199px) {
   .research__paragraph {
     font-size: 14px;

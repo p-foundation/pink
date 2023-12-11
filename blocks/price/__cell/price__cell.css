@@ -1,11 +1,12 @@
 .price__cell{
   border-collapse: collapse;
   border: 1px solid #ccc;
+  text-align: center;
+  background: white;
 }
 
 @media screen and (max-width: 1199px){
   .price__interaction{
-    padding: 9px 24px 5px 15px;
     font-size: 14px;
   }
 }

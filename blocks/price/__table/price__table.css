@@ -1,7 +1,7 @@
 .price__table{
+  width: 80%;
   border-collapse: collapse;
-  align-items:center;
-  background-color: white;
+  position: relative;
 }
 
 

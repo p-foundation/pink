@@ -3,3 +3,7 @@
   background:#283645;
 }
 
+.price__main:first-of-type {
+  background:#f2f2f2;
+  border: none;
+}

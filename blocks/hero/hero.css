@@ -20,7 +20,6 @@
         align-items: baseline;
         background-size: 660px 545px;
         background-image: url(../../images/hero-phone-tablet.png);
-
     }
 }
 
@@ -32,6 +31,5 @@
         background-size: 320px 286px;
         background-image: url(../../images/hero-phone-mobile.png);
         top: 0;
-
     }
 }

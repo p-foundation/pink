@@ -25,7 +25,6 @@
     color: rgb(178, 40, 102, 0.5);
 }
 
-
 @media(max-width:659px){
     .hero__button{
         width: 280px;

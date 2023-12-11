@@ -45,6 +45,7 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+/* Header Block */
 @import url(../blocks/header/__menu-burger/header__menu-burger.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav-list/header__nav-list.css);
@@ -53,18 +54,17 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__menu-icon/header__menu-icon.css);
 
-
-
+/* Intro Block */
 @import url(../blocks/intro/intro.css);
 
-
+/* Logo Block */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_mobile.css);
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_tablet.css);
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_desktop.css);
 @import url(../blocks/logo/__icon/logo__icon.css);
 
-
+/* Hero Block */
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__button/hero__button.css);
@@ -74,6 +74,6 @@
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__container/hero__container.css);
 
-
+/* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
 

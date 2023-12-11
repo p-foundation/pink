@@ -17,6 +17,8 @@
 @import url(../blocks/price/__cost/price__cost.css);
 @import url(../blocks/price/__interaction/price__interaction.css);
 @import url(../blocks/price/__presence/price__presence.css);
+@import url(../blocks/price/__main/_hit/price__main_hit.css);
+
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

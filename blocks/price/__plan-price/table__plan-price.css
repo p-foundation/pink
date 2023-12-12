@@ -1,4 +1,4 @@
-.price__cost{
+.table__plan-price{
   margin: 0;
   padding: 0px 66px 20px 66px;
   line-height: 30px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1199px){
-  .price__cost{
+  .table__plan-price{
     padding:0px 38px 6px 38px;
     font-size: 18px;
   }

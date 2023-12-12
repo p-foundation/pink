@@ -1,4 +1,4 @@
-.price__interaction{
+.table__interaction{
   margin: 0;
   line-height: 30px;
   font-size: 18px;
@@ -10,7 +10,7 @@
 
 
 @media screen and (max-width: 1199px){
-  .price__interaction{
+  .table__interaction{
     padding: 9px 24px 5px 15px;
     font-size: 14px;
   }

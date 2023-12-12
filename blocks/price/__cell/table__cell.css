@@ -1,4 +1,4 @@
-.price__cell{
+.table__cell{
   border-collapse: collapse;
   border: 1px solid #ccc;
   text-align: center;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1199px){
-  .price__interaction{
+  .table__cell{
     font-size: 14px;
   }
 }

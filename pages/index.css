@@ -6,19 +6,17 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 
-
 /* Price Block */
 @import url(../blocks/price/price.css);
 @import url(../blocks/price/__container/price__container.css);
-@import url(../blocks/price/__table/price__table.css);
-@import url(../blocks/price/__cell/price__cell.css);
-@import url(../blocks/price/__main/price__main.css);
-@import url(../blocks/price/__plan/price__plan.css);
-@import url(../blocks/price/__cost/price__cost.css);
-@import url(../blocks/price/__interaction/price__interaction.css);
-@import url(../blocks/price/__presence/price__presence.css);
-@import url(../blocks/price/__main/_hit/price__main_hit.css);
-
+@import url(../blocks/price/__table/table.css);
+@import url(../blocks/price/__header/table__header.css);
+@import url(../blocks/price/__header/_hit/table__header_hit.css);
+@import url(../blocks/price/__plan-name/table__plan-name.css);
+@import url(../blocks/price/__plan-price/table__plan-price.css);
+@import url(../blocks/price/__cell/table__cell.css);
+@import url(../blocks/price/__interaction/table__interaction.css);
+@import url(../blocks/price/__presence/table__presence.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

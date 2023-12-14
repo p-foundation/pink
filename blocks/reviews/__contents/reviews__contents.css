@@ -1,0 +1,10 @@
+.reviews__contents {
+    display: flex;
+    gap: 104px;
+}
+
+@media screen and (max-width:1199px) {
+    .reviews__contents {
+        gap: 0;
+    }
+}

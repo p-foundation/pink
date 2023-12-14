@@ -1,0 +1,10 @@
+.reviews__button {
+    border: none;
+    background: none;
+}
+
+@media screen and (max-width:1199px) {
+    .reviews__button {
+        display: none;
+    }
+}

@@ -14,6 +14,13 @@
 @import url(../blocks/research/__inner-wrapper/research__inner-wrapper.css);
 @import url(../blocks/research/__title/research__title.css);
 
+/* reviews Block */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__quotes/reviews__quotes.css);
+@import url(../blocks/reviews/__contents/reviews__contents.css);
+@import url(../blocks/reviews/__content/reviews__content.css);
+@import url(../blocks/reviews/__button/reviews__button.css);
+
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
@@ -26,6 +33,7 @@
 /* Map Block */
 @import url(../blocks/map/map.css);
 @import url(../blocks/map/__iframe/map__iframe.css);
+
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

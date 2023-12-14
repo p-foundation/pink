@@ -1,0 +1,8 @@
+.components__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+}

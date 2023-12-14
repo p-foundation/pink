@@ -1,0 +1,6 @@
+.component__wrapper {
+  margin: 20px 0 0;
+  padding: 40px 20px;
+  border: 1px solid rgba(189, 189, 189, .2);
+  border-radius: 4px;
+}

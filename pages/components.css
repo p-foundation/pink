@@ -18,5 +18,12 @@
 @import url(../blocks/component/__wrapper/theme/component__wrapper_theme_light.css);
 @import url(../blocks/component/__wrapper/theme/component__wrapper_theme_dark.css);
 
+/* Logo UI Component */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__icon/logo__icon.css);
+@import url(../blocks/logo/__icon/_screen/logo__icon_screen_mobile.css);
+@import url(../blocks/logo/__icon/_screen/logo__icon_screen_tablet.css);
+@import url(../blocks/logo/__icon/_screen/logo__icon_screen_desktop.css);
+
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

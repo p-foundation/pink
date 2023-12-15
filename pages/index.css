@@ -10,14 +10,14 @@
 @import url(../blocks/price/price.css);
 @import url(../blocks/price/__container/price__container.css);
 @import url(../blocks/price/__table/table.css);
-@import url(../blocks/price/__string/table__string.css);
+@import url(../blocks/price/__row/table__row.css);
 @import url(../blocks/price/__header/table__header.css);
 @import url(../blocks/price/__header/_hit/table__header_hit.css);
 @import url(../blocks/price/__plan-name/table__plan-name.css);
 @import url(../blocks/price/__plan-price/table__plan-price.css);
 @import url(../blocks/price/__cell/table__cell.css);
 @import url(../blocks/price/__cell/_content/table__cell_content_name.css);
-@import url(../blocks/price/__interaction/table__interaction.css);
+@import url(../blocks/price/__feature/table__feature.css);
 @import url(../blocks/price/__presence/table__presence.css);
 
 /* Contacts Block */

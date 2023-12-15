@@ -1,4 +1,4 @@
-.table__string{
+.table__row{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

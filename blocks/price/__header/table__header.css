@@ -1,6 +1,11 @@
 .table__header{
   border: 1px solid #ccc;
   background:#283645;
+  padding: 16px 17px 21px 21px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 .table__header:first-of-type {

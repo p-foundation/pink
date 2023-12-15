@@ -4,14 +4,4 @@
   font-size: 18px;
   font-weight: 400;
   color: #283645;
-  padding: 16px 65px 13px 22px;
-  text-align: left;
-}
-
-
-@media screen and (max-width: 1199px){
-  .table__interaction{
-    padding: 9px 24px 5px 15px;
-    font-size: 14px;
-  }
 }

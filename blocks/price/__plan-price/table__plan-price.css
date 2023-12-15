@@ -1,17 +1,12 @@
 .table__plan-price{
   margin: 0;
-  padding: 0px 66px 20px 66px;
+  padding: 0px 40px 0px 40px;
   line-height: 30px;
   font-size: 24px;
   font-weight: 300;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1199px){
-  .table__plan-price{
-    padding:0px 38px 6px 38px;
-    font-size: 18px;
-  }
-}
+
 
 

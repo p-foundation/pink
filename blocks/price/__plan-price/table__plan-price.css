@@ -7,6 +7,9 @@
   color: #FFFFFF;
 }
 
-
-
-
+@media screen and (max-width: 1199px) {
+  .table__plan-price {
+    padding: 0px 3px 0px 4px;
+    font-size: 18px;
+  }
+}

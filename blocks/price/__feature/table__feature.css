@@ -1,7 +1,15 @@
 .table__feature{
   margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
   color: #283645;
 }
+
+@media screen and (max-width: 1199px) {
+  .table__feature {
+    font-size: 14px;
+  }
+}
+

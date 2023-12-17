@@ -8,3 +8,12 @@
   padding: 12px 15px 13px 21px;
 }
 
+
+@media screen and (max-width: 1199px) {
+  .table__cell {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+

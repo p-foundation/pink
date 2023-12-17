@@ -1,0 +1,10 @@
+.slider__toggle{
+  padding: 0;
+  width: 6px;
+  height: 6px;
+  background-color: rgba(40,54,69,.3);
+  border: 0;
+  border-radius: 50%;
+  box-sizing: content-box;
+  margin-right: 16px;
+}

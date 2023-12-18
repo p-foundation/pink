@@ -20,6 +20,10 @@
 @import url(../blocks/reviews/__contents/reviews__contents.css);
 @import url(../blocks/reviews/__content/reviews__content.css);
 @import url(../blocks/reviews/__button/reviews__button.css);
+@import url(../blocks/reviews/__about-a-person/reviews__about-a-person.css);
+@import url(../blocks/reviews/__statement/reviews__statement.css);
+@import url(../blocks/reviews/__biography/reviews__biography.css);
+@import url(../blocks/reviews/__initials/reviews__initials.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

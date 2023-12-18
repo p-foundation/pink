@@ -1,4 +1,11 @@
 .table__cell_content_name{
-  display: flex;
-  justify-content: flex-start;
+  /* display: flex;
+  justify-content: flex-start; */
+}
+
+
+@media screen and (max-width: 659px) {
+  .table__cell_content_name {
+    display: none;
+  }
 }

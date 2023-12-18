@@ -1,10 +1,9 @@
-.table__header_hit
-{
+.table__header_hit {
   position: relative;
   overflow: hidden;
 }
 
-.table__header_hit::after{
+.table__header_hit::after {
   content: "Хит";
   color: #fff;
   background-color: #d22856;

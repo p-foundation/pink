@@ -3,9 +3,10 @@
   border: 1px solid #ccc;
   text-align: center;
   background: #fff;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   padding: 12px 15px 13px 21px;
+  margin: 0 auto;
 }
 
 
@@ -15,5 +16,14 @@
     padding-bottom: 8px;
   }
 }
+
+@media screen and (max-width: 659px) {
+  .table__cell {
+    min-width: calc(90vw - 42px);
+  }
+}
+
+
+
 
 

@@ -17,11 +17,13 @@
 @import url(../blocks/price/__plan-price/table__plan-price.css);
 @import url(../blocks/price/__cell/table__cell.css);
 @import url(../blocks/price/__cell/_content/table__cell_content_name.css);
+@import url(../blocks/price/__cell-name/table__cell-name.css);
 @import url(../blocks/price/__feature/table__feature.css);
 @import url(../blocks/price/__presence/table__presence.css);
 @import url(../blocks/price/__toggles/price__toggles.css);
 @import url(../blocks/price/__toggles/__toggle/slider__toggle.css);
 @import url(../blocks/price/__toggles/__toggle/_current/slider__toggle_current.css);
+
 
 
 /* Contacts Block */

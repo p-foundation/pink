@@ -1,6 +1,6 @@
-.table__header{
+.table__header {
   border: 1px solid #ccc;
-  background:#283645;
+  background: #283645;
   padding: 16px 17px 21px 21px;
   text-transform: uppercase;
   color: #fff;
@@ -9,13 +9,25 @@
 }
 
 .table__header:first-of-type {
-  background:#f2f2f2;
+  background: #f2f2f2;
   border: none;
-}
 
+}
 
 @media screen and (max-width: 1199px) {
   .table__header {
     padding: 12px 23px 7px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .table__header {
+    min-width: calc(90vw - 42px);
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .table__header:first-of-type {
+    display: none;
   }
 }

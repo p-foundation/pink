@@ -1,8 +1,25 @@
-.footer__social-icon{
+.footer__social-icon {
   top: 50%;
   left: 50%;
 }
 
-.footer__social-icon:active{
+.footer__social-icon:active {
   opacity: 0.3;
 }
+
+.footer__social-icon_twitter {
+  width: 18px;
+  height: 14px;
+}
+
+
+.footer__social-icon_facebook {
+  width: 9px;
+  height: 18px;
+}
+
+.footer__social-icon_youtube {
+  width: 15px;
+  height: 13px;
+}
+

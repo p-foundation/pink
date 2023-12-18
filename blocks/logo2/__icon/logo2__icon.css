@@ -1,0 +1,28 @@
+.logo2__icon{
+  height: 40px;
+  display: flex;
+  transition: all 1.0s ease-in;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1199px) {
+  .logo2__icon {
+    width: 145px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .logo2__icon {
+    padding-top: 0px;
+  }
+}
+
+.logo2__icon:hover{
+  color: rgba(210, 40, 86, 1);
+  transition: color 0.5s ease-in;
+}
+
+.logo2__icon:active{
+  opacity: 0.3;
+  transition: opacity 0.5s ease-in;
+}

@@ -1,21 +1,18 @@
 .footer__social-media {
   display: flex;
   align-items: center;
-  align-self: flex-end;
   justify-content: space-between;
   width: 166px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  /* TODO fix icons overflow effect */
 }
 
 
 @media screen and (max-width: 1199px)  {
   .footer__social-media {
-    top: 3px;
     width: 172px;
   }
 }

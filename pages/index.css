@@ -20,9 +20,9 @@
 @import url(../blocks/price/table/__cell-name/table__cell-name.css);
 @import url(../blocks/price/table/__feature/table__feature.css);
 @import url(../blocks/price/table/__presence/table__presence.css);
-@import url(../blocks/price/table/__toggles/price__toggles.css);
-@import url(../blocks/price/table/__toggles/__toggle/slider__toggle.css);
-@import url(../blocks/price/table/__toggles/__toggle/_current/slider__toggle_current.css);
+@import url(../blocks/price/__toggles/price__toggles.css);
+@import url(../blocks/price/__toggles/-slider/price__toggles-slider.css);
+@import url(../blocks/price/__toggles/-slider/_current/price__toggles-slider_current.css.css);
 
 
 /* Contacts Block */

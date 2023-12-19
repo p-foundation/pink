@@ -1,12 +1,10 @@
-.table__cell-name
-{
+.table__cell-name{
   display: none;
 }
 
-
 @media screen and (max-width: 659px) {
   .table__cell-name {
-  float: left;
-  display: block;
+   float: left;
+   display: block;
   }
 }

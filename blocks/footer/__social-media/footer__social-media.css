@@ -10,13 +10,11 @@
   /* TODO fix icons overflow effect */
 }
 
-
 @media screen and (max-width: 1199px)  {
   .footer__social-media {
     width: 172px;
   }
 }
-
 
 @media screen and (max-width: 659px)  {
   .footer__social-media {

@@ -3,10 +3,6 @@
   left: 50%;
 }
 
-.footer__social-icon:active {
-  opacity: 0.3;
-}
-
 .footer__social-icon_twitter {
   width: 18px;
   height: 14px;

@@ -16,3 +16,9 @@
   border: 3px solid rgba(40, 54, 69, 1);
   transition: border-color 0.5s ease-in;
 }
+
+.footer__link:active{
+  opacity: 0.3;
+  border: 3px solid rgba(40, 54, 69, 0.1);
+  transition: all 0.5s ease-in;
+}

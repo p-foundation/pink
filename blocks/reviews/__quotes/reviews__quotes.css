@@ -2,7 +2,6 @@
     width: 79px;
     height: 63px;
 }
-
 @media screen and (max-width:1199px) {
     .reviews__quotes {
         display: none;

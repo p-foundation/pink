@@ -10,11 +10,9 @@
         border-radius: 50%;
         box-sizing: border-box;
     }
-
     .reviews__input+.reviews__label {
         margin-left: 23px;
     }
-
     .reviews__input:checked+.reviews__label::after {
         content: "";
         position: absolute;
@@ -26,7 +24,6 @@
         border-radius: 50%;
         border: 2px solid rgba(40, 54, 69, 0.3);
     }
-
     .reviews__input:active+.reviews__label::before {
         border: 6px solid pink;
     }
@@ -37,8 +34,7 @@
         top: 34px;
         left: 9px;
       
-    }
-    .reviews__input:checked+.reviews__label::after {
+    }    .reviews__input:checked+.reviews__label::after {
         top: 33px;
         left: 7px;
     }

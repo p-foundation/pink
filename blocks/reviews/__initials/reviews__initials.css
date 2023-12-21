@@ -3,13 +3,11 @@
     font-size: 24px;
     font-weight: 700;
 }
-
 @media screen and (max-width:1199px) {
     .reviews__initials {
         font-size: 20px;
     }
 }
-
 @media screen and (max-width: 659px) {
     .reviews__initials {
         font-size: 18px;

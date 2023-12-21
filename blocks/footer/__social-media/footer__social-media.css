@@ -2,24 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 166px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 172px;
   list-style-type: none;
-  /* TODO fix icons overflow effect */
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1199px)  {
   .footer__social-media {
-    width: 172px;
+    width: 178px;
   }
 }
 
 @media screen and (max-width: 659px)  {
   .footer__social-media {
     padding-top: 40px;
-    position: relative;
-    width: 100%;
   }
 }

@@ -24,6 +24,9 @@
 @import url(../blocks/reviews/__statement/reviews__statement.css);
 @import url(../blocks/reviews/__biography/reviews__biography.css);
 @import url(../blocks/reviews/__initials/reviews__initials.css);
+@import url(../blocks/reviews/__slideres/reviews__slideres.css);
+@import url(../blocks/reviews/__slider/reviews__slider.css);
+@import url(../blocks/reviews/__input/reviews__input.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

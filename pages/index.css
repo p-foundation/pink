@@ -27,6 +27,7 @@
 @import url(../blocks/reviews/__slideres/reviews__slideres.css);
 @import url(../blocks/reviews/__slider/reviews__slider.css);
 @import url(../blocks/reviews/__input/reviews__input.css);
+@import url(../blocks/reviews/__button-image/reviews__button-image.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

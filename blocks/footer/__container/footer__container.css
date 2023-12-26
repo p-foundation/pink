@@ -3,24 +3,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-}
-
-@media screen and (max-width: 1199px) {
-  .footer__container {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 @media screen and (max-width: 659px) {
   .footer__container {
-    width: 320px;
-    padding-left: 74px;
-    padding-right: 74px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
+    padding: 40px 74px;
     flex-direction: column;
     box-sizing: border-box;
   }

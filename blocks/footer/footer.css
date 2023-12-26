@@ -1,8 +1,5 @@
 .footer {
-  padding-left: 130px;
-  padding-right: 130px;
-  padding-top: 59px;
-  padding-bottom: 98px;
+  padding: 59px 130px 98px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -12,15 +9,7 @@
 
 @media screen and (max-width: 1199px) {
   .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 36px;
-    padding-bottom: 51px;
+    padding: 36px 20px 51px;
   }
 }
 
-@media screen and (max-width: 659px)  {
-  .footer {
-    padding: 0;
-  }
-}

@@ -7,18 +7,12 @@
 
 @media screen and (max-width: 1199px) {
   .footer__copyright {
-    position: relative;
     width: 130px;
   }
 }
 
 @media screen and (max-width: 659px){
   .footer__copyright{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-top: 40px;
-    top: 0;
-    padding-bottom: 0px;
   }
 }

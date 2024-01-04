@@ -7,8 +7,6 @@
 
 @media screen and (max-width: 659px) {
   .footer__container {
-    padding: 40px 74px;
     flex-direction: column;
-    box-sizing: border-box;
   }
 }

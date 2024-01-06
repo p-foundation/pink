@@ -1,13 +1,12 @@
 .logo2 {
   color: #283645;
+  transition: all .7s ease;
 }
 
 .logo2:hover{
   color: rgba(210, 40, 86, 1);
-  transition: color 0.5s ease-in;
 }
 
 .logo2:active{
   opacity: 0.3;
-  transition: opacity 0.5s ease-in;
 }

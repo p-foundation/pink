@@ -2,14 +2,13 @@
   width: 27px;
   height: 34px;
   color: rgba(210, 40, 86, 1);
+  transition: all .7s ease;
 }
 
 .footer__author-logo:hover{
   color: rgba(40, 54, 69, 1);
-  transition: color 0.5s ease-in;
 }
 
 .footer__author-logo:active{
   color: rgba(40, 54, 69, 0.3);
-  transition: color 0.5s ease-in;
 }

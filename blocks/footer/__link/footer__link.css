@@ -6,17 +6,15 @@
   height: 48px;
   border: 3px solid rgba(40, 54, 69, 0.1);
   border-radius: 50%;
-  transition: all 1.0s ease-in;
   opacity: 1;
+  transition: all .7s ease;
 }
 
 .footer__link:hover{
   border: 3px solid rgba(40, 54, 69, 1);
-  transition: border-color 0.5s ease-in;
 }
 
 .footer__link:active{
   opacity: 0.3;
   border: 3px solid rgba(40, 54, 69, 0.1);
-  transition: all 0.5s ease-in;
 }

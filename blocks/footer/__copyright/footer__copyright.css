@@ -1,18 +1,6 @@
 .footer__copyright {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 153px;
-}
-
-@media screen and (max-width: 1199px) {
-  .footer__copyright {
-    width: 130px;
-  }
-}
-
-@media screen and (max-width: 659px){
-  .footer__copyright{
-    padding-top: 40px;
-  }
+  gap: 13px;
 }

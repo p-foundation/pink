@@ -1,8 +1,7 @@
 .footer__social-media {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 172px;
+  gap: 5px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,12 +9,7 @@
 
 @media screen and (max-width: 1199px)  {
   .footer__social-media {
-    width: 178px;
+    gap: 8px;
   }
 }
 
-@media screen and (max-width: 659px)  {
-  .footer__social-media {
-    padding-top: 40px;
-  }
-}

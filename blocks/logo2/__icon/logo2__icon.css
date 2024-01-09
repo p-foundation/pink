@@ -1,7 +1,6 @@
 .logo2__icon{
   width: 147px;
   height: 40px;
-  transition: all 1.0s ease-in;
 }
 
 @media screen and (max-width: 1199px) {

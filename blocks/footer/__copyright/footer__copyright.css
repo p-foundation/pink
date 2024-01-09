@@ -1,6 +1,5 @@
 .footer__copyright {
   display: flex;
   align-items: center;
-  width: 153px;
   gap: 13px;
 }

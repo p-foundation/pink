@@ -27,5 +27,20 @@
 @import url(../blocks/map/map.css);
 @import url(../blocks/map/__iframe/map__iframe.css);
 
+/*Block Footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__author-logo/footer__author-logo.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__social-media/footer__social-media.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__author-link/footer__author-link.css);
+
+/*Block Logo*/
+@import url(../blocks/logo2/logo2.css);
+@import url(../blocks/logo2/__icon/logo2__icon.css);
+
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

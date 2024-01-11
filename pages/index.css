@@ -19,9 +19,6 @@
 @import url(../blocks/map/map.css);
 @import url(../blocks/map/__iframe/map__iframe.css);
 
-/* Visually Hidden Mix */
-@import url(../blocks/visually-hidden/visually-hidden.css);
-
 /*Block Footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
@@ -32,8 +29,10 @@
 @import url(../blocks/footer/__social-media/footer__social-media.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__author-link/footer__author-link.css);
-@import url(../blocks/footer/__author-logo/footer__author-logo.css);
 
 /*Block Logo*/
 @import url(../blocks/logo2/logo2.css);
 @import url(../blocks/logo2/__icon/logo2__icon.css);
+
+/* Visually Hidden Mix */
+@import url(../blocks/visually-hidden/visually-hidden.css);

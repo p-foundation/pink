@@ -22,6 +22,8 @@
 @import url(../blocks/table/__plan-name/table__plan-name.css);
 @import url(../blocks/table/__plan-price/table__plan-price.css);
 @import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__point/table__point.css);
+@import url(../blocks/table/__cell/-content/table__cell-content.css);
 @import url(../blocks/table/__cell/_content/table__cell_content_name.css);
 @import url(../blocks/table/__cell-name/table__cell-name.css);
 @import url(../blocks/table/__feature/table__feature.css);

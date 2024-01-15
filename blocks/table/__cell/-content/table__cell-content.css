@@ -1,0 +1,7 @@
+@media screen and (max-width: 659px) {
+  .table__cell-content {
+   display: flex;
+   justify-content: space-between;
+  }
+}
+

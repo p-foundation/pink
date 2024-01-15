@@ -1,0 +1,4 @@
+.advantages__pictures{
+    display: flex;
+    justify-content:space-around;
+}

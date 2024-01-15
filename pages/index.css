@@ -8,20 +8,25 @@
 
 /* Price Block */
 @import url(../blocks/price/price.css);
-@import url(../blocks/price/table/table.css);
-@import url(../blocks/price/table/__row/table__row.css);
-@import url(../blocks/price/table/__header/table__header.css);
-@import url(../blocks/price/table/__header/_hit/table__header_hit.css);
-@import url(../blocks/price/table/__plan-name/table__plan-name.css);
-@import url(../blocks/price/table/__plan-price/table__plan-price.css);
-@import url(../blocks/price/table/__cell/table__cell.css);
-@import url(../blocks/price/table/__cell/_content/table__cell_content_name.css);
-@import url(../blocks/price/table/__cell-name/table__cell-name.css);
-@import url(../blocks/price/table/__feature/table__feature.css);
-@import url(../blocks/price/table/__presence/table__presence.css);
 @import url(../blocks/price/__toggles/price__toggles.css);
 @import url(../blocks/price/__toggles/-slider/price__toggles-slider.css);
 @import url(../blocks/price/__toggles/-slider/_current/price__toggles-slider_current.css.css);
+
+
+
+/*Table Block */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__row/table__row.css);
+@import url(../blocks/table/__header/table__header.css);
+@import url(../blocks/table/__header/_hit/table__header_hit.css);
+@import url(../blocks/table/__plan-name/table__plan-name.css);
+@import url(../blocks/table/__plan-price/table__plan-price.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__cell/_content/table__cell_content_name.css);
+@import url(../blocks/table/__cell-name/table__cell-name.css);
+@import url(../blocks/table/__feature/table__feature.css);
+@import url(../blocks/table/__presence/table__presence.css);
+
 
 
 /* Contacts Block */

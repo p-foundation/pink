@@ -8,7 +8,6 @@
 
 /* Price Block */
 @import url(../blocks/price/price.css);
-@import url(../blocks/price/__container/price__container.css);
 @import url(../blocks/price/table/table.css);
 @import url(../blocks/price/table/__row/table__row.css);
 @import url(../blocks/price/table/__header/table__header.css);

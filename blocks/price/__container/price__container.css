@@ -1,9 +1,0 @@
-.price__container{
-  width:100% ;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-  height: 534px;
-  justify-content:center;
-}

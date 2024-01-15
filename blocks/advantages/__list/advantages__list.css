@@ -1,0 +1,6 @@
+.advantages__list{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 68px;
+    list-style: none;
+}

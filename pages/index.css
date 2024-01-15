@@ -6,6 +6,19 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 
+/*Block Advantages*/
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__info/advantages__info.css);
+@import url(../blocks/advantages/__intro/advantages__intro.css);
+@import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__picture/advantages__picture.css);
+@import url(../blocks/advantages/__picture/_hidden/advantages__picture_hidden.css);
+@import url(../blocks/advantages/__pictures/advantages__pictures.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__container/advantages__container.css);
+
+
 /* Research Block */
 @import url(../blocks/research/research.css);
 @import url(../blocks/research/__image/research__image.css);

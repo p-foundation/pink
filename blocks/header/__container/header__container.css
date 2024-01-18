@@ -1,0 +1,22 @@
+.header__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 27px 130px 43px;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+@media (max-width:1199px){
+    .header__container{
+        padding: 27px 20px 43px;
+    }
+}
+
+@media (max-width:659px){
+    .header__container{
+        align-items: center;
+        padding: 22px 20px;
+    }
+}

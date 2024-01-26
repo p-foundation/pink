@@ -1,0 +1,25 @@
+.button_type_primary{
+  border-radius: 30px;
+  border: 3px solid rgba(210, 40, 86, 1);
+  background-color: transparent;
+  color: rgba(210, 40, 86, 1);
+}
+.button_type_primary:hover{
+  background-color: rgba(210, 40, 86, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.button_type_primary:active,
+.button_type_primary:focus{
+  background: rgba(210, 40, 86, 1);
+  color: rgb(255, 255, 255, 0.3);
+}
+@media screen and (min-width: 660px){
+  .button_type_primary{
+    max-width: 260px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .button_type_primary{
+    max-width: 183px;
+  }
+}

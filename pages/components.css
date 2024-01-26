@@ -27,3 +27,10 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
+/* Button Component */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_primary.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_success.css);
+@import url(../blocks/button/_place/button_place_form.css);

@@ -1,5 +1,5 @@
 @media screen and (max-width: 659px) {
-  .table__cell_content_name {
+  .table__cell_text-align-left {
     display: none;
   }
 }

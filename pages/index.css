@@ -24,7 +24,7 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__point/table__point.css);
 @import url(../blocks/table/__cell/-content/table__cell-content.css);
-@import url(../blocks/table/__cell/_content/table__cell_content_name.css);
+@import url(../blocks/table/__cell/_text/table__cell_text-align-left.css);
 @import url(../blocks/table/__cell-name/table__cell-name.css);
 @import url(../blocks/table/__feature/table__feature.css);
 @import url(../blocks/table/__presence/table__presence.css);

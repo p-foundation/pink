@@ -1,16 +1,16 @@
-.advatages__picture{
+.advantages__picture{
     width: 186px;
     height: 382px
 }
 @media screen and (max-width: 1199px) {
-    .advatages__picture{
+    .advantages__picture{
         width: 268px;
         height: 547px    
     }
   }
 
 @media screen and (max-width: 659px) {
-    .advatages__picture{
+    .advantages__picture{
         width: 157px;
         height: 320px    
     }

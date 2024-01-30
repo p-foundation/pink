@@ -27,7 +27,7 @@
 
 /* Radio Form */
 @import url(../blocks/form/__fieldset/form__fieldset.css);
-@import url(../blocks/form/__lable/form__label.css);
+@import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__legend/form__legend.css);
 @import url(../blocks/form/__list-item/form__list-item.css);
 @import url(../blocks/form/__list/form__list.css);

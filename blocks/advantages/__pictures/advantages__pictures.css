@@ -1,4 +1,6 @@
 .advantages__pictures{
     display: flex;
-    justify-content:space-around;
+    gap: 134px;
+    justify-content: center;
+    margin-bottom: -72px;
 }

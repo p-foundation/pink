@@ -9,7 +9,8 @@
 /*Block Advantages*/
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/advantages/__info/advantages__info.css);
-@import url(../blocks/advantages/__intro/advantages__intro.css);
+@import url(../blocks/advantages/__preview/advantages__preview.css);
+@import url(../blocks/advantages/__heading/advantages__heading.css);
 @import url(../blocks/advantages/__list/advantages__list.css);
 @import url(../blocks/advantages/__picture/advantages__picture.css);
 @import url(../blocks/advantages/__picture/_hidden/advantages__picture_hidden.css);

@@ -1,5 +1,24 @@
 .advantages__preview{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 77px 210px;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
 }
+
+@media screen and (max-width: 1199px) {
+    .advantages__preview{
+        padding: 58px 36px;
+        font-size: 40px;
+    }
+  }
+
+@media screen and (max-width: 659px) {
+    .advantages__preview{
+        padding: 46px 20px;
+        font-size: 24px;
+    }
+  }

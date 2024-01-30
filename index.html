@@ -9,13 +9,15 @@
   <body class="page">
     <div class="page__container">
       <section class="advantages"> 
-        <div class="advantages__preview"><h2 class="advantages__heading">Устали от серости мегаполиса? Нам есть, что вам <br>предложить!</h2></div>
+        <div class="advantages__preview"><p class="advantages__heading">Устали от серости мегаполиса?</p><p class="advantages__heading-text">Нам есть, что вам<br> предложить!</p></div>
         <div class="advantages__container">
           <div class="advantages__pictures">
-              <img src="images/advantages-iphone-grey-desktop.png" alt="Телефон с серым изображением" class="advatages__picture advatages__picture_hidden">
-              <img src="images/advantages-iphone-pink-desktop.png" alt="Телефон с розовым изображением" class="advatages__picture advatages__picture_hidden">
+              <img src="images/advantages-iphone-grey-desktop.png" alt="Телефон с серым изображением мусорников" class="advatages__picture advatages__picture_hidden">
+              <img src="images/advantages-iphone-pink-desktop.png" alt="Телефон с розовым изображением мусорников" class="advatages__picture advatages__picture_hidden">
             <picture>
-              <img src="images/advantages-iphone-smiler-desktop.png" alt="Телефон с изображением смайлика" class="advatages__picture">
+              <source srcset="images/advantages-iphone-smiler-tablet.png" media="(max-width: 1199px)">
+              <source srcset="images/advantages-iphone-smiler-mobile.png" media="(max-width: 659px)">
+              <img src="images/advantages-iphone-smiler-desktop.png" alt="Телефон с изображением улыбающегося смайлика" class="advatages__picture">
             </picture>
           </div>
           <ul class="advantages__list">

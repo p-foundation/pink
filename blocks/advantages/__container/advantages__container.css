@@ -6,3 +6,17 @@
     background-repeat: no-repeat;
     padding: 0 154px 59px;
 }
+
+@media screen and (max-width: 1199px) {
+    .advantages__container{
+        display: flex;
+        padding: 0 20px 0;
+        justify-content: center;
+    }
+  }
+
+@media screen and (max-width: 659px) {
+    .advantages__container{
+        display: grid;
+    }
+  }

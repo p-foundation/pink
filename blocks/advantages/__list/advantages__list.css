@@ -3,5 +3,23 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 68px;
     padding: 0;
+    margin: 0;
     list-style: none;
+    align-content: start;
 }
+
+@media screen and (max-width: 1199px) {
+    .advantages__list{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 47px;
+        padding: 0;
+        padding: 75px 0 0 42px;
+    }
+  }
+
+@media screen and (max-width: 659px) {
+    .advantages__list{
+        padding: 0;
+        padding: 77px 0 0 0;
+    }
+  }

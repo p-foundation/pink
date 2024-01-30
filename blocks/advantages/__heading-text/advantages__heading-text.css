@@ -1,0 +1,9 @@
+.advantages__heading-text{
+    margin: 0;
+}
+
+@media screen and (max-width: 659px) {
+    .advantages__heading-text{
+        margin: 35px 0 0  ;
+    }
+  }

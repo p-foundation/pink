@@ -1,4 +1,13 @@
 .advantages__info{
     box-shadow: 0 -15px 12px -12px rgba(0, 0, 0, 0.2);
-    background-color: rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    position: relative;
+    overflow: hidden;
 }
+
+@media screen and (max-width: 1199px) {
+    .advantages__info{
+        box-shadow: none;
+        background: none;
+    }
+  }

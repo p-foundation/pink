@@ -1,6 +1,20 @@
 .advantages__pictures{
     display: flex;
+    position: relative;
     gap: 134px;
     justify-content: center;
-    margin-bottom: -72px;
+    bottom: -72px;
 }
+
+@media screen and (max-width: 1199px) {
+    .advantages__pictures{
+        gap: 0;
+    }
+  }
+
+@media screen and (max-width: 659px) {
+    .advantages__pictures{
+        order: 2;
+        bottom: 0;
+    }
+  }

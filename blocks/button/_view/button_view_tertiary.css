@@ -1,4 +1,4 @@
-.button_type_success{
+.button_view_tertiary{
   border-radius: 1px;
   border: 2px solid rgba(42, 171, 109, 1);
   background-color: rgba(42, 171, 109, 1);
@@ -6,13 +6,17 @@
   line-height: 1.7;
   text-transform: uppercase;
 }
-.button_type_success:hover,
-.button_type_success:active,
-.button_type_success:focus{
+.button_view_tertiary:hover{
   border: 2px solid rgba(28, 155, 94, 1);
   background-color: rgba(28, 155, 94, 1);
 }
-.button_type_success:disabled{
+.button_view_tertiary:active,
+.button_view_tertiary:focus{
+  color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(28, 155, 94, 1);
+  background-color: rgba(28, 155, 94, 1);
+}
+.button_view_tertiary:disabled{
   border: 2px solid rgba(229, 229, 229, 1);
   background-color: rgba(229, 229, 229, 1);
 }

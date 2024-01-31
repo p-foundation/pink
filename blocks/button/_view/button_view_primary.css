@@ -1,15 +1,15 @@
-.button_type_primary{
+.button_view_primary{
   border-radius: 30px;
   border: 3px solid rgba(210, 40, 86, 1);
   background-color: transparent;
   color: rgba(210, 40, 86, 1);
 }
-.button_type_primary:hover{
+.button_view_primary:hover{
   background-color: rgba(210, 40, 86, 1);
   color: rgba(255, 255, 255, 1);
 }
-.button_type_primary:active,
-.button_type_primary:focus{
+.button_view_primary:active,
+.button_view_primary:focus{
   background: rgba(210, 40, 86, 1);
   color: rgb(255, 255, 255, 0.3);
 }

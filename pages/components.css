@@ -27,9 +27,9 @@
 
 /* Button Component */
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_primary.css);
-@import url(../blocks/button/_type/button_type_secondary.css);
-@import url(../blocks/button/_type/button_type_success.css);
+@import url(../blocks/button/_view/button_view_primary.css);
+@import url(../blocks/button/_view/button_view_secondary.css);
+@import url(../blocks/button/_view/button_view_tertiary.css);
 @import url(../blocks/button/_place/button_place_form.css);
 @import url(../blocks/button/_place/button_place_photo-editor.css);
 

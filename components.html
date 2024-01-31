@@ -38,14 +38,23 @@
           </li>
           <li class="component">
             <h2 class="component__name">Button</h2>
-            <p class="component__description">Buttons are used on pages form and catalog. There are three types of them: Primary, secondary, and success. You should also add class button_place_form for button_type_success if you need this button in form. By default button_type_success is made for modal and has the width of 100%, you can change it by setting padding for its parent.</p>
+            <p class="component__description">Buttons are used on pages form and catalog.</p>
+            <p class="component__description">
+              Each button must use the base class "button" and the "view" key modifier. Available options for "view" key modifier:
+              <ul>
+                <li>button_view_primary</li>
+                <li>button_view_secondary</li>
+                <li>button_view_tertiary</li>
+              </ul>
+            </p>
+            <p class="component__description">By default, the button has a width of 100%. It can be changed by using the "place" key modifiers ("button_place_form" or "button_place_photo-editor") or the layout of the parent element (for example, padding).</p>
             <!--
               Classes that you can use:
               button
 
               button_view_primary
               button_view_secondary
-              button_view_success
+              button_view_tertiary
 
               button_place_form
               button_place_photo-editor

@@ -1,0 +1,16 @@
+/* .form__radio::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -42px;
+    border-radius: 50%;
+    background: rgba(210, 40, 86, 1);
+    opacity: 0;
+}
+
+.form__radio:checked {
+    opacity: 1;
+} */

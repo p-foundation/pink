@@ -12,13 +12,3 @@
   opacity: 0.3;
   background-color: rgba(40, 54, 69, 1);
 }
-@media screen and (min-width: 660px){
-  .button_type_secondary{
-    max-width: 260px;
-  }
-}
-@media screen and (min-width: 1200px){
-  .button_type_secondary{
-    max-width: 183px;
-  }
-}

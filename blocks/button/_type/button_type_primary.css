@@ -13,13 +13,3 @@
   background: rgba(210, 40, 86, 1);
   color: rgb(255, 255, 255, 0.3);
 }
-@media screen and (min-width: 660px){
-  .button_type_primary{
-    max-width: 260px;
-  }
-}
-@media screen and (min-width: 1200px){
-  .button_type_primary{
-    max-width: 183px;
-  }
-}

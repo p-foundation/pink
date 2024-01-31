@@ -27,3 +27,7 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
+/* Section-intro Block*/
+@import url(../blocks/section-intro/__paragraph/section-intro__paragraph.css);
+@import url(../blocks/section-intro/section-intro.css);

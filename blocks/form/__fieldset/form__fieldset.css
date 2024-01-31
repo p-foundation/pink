@@ -1,0 +1,20 @@
+.form__fieldset {
+  padding: 44px 60px 45px;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 1px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media(max-width:1199px){
+  .form__fieldset {
+    padding: 47px 60px 53px;
+  }
+}
+
+@media(max-width:659px){
+  .form__fieldset {
+    padding: 46px 22px 52px;
+    border: none;
+  }
+}

@@ -6,7 +6,3 @@
   padding: 22px;
   width: 100%;
 }
-.button:active,
-.button:focus{
-  color: rgb(255, 255, 255, 0.3);
-}

@@ -40,3 +40,27 @@ blocks/
 ```
 
 Please refer to the official [BEM](https://en.bem.info/methodology/quick-start/#introduction) or [BEM Nested](https://en.bem.info/methodology/quick-start/#file-structure) documentation for details if needed.
+
+### Using media queries
+
+For all components, we use the Desktop-first design approach, programming them initially for the desktop version, and subsequently adapting them to breakpoints: `1199px, 659px,` using `max-width` for media queries
+
+Example:
+
+```bash
+.element {
+   # styles for 1200px and above 
+}
+
+@media screen and (max-width: 1199px) {
+  .element {
+     # styles for screens from 660px to 1199px (excluding 1200px) 
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .element {
+    # styles for screens from 320px to 660px (excluding 600px)
+  }
+}
+```

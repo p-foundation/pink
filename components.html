@@ -36,6 +36,36 @@
               </a>
             </div>
           </li>
+          <li class="component">
+            <h2 class="component__name">Button</h2>
+            <p class="component__description">Buttons are used on pages form and catalog.</p>
+            <p class="component__description">Each button must use the base class "button" and the "view" key modifier. Available options for "view" key modifier:</p>
+            <ul class="component__description">
+              <li>button_view_primary</li>
+              <li>button_view_secondary</li>
+              <li>button_view_tertiary</li>
+            </ul>
+            <p class="component__description">By default, the button has a width of 100%. It can be changed by using the "place" key modifiers ("button_place_form" or "button_place_photo-editor") or the layout of the parent element (for instance, leveraging CSS Flexbox or CSS Grid capabilities, adjusting parent paddings, etc.).</p>
+            <!--
+              Classes that you can use:
+              button
+
+              button_view_primary
+              button_view_secondary
+              button_view_tertiary
+
+              button_place_form
+              button_place_photo-editor
+             -->
+            <div class="component__wrapper component__wrapper_theme_light">
+              <!-- Pink button -->
+              <button class="button button_view_primary button_place_photo-editor">Запостить</button>
+              <!-- Grey button -->
+              <button class="button button_view_secondary button_place_photo-editor">Отмена</button>
+              <!-- Green button -->
+              <button class="button button_view_tertiary button_place_form">Отправить форму</button>
+            </div>
+          </li>
         </ul>
       </section>
     </div>

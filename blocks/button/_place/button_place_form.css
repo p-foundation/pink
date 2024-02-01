@@ -1,5 +1,9 @@
-@media screen and (min-width: 660px){
-  .button_place_form{
-    max-width: 296px;
+.button_place_form {
+  max-width: 296px;
+}
+@media screen and (max-width: 659px) {
+  .button_place_form {
+    max-width: 100%;
   }
 }
+

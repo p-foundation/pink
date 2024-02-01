@@ -6,4 +6,5 @@
   padding: 22px;
   width: 100%;
   transition: all .7s ease;
+  cursor: pointer;
 }

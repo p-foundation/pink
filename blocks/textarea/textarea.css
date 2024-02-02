@@ -1,25 +1,37 @@
-.form__textarea {
+.textarea {
   box-sizing: border-box;
   width: 100%;
-  min-height: 124px;
+  height: 124px;
   padding: 22px 20px;
   border: 2px solid rgb(229, 229, 229);
   border-radius: 1px;
   outline: none;
   resize: none;
   overflow: hidden;
-	font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif; 
   color: rgb(40, 54, 69); 
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 }
 
-.form__textarea:hover,
-.form__textarea:focus {
+@media (max-width: 1199px) {
+  .textarea {
+    height: 189px;
+  }
+}
+
+@media (max-width: 659px) {
+  .textarea {
+    height: 197px;
+  }
+}
+
+.textarea:hover,
+.textarea:focus {
   border: 2px solid rgb(40, 54, 69);
 }
 
-.form__textarea:active {
+.textarea:focus {
   border: 2px solid rgba(210, 40, 86);
 }

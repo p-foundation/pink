@@ -1,0 +1,30 @@
+.radio-input__label{
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-input__label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -55px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 2px solid rgba(229, 229, 229, 1);
+    background-color: rgb(255, 255, 255);
+}
+
+.radio-input__label::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -42px;
+    border-radius: 50%;
+    background: rgba(210, 40, 86, 1);
+    opacity: 0;
+}

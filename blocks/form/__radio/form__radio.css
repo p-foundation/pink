@@ -1,3 +1,0 @@
-.form__radio:checked + .form__label::after{
-    opacity: 1;
-}

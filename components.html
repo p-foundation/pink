@@ -13,7 +13,8 @@
         <ul class="components__list">
           <li class="component">
             <h2 class="component__name">Radio Buttons</h2>
-            <p class="component__description">Radio buttons is used when filling out a questionnaire to identify which device you want to download the application to.</p>
+            <p class="component__description">Radio buttons are used on page form.</p>
+            <p class="component__description">When you add new radio buttons you need to change the 'value' and 'id' for the inputs. Also change the label. The 'for' in the label and the 'id' in the input must be the same, to be able to select this position by clicking on the text.</p>
             <div class="component__wrapper component__wrapper_theme_light">
               <div class="radio-input">
                 <input 
@@ -22,27 +23,8 @@
                   name="device"
                   value="ios"
                   id="ios"
-                  checked
                 >
                 <label for="ios" class="radio-input__label">Pink для iOS</label>
-
-                <input
-                  type="radio"
-                  class="radio-input__input visually-hidden"
-                  name="device"
-                  value="android"
-                  id="android"
-                >
-                <label for="android" class="radio-input__label">Pink на Android</label>
-
-                <input
-                  type="radio"
-                  class="radio-input__input visually-hidden"
-                  name="device"
-                  value="windows-phone"
-                  id="windows-phone"
-                >
-                <label for="windows-phone" class="radio-input__label">Windows Phone</label>
               </div>
             </div>
           </li>

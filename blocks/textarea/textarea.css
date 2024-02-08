@@ -10,7 +10,7 @@
   font-family: "OpenSans", arial, sans-serif; 
   color: rgb(40, 54, 69); 
   font-size: 18px;
-  line-height: 166.667%;
+  line-height: 1.66;
 }
 
 textarea::placeholder {

@@ -13,10 +13,10 @@
   line-height: 166.667%;
 }
 
-.form__textarea::placeholder {
+textarea::placeholder {
   color: rgb(40, 54, 69);
   font-size: 18px;
-  line-height: 166.667%;
+  line-height: 1.66;
 }
 
 @media (max-width: 1199px) {

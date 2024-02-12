@@ -43,24 +43,24 @@ Please refer to the official [BEM](https://en.bem.info/methodology/quick-start/#
 
 ### Using media queries
 
-For all components, we use the Desktop-first design approach, programming them initially for the desktop version, and subsequently adapting them to breakpoints: `1199px, 659px,` using `max-width` for media queries
+For all components, we use the Desktop-first design approach, programming them initially for the desktop version, Our breakpoints are set at `1199px and 659px`, representing the upper bounds of the screen sizes targeted by our media queries.
 
 Example:
 
-```bash
+```CSS
 .element {
-   # styles for 1200px and above 
+   /* styles for 1200px and above  */
 }
 
 @media screen and (max-width: 1199px) {
   .element {
-     # styles for screens from 660px to 1199px (excluding 1200px) 
+     /* styles for screens from 660px to 1199px (excluding 1200px)  */
   }
 }
 
 @media screen and (max-width: 659px) {
   .element {
-    # styles for screens from 320px to 660px (excluding 600px)
+    /* styles for screens from 320px to 660px (excluding 600px) */
   }
 }
 ```

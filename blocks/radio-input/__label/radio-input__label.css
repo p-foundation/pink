@@ -11,7 +11,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -55px;
+    left: -61px;
     width: 37px;
     height: 37px;
     border-radius: 50%;
@@ -26,7 +26,7 @@
     height: 15px;
     top: 50%;
     transform: translateY(-50%);
-    left: -42px;
+    left: -48px;
     border-radius: 50%;
     background: rgba(210, 40, 86);
     opacity: 0;

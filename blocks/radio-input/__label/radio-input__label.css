@@ -15,7 +15,7 @@
     width: 37px;
     height: 37px;
     border-radius: 50%;
-    border: 2px solid rgba(229, 229, 229, 1);
+    border: 2px solid rgba(229, 229, 229);
     background-color: rgb(255, 255, 255);
 }
 
@@ -28,6 +28,6 @@
     transform: translateY(-50%);
     left: -42px;
     border-radius: 50%;
-    background: rgba(210, 40, 86, 1);
+    background: rgba(210, 40, 86);
     opacity: 0;
 }

@@ -1,4 +1,5 @@
 .reviews__quotes {
+    background-image: url("../../../images/reviews__quotes.svg");
     width: 79px;
     height: 63px;
 }

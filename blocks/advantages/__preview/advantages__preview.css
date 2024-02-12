@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 77px 210px;
+    padding: 65px 210px;
     font-size: 50px;
     font-weight: 300;
     text-align: center;
     margin: 0;
+    line-height: 67px;
 }
 
 @media screen and (max-width: 1199px) {

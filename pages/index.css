@@ -17,17 +17,22 @@
 /* reviews Block */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__quotes/reviews__quotes.css);
-@import url(../blocks/reviews/__contents/reviews__contents.css);
+@import url(../blocks/reviews/__author-bio/reviews__author-bio.css);
+@import url(../blocks/reviews/__author-info/reviews__author-info.css);
+@import url(../blocks/reviews/__author-name/reviews__author-name.css);
+@import url(../blocks/reviews/__blockqoute/reviews__blockqoute.css);
 @import url(../blocks/reviews/__content/reviews__content.css);
-@import url(../blocks/reviews/__button/reviews__button.css);
-@import url(../blocks/reviews/__about-a-person/reviews__about-a-person.css);
 @import url(../blocks/reviews/__statement/reviews__statement.css);
-@import url(../blocks/reviews/__biography/reviews__biography.css);
-@import url(../blocks/reviews/__initials/reviews__initials.css);
-@import url(../blocks/reviews/__slideres/reviews__slideres.css);
-@import url(../blocks/reviews/__slider/reviews__slider.css);
-@import url(../blocks/reviews/__input/reviews__input.css);
-@import url(../blocks/reviews/__button-image/reviews__button-image.css);
+
+/* slider Block */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__arrow-button/slider__arrow-button.css);
+@import url(../blocks/slider/__arrow-icon/slider__arrow-icon.css);
+@import url(../blocks/slider/__input/slider__input.css);
+@import url(../blocks/slider/__slider/slider__slider.css);
+@import url(../blocks/slider/__slideres/slider__slideres.css);
+@import url(../blocks/slider/__arrow-button/__arrow-button-left/slider__arrow-button-left.css);
+@import url(../blocks/slider/__arrow-button/__arrow-button-right/slider__arrow-button-right.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

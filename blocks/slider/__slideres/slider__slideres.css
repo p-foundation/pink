@@ -1,14 +1,14 @@
- .reviews__slideres {
-
+ .slider__slideres {
      display: none;
  }
+
  @media screen and (max-width:1199px) {
-     .reviews__slideres {
+     .slider__slideres {
          margin: 0;
          padding: 0;
          display: flex;
          list-style-type: none;
          justify-content: center;
-         gap: 3px;
+         position: absolute;
      }
  }

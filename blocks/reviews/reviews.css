@@ -5,16 +5,14 @@
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    position: relative;
 }
-
 @media screen and (max-width:1199px) {
     .reviews {
         gap: 0;
         padding: 109px 20px 5px;
-        position: relative;
     }
 }
-
 @media screen and (max-width: 659px) {
     .reviews {
         padding: 50px 20px;

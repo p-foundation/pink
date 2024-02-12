@@ -1,15 +1,17 @@
-.reviews__initials {
+.reviews__author-name {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
 }
+
 @media screen and (max-width:1199px) {
-    .reviews__initials {
+    .reviews__author-name {
         font-size: 20px;
     }
 }
+
 @media screen and (max-width: 659px) {
-    .reviews__initials {
+    .reviews__author-name {
         font-size: 18px;
     }
 }

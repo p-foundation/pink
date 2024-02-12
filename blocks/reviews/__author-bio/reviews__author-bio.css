@@ -1,16 +1,16 @@
-.reviews__biography {
+.reviews__author-bio {
     margin: 0;
     color: #283645;
     font-size: 18px;
     font-weight: 400;
 }
 @media screen and (max-width:1199px) {
-    .reviews__biography {
+    .reviews__author-bio {
         font-size: 14px;
     }
 }
 @media screen and (max-width: 659px) {
-    .reviews__biography {
+    .reviews__author-bio {
         display: none;
     }
 }

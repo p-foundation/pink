@@ -1,4 +1,7 @@
 .radio-input__label{
+    font-family: OpenSans, arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
     cursor: pointer;
     position: relative;
 }

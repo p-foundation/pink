@@ -17,6 +17,7 @@
     border-radius: 50%;
     border: 2px solid rgba(229, 229, 229);
     background-color: rgb(255, 255, 255);
+    transition: all .1s ease-in;
 }
 
 .radio-input__label::after {
@@ -30,4 +31,13 @@
     border-radius: 50%;
     background: rgba(210, 40, 86);
     opacity: 0;
+}
+
+.radio-input__input:hover + .radio-input__label::before{
+    border: 2px solid rgba(40, 54, 69);
+    transition: all .1s ease-in;
+}
+
+.radio-input__input:focus + .radio-input__label::before{
+    border: 2px solid rgba(210, 40, 86);
 }

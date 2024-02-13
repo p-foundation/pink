@@ -26,7 +26,6 @@
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_desktop.css);
 
 /* Radio Buttons */
-@import url(../blocks/radio-input/__input/radio-input__input.css);
 @import url(../blocks/radio-input/__label/radio-input__label.css);
 @import url(../blocks/radio-input/radio-input.css);
 

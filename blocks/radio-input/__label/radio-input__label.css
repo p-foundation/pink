@@ -40,3 +40,7 @@
 .radio-input__input:focus + .radio-input__label::before{
     border: 2px solid rgba(210, 40, 86);
 }
+
+.radio-input__input:checked + .radio-input__label::after{
+    opacity: 1;
+}

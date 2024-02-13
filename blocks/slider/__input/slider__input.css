@@ -2,8 +2,8 @@
     .slider__input+.slider__label::before {
         content: "";
         position: absolute;
-        top: 45px;
-        left: 10px;
+        top: 226px;
+        right: 45px;
         width: 6px;
         height: 6px;
         background-color: rgba(40, 54, 69, 0.3);
@@ -18,8 +18,8 @@
     .slider__input:checked+.slider__label::after {
         content: "";
         position: absolute;
-        top: 44px;
-        left: 7.5px;
+        top: 224px;
+        right: 43px;
         width: 6px;
         height: 6px;
         background-color: rgba(255, 255, 255, 1);
@@ -34,13 +34,17 @@
 
 @media screen and (max-width: 659px) {
     .slider__input+.slider__label::before {
-        top: 34px;
-        left: 9px;
+        top: 253px;
+        right: 45px;
 
     }
 
     .slider__input:checked+.slider__label::after {
-        top: 33px;
-        left: 7px;
+        top: 251px;
+        right: 44px;
+    }
+
+    .slider__input+.slider__label {
+        margin-left: 24px;
     }
 }

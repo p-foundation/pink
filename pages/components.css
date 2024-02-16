@@ -6,12 +6,12 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 
-/* Components Block*/
+/* Components Block */
 @import url(../blocks/components/components.css);
 @import url(../blocks/components/__title/components__title.css);
 @import url(../blocks/components/__list/components__list.css);
 
-/* Component Block*/
+/* Component Block */
 @import url(../blocks/component/__name/component__name.css);
 @import url(../blocks/component/__description/component__description.css);
 @import url(../blocks/component/__wrapper/component__wrapper.css);
@@ -25,7 +25,19 @@
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_tablet.css);
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_desktop.css);
 
-/* Textarea Block*/
+/* Button UI Component */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_view/button_view_primary.css);
+@import url(../blocks/button/_view/button_view_secondary.css);
+@import url(../blocks/button/_view/button_view_tertiary.css);
+@import url(../blocks/button/_place/button_place_form.css);
+@import url(../blocks/button/_place/button_place_photo-editor.css);
+
+/* Radio Input UI Component */
+@import url(../blocks/radio-input/radio-input.css);
+@import url(../blocks/radio-input/__label/radio-input__label.css);
+
+/* Textarea UI Component */
 @import url(../blocks/textarea/textarea.css);
 
 /* Visually Hidden Mix */

@@ -37,10 +37,57 @@
             </div>
           </li>
           <li class="component">
-            <h2 class="component__name">Emotions-textarea</h2>
-            <p class="component__description">Emotions-textarea is utilized within a website form to allow users to express their feelings and designed to be responsive across a range of devices, including desktops, tablets, and mobile screens.</p>
+            <h2 class="component__name">Button</h2>
+            <p class="component__description">Buttons are used on pages form and catalog.</p>
+            <p class="component__description">Each button must use the base class "button" and the "view" key modifier. Available options for "view" key modifier:</p>
+            <ul class="component__description">
+              <li>button_view_primary</li>
+              <li>button_view_secondary</li>
+              <li>button_view_tertiary</li>
+            </ul>
+            <p class="component__description">By default, the button has a width of 100%. It can be changed by using the "place" key modifiers ("button_place_form" or "button_place_photo-editor") or the layout of the parent element (for instance, leveraging CSS Flexbox or CSS Grid capabilities, adjusting parent paddings, etc.).</p>
+            <!--
+              Classes that you can use:
+              button
+
+              button_view_primary
+              button_view_secondary
+              button_view_tertiary
+
+              button_place_form
+              button_place_photo-editor
+             -->
+            <div class="component__wrapper component__wrapper_theme_light">
+              <!-- Pink button -->
+              <button class="button button_view_primary button_place_photo-editor">Запостить</button>
+              <!-- Grey button -->
+              <button class="button button_view_secondary button_place_photo-editor">Отмена</button>
+              <!-- Green button -->
+              <button class="button button_view_tertiary button_place_form">Отправить форму</button>
+            </div>
+          </li>
+          <li class="component">
+            <h2 class="component__name">Radio Button</h2>
+            <p class="component__description">Radio buttons are used on page form.</p>
+            <p class="component__description">When you add new radio buttons you need to change the 'value' and 'id' for the inputs. Also change the label. The 'for' in the label and the 'id' in the input must be the same, to be able to select this position by clicking on the text.</p>
+            <div class="component__wrapper component__wrapper_theme_light">
+              <div class="radio-input">
+                <input
+                  type="radio"
+                  class="radio-input__input visually-hidden"
+                  name="device"
+                  value="ios"
+                  id="ios"
+                >
+                <label for="ios" class="radio-input__label">Pink для iOS</label>
+              </div>
+            </div>
+          </li>
+          <li class="component">
+            <h2 class="component__name">Textarea</h2>
+            <p class="component__description">Textarea is utilized within a website form to allow users to express their feelings and designed to be responsive across a range of devices, including desktops, tablets, and mobile screens.</p>
             <div class="component__wrapper">
-              <textarea  class="textarea" id="emotions" name="emotions" rows='4' placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+              <textarea class="textarea" id="impressions" name="impressions" rows='4' placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
           </li>
         </ul>

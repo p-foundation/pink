@@ -3,6 +3,7 @@
     color: #283645;
     font-size: 18px;
     line-height: 30px;
+    max-width: 688px;
 }
 @media screen and (max-width: 659px) {
     .reviews__statement {

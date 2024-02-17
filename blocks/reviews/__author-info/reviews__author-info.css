@@ -1,6 +1,6 @@
 .reviews__author-info {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 10px;
     position: relative;
 }

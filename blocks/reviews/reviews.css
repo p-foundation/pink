@@ -9,7 +9,7 @@
     position: relative;
     background-image: url(../../images/reviews__quotes.svg);
     background-repeat: no-repeat;
-    background-position: 475px 80px;
+    background-position: 50% 80px;
 }
 @media screen and (max-width:1199px) {
     .reviews {
@@ -23,7 +23,7 @@
 @media screen and (max-width: 659px) {
     .reviews {
         margin: 0 auto;
-        padding: 50px 20px;
+        padding: 40px 20px;
         position: relative;
     }
 }

@@ -2,7 +2,7 @@
     .slider__input+.slider__label::before {
         content: "";
         position: absolute;
-        top: 226px;
+        top: 240px;
         right: 45px;
         width: 6px;
         height: 6px;
@@ -18,7 +18,7 @@
     .slider__input:checked+.slider__label::after {
         content: "";
         position: absolute;
-        top: 224px;
+        top: 238px;
         right: 43px;
         width: 6px;
         height: 6px;
@@ -34,13 +34,13 @@
 
 @media screen and (max-width: 659px) {
     .slider__input+.slider__label::before {
-        top: 253px;
+        top: 265px;
         right: 45px;
 
     }
 
     .slider__input:checked+.slider__label::after {
-        top: 251px;
+        top: 262px;
         right: 44px;
     }
 

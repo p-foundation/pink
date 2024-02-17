@@ -31,8 +31,8 @@
 @import url(../blocks/slider/__input/slider__input.css);
 @import url(../blocks/slider/__slider/slider__slider.css);
 @import url(../blocks/slider/__slideres/slider__slideres.css);
-@import url(../blocks/slider/__arrow-button/__arrow-button-left/slider__arrow-button-left.css);
-@import url(../blocks/slider/__arrow-button/__arrow-button-right/slider__arrow-button-right.css);
+@import url(../blocks/slider/__arrow-button/_direction/slider__arrow-button_direction_left.css);
+@import url(../blocks/slider/__arrow-button/_direction/slider__arrow-button_direction_right.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);

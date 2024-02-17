@@ -1,7 +1,10 @@
 .slider__arrow-button {
     border: none;
     background: none;
+    position: absolute;
+    top: 42px;
 }
+
 @media screen and (max-width:1199px) {
     .slider__arrow-button {
         display: none;

@@ -13,6 +13,7 @@
 @import url(../blocks/advantages/__heading/advantages__heading.css);
 @import url(../blocks/advantages/__heading-text/advantages__heading-text.css);
 @import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__wrapper/advantages__wrapper.css);
 @import url(../blocks/advantages/__picture/advantages__picture.css);
 @import url(../blocks/advantages/__picture/_hidden/advantages__picture_hidden.css);
 @import url(../blocks/advantages/__pictures/advantages__pictures.css);

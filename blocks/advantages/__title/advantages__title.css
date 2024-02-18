@@ -3,7 +3,7 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
-    margin: 43px 0 0;
+    margin: 50px 0 0;
 }
 
 @media screen and (max-width: 1199px) {
@@ -11,11 +11,13 @@
         margin: 0;
         text-align: start;
         font-size: 18px;
+        margin: 35px 0 0;
     }
   }
 
 @media screen and (max-width: 659px) {
     .advantages__title{
         text-align: center;
+        margin: 10px 0 0;
     }
   }

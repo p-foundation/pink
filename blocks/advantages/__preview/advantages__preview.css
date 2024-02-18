@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 65px 210px;
+    padding: 65px 210px 57px;
     font-size: 50px;
     font-weight: 300;
     text-align: center;
@@ -12,14 +12,17 @@
 
 @media screen and (max-width: 1199px) {
     .advantages__preview{
-        padding: 58px 36px;
+        padding: 43px 36px 30px;
         font-size: 40px;
+        line-height: 55px;
+
     }
   }
 
 @media screen and (max-width: 659px) {
     .advantages__preview{
-        padding: 46px 20px;
+        padding: 43px 20px 27px;
         font-size: 24px;
+        line-height: 30px;
     }
   }

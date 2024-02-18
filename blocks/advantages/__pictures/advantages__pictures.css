@@ -3,7 +3,6 @@
     position: relative;
     gap: 134px;
     justify-content: center;
-    bottom: -72px;
 }
 
 @media screen and (max-width: 1199px) {

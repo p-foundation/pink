@@ -8,3 +8,9 @@
         height: 480px;
     }
   }
+
+  @media screen and (max-width: 659px) {
+    .advantages__wrapper{
+        height: 320px;
+    }
+  }

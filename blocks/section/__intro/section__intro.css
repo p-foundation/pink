@@ -1,4 +1,4 @@
-.section-intro__paragraph{
+.section__intro{
   color: #283645;
   text-align: center;
   font-size: 18px;
@@ -6,7 +6,7 @@
   line-height: 30px;
 }
 @media screen and (max-width: 659px){
-  .section-intro__paragraph{
+  .section__intro{
     font-size: 14px;
   }
 }

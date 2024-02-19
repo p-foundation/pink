@@ -5,12 +5,7 @@
   width: 572px;
   line-height: 30px;
 }
-@media(max-width:660px){
-  .section-intro__paragraph{
-    padding: 30px;
-  }
-}
-@media(max-width:320px){
+@media screen and (max-width: 659px){
   .section-intro__paragraph{
     font-size: 14px;
   }

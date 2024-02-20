@@ -1,5 +1,7 @@
 This folder is used for storing project styles.
 
+## Files and Folders Structure
+
 In this project, we use BEM methodology for writing styles and organize the file structure according to BEM Nested.
 
 Syntax:
@@ -41,7 +43,7 @@ blocks/
 
 Please refer to the official [BEM](https://en.bem.info/methodology/quick-start/#introduction) or [BEM Nested](https://en.bem.info/methodology/quick-start/#file-structure) documentation for details if needed.
 
-### Using media queries
+## Using media queries
 
 For all components, we use the Desktop-first design approach, programming them initially for the desktop version, Our breakpoints are set at `1199px and 659px`, representing the upper bounds of the screen sizes targeted by our media queries.
 

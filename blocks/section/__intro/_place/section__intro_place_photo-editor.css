@@ -1,4 +1,17 @@
-/* @media screen and (max-width: 659px){
-  .section__intro{
+.section__intro_place_photo-editor{
+  max-width: 422px; 
+  margin: 67px 0 75px;
+}
+@media screen and (max-width: 1199px) {
+  .section__intro_place_photo-editor{
+    max-width: 422px;
+    margin: 73px 0 78px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .section__intro_place_photo-editor{
+    max-width: 280px;
+    margin: 49px 0 52px;
     font-size: 14px;
-  } 
+  }
+}

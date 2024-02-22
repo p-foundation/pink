@@ -5,3 +5,8 @@
   width: 572px;
   line-height: 30px;
 }
+@media screen and (max-width: 659px) {
+  .section__intro{
+    font-size: 14px;
+  }
+}

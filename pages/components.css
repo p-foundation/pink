@@ -42,3 +42,10 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
+/* Input */
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/__email/input__email.css);
+@import url(../blocks/input/__flex/input__flex.css);
+@import url(../blocks/input/__phone/input__phone.css);
+@import url(../blocks/input/__place/input__place.css);

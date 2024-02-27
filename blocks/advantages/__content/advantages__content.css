@@ -1,4 +1,4 @@
-.advantages__container{
+.advantages__content{
     background-color: rgb(242, 242, 242);
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 123"><path fill="%23fff" d="M0 0h1200L0 95z"/></svg>');
     background-size: 100% auto;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1199px) {
-    .advantages__container{
+    .advantages__content{
         display: flex;
         padding: 0 20px 0;
         justify-content: center;
@@ -16,7 +16,7 @@
   }
 
 @media screen and (max-width: 659px) {
-    .advantages__container{
+    .advantages__content{
         display: grid;
     }
   }

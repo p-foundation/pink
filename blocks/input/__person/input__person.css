@@ -1,0 +1,19 @@
+.input__person{
+    outline: none;
+    padding: 23px 0 23px 20px;
+    color: rgba(40, 54, 69);
+    border: 2px solid rgba(229, 229, 229) ;
+    border-radius: 2px;
+}
+
+.input__person::placeholder{
+    color: rgba(40, 54, 69);
+}
+
+.input__person:hover{
+    border: 2px solid rgba(40, 54, 69);
+}
+
+.input__person:active{
+    border: 2px solid rgba(210, 40, 86);
+}

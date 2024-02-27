@@ -90,43 +90,44 @@
               <textarea class="textarea" id="impressions" name="impressions" rows='4' placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
           </li>
+          <li class="component">
+            <h2 class="component__name">Input</h2>
+            <p class="component__description">Inputs are used on the page `form`.</p>
+            <p class="component__description"> For the first input, you can change the class 'input__full-name' to 'input__name' if you need it for styling.</p>
+            <div class="component__wrapper component__wrapper_theme_light">
+                <div class="input input__row">
+                    <label for="first-name" class="input__label">фамилия:</label>
+                    <input
+                      type="text"
+                      class="input__person input__name"
+                      name="full-name"
+                      id="first-name"
+                      placeholder="Укажите фамилию *"
+                    />
+                </div>
+                <div class="input input__column">
+                  <input 
+                      type="tel"
+                      class="input__phone"
+                      name="phone-number"
+                      id="number"
+                      placeholder="Номер, пожалуйста"
+                  >
+                  <label for="number" class="input__label">номер телефона</label>
+                </div>
+                <div class="input input__column">
+                  <input 
+                      type="email"
+                      class="input__email"
+                      name="email-address"
+                      id="email"
+                      placeholder="Введите почту *"
+                  >
+                  <label for="email" class="input__label">адрес почты</label>
+                </div>
+            </div>
+          </li>
         </ul>
-        <li class="component">
-          <h2 class="component__name">Input</h2>
-          <p class="component__description">Inputs are used on the page `form`.</p>
-          <div class="component__wrapper component__wrapper_theme_light">
-              <div class="input input__flex">
-                  <label for="first-name">фамилия:</label>
-                  <input
-                    type="text"
-                    class="input__place"
-                    name="full-name"
-                    id="first-name"
-                    placeholder="Укажите фамилию *"
-                  />
-              </div>
-              <div class="input">
-                <label for="number">номер телефона</label>
-                <input 
-                    type="tel"
-                    class="input__phone"
-                    name="phone-number"
-                    id="number"
-                    placeholder="Номер, пожалуйста"
-                >
-              </div>
-              <div class="input">
-                <label for="email">адрес почты</label>
-                <input 
-                    type="email"
-                    class="input__email"
-                    name="email-address"
-                    id="email"
-                    placeholder="Введите почту *"
-                >
-              </div>
-          </div>
-        </li>
       </section>
     </div>
   </body>

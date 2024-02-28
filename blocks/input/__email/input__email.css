@@ -1,0 +1,22 @@
+.input__email{
+    width: 371px;
+    outline: none;
+    padding: 20px 0 20px 20px;
+    color: rgba(40, 54, 69);
+    border: 2px solid rgba(229, 229, 229) ;
+    border-radius: 2px;
+    margin-bottom: 22px;
+}
+
+.input__email::placeholder{
+    font-size: 18px;
+    color: rgba(40, 54, 69);
+}
+
+.input__email:hover{
+    border: 2px solid rgba(40, 54, 69);
+}
+
+.input__email:active{
+    border: 2px solid rgba(210, 40, 86);
+}

@@ -53,3 +53,5 @@
 @import url(../blocks/input/__label/input__label.css);
 @import url(../blocks/input/__full-name/input__full-name.css);
 @import url(../blocks/input/__name/input__name.css);
+@import url(../blocks/input/__label/_phone/input__label_phone.css);
+@import url(../blocks/input/__label/_email/input__label_email.css);

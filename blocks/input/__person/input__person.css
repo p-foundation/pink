@@ -1,12 +1,13 @@
 .input__person{
     outline: none;
-    padding: 23px 0 23px 20px;
+    padding: 20px 0 20px 20px;
     color: rgba(40, 54, 69);
     border: 2px solid rgba(229, 229, 229) ;
     border-radius: 2px;
 }
 
 .input__person::placeholder{
+    font-size: 18px;
     color: rgba(40, 54, 69);
 }
 

@@ -1,0 +1,14 @@
+.input__label_phone::after{
+    content: "";
+    position: absolute;
+    right: 62%;
+    top: 27%;
+    left: 334px;
+    transform: translateY(-50%);
+    background-color: rgba(229, 229, 229);
+    width: 59px;
+    height: 59px;
+    background-image: url(/images/input-phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,3 +1,10 @@
 .input__name{
-    width: 376px;
+    max-width: 376px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .input__name{
+        max-width: 521px;
+    }
 }

@@ -46,8 +46,8 @@
 /* Input */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__email/input__email.css);
-@import url(../blocks/input/__column/input__column.css);
-@import url(../blocks/input/__row/input__row.css);
+@import url(../blocks/input/_place-contact-info/input_place-contact-info.css);
+@import url(../blocks/input/_place-full-name/input_place-full-name.css);
 @import url(../blocks/input/__phone/input__phone.css);
 @import url(../blocks/input/__person/input__person.css);
 @import url(../blocks/input/__label/input__label.css);

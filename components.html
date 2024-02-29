@@ -38,12 +38,18 @@
           </li>
           <li class="component">
             <h2 class="component__name">Section Intro</h2>
-            <p class="component__description">The section is used on the form and catalog page.</p>
-            <p class="component__description">A section contains a parent ".section" container and the ".section__intro" element itself. The element also contains the key-value "_place" which divides the element into styles for different sections.</p>
+            <p class="component__description">The <code>section__intro</code> element is a part of the BEM block <code>section</code> and is designed to provide introductory text within various sections of the application.</p>
+            <p>The use of the base class <code>section__intro</code> is mandatory for all instances of this element, and it must be accompanied by one of the following modifiers:</p>
             <ul class="component__description">
-              <li>section__intro_place_gallery</li>
-              <li>section__intro_place_form</li>
-              <li>section__intro_place_photo-editor</li>
+              <li><code>section__intro_place_form</code></li>
+              <li><code>section__intro_place_gallery</code></li>
+              <li><code>section__intro_place_photo-editor</code></li>
+            </ul>
+            <p class="component__description">
+              The base class <code>section__intro</code> defines the typography styling of the text element, such as <code>font-size</code>, <code>line-height</code>, and more.
+              The modifiers then refine the placement of the text within different sections of the application.
+            </p>
+            <br/>section__intro_place_photo-editor</li>
             </ul>
             <br/>
             <section class="section">

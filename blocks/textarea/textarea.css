@@ -1,0 +1,40 @@
+.textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 124px;
+  padding: 22px 20px;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 1px;
+  outline: none;
+  resize: none;
+  font-family: "OpenSans", arial, sans-serif; 
+  color: rgb(40, 54, 69); 
+  font-size: 18px;
+  line-height: 1.66;
+}
+
+textarea::placeholder {
+  color: rgb(40, 54, 69);
+  font-size: 18px;
+  line-height: 1.66;
+}
+
+@media (max-width: 1199px) {
+  .textarea {
+    height: 189px;
+  }
+}
+
+@media (max-width: 659px) {
+  .textarea {
+    height: 197px;
+  }
+}
+
+.textarea:hover {
+  border: 2px solid rgb(40, 54, 69);
+}
+
+.textarea:focus {
+  border: 2px solid rgba(210, 40, 86);
+}

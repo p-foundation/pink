@@ -1,0 +1,13 @@
+.button_place_photo-editor {
+  max-width: 183px;
+}
+@media screen and (max-width: 1199px) {
+  .button_place_photo-editor {
+    max-width: 260px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .button_place_photo-editor {
+    max-width: 100%;
+  }
+}

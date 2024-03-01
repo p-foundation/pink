@@ -42,3 +42,11 @@
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
+/* Section-intro Block*/
+@import url(../blocks/section/__intro/section__intro.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__intro/_place/section__intro_place_form.css);
+@import url(../blocks/section/__intro/_place/section__intro_place_gallery.css);
+@import url(../blocks/section/__intro/_place/section__intro_place_photo-editor.css);
+

@@ -1,0 +1,11 @@
+.section__intro{
+  color: rgb(40, 54, 69);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+@media screen and (max-width: 659px) {
+  .section__intro{
+    font-size: 14px;
+  }
+}

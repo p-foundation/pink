@@ -1,0 +1,16 @@
+.section__intro_place_gallery {
+  max-width: 572px; 
+  margin: 100px 0 97px;
+}
+@media screen and (max-width: 1199px) {
+  .section__intro_place_gallery{
+    max-width: 441px;
+    margin: 100px 0 85px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .section__intro_place_gallery{
+    max-width: 257px;
+    margin: 45px 12px 49px;
+  }
+}

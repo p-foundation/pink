@@ -1,8 +1,7 @@
 .input__label_email::after{
     content: "";
     position: absolute;
-    right: 62%;
-    top: 27%;
+    top: 31px;
     left: 334px;
     transform: translateY(-50%);
     background-color: rgba(229, 229, 229);

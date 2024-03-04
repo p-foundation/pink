@@ -40,18 +40,14 @@
 /* Textarea UI Component */
 @import url(../blocks/textarea/textarea.css);
 
-/* Visually Hidden Mix */
-@import url(../blocks/visually-hidden/visually-hidden.css);
-
 /* Input */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__email/input__email.css);
 @import url(../blocks/input/_place-contact-info/input_place-contact-info.css);
-@import url(../blocks/input/_place-full-name/input_place-full-name.css);
 @import url(../blocks/input/__phone/input__phone.css);
-@import url(../blocks/input/__person/input__person.css);
 @import url(../blocks/input/__label/input__label.css);
-@import url(../blocks/input/__full-name/input__full-name.css);
-@import url(../blocks/input/__name/input__name.css);
 @import url(../blocks/input/__label/_phone/input__label_phone.css);
 @import url(../blocks/input/__label/_email/input__label_email.css);
+
+/* Visually Hidden Mix */
+@import url(../blocks/visually-hidden/visually-hidden.css);

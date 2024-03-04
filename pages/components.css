@@ -43,7 +43,6 @@
 /* Input */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__email/input__email.css);
-@import url(../blocks/input/_place-contact-info/input_place-contact-info.css);
 @import url(../blocks/input/__phone/input__phone.css);
 @import url(../blocks/input/__label/input__label.css);
 @import url(../blocks/input/__label/_phone/input__label_phone.css);

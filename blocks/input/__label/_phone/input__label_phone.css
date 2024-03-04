@@ -11,3 +11,15 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media screen and (max-width: 1199px) {
+    .input__label_phone::after{
+        left: 459px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .input__label_phone::after{
+        background: none;
+    }
+}

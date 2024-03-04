@@ -27,3 +27,9 @@
         max-width: 496px;
     }
 }
+
+@media screen and (max-width: 659px) {
+    .input__phone{
+        max-width: 276px;
+    }
+}

@@ -1,7 +1,4 @@
 .advantages__intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 65px 210px 57px;
 }
 

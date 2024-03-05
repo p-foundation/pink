@@ -2,11 +2,17 @@
     width: 186px;
     height: 382px
 }
+
 @media screen and (max-width: 1199px) {
     .advantages__picture{
         width: 268px;
         height: 547px    
     }
+
+    .advantages__pictures :not(:last-of-type){
+        display: none;
+        background: #000;
+    }  
   }
 
 @media screen and (max-width: 659px) {

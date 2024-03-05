@@ -1,0 +1,11 @@
+.input_type-phone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 659px) {
+    .input_type-phone{
+        flex-direction: column-reverse;
+    }
+}

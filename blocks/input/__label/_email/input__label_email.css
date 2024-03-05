@@ -2,7 +2,7 @@
     content: "";
     position: absolute;
     top: 31px;
-    left: 334px;
+    left: 890.5px;
     transform: translateY(-50%);
     background-color: rgba(229, 229, 229);
     width: 59px;
@@ -15,6 +15,7 @@
 @media screen and (max-width: 1199px) {
     .input__label_email::after{
         left: 459px;
+        top: 186.5px;
     }
 }
 

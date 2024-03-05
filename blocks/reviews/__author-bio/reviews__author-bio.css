@@ -1,8 +1,7 @@
 .reviews__author-bio {
     margin: 0;
-    color: #283645;
+    color: rgb(40, 54, 69);
     font-size: 18px;
-    font-weight: 400;
 }
 @media screen and (max-width:1199px) {
     .reviews__author-bio {

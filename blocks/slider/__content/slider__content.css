@@ -4,7 +4,6 @@
     align-items: center;
     text-align: center;
     gap: 35px;
-    /* padding-top: 12px; */
 }
 @media screen and (max-width:1199px) {
     .slider__content {

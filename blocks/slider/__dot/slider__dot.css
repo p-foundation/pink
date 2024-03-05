@@ -6,6 +6,7 @@
   background-color: rgb(191 195 199);
   border: none;
   cursor: pointer;
+  transition: all .7s ease;
 }
 .slider__dot:hover{
   background-color: rgb(126 134 143);

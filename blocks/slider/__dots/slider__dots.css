@@ -1,0 +1,12 @@
+.slider__dots{
+  display: none;
+}
+
+@media screen and (max-width: 1199px){
+  .slider__dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+  }
+}

@@ -1,0 +1,15 @@
+.slider__dot{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: rgb(191 195 199);
+  border: none;
+  cursor: pointer;
+}
+.slider__dot:hover{
+  background-color: rgb(126 134 143);
+}
+.slider__dot:active{
+  background-color: rgb(233 235 236);
+}

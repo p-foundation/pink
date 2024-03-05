@@ -1,20 +1,19 @@
-.reviews__content {
+.slider__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 35px;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
-
 @media screen and (max-width:1199px) {
-    .reviews__content {
+    .slider__content {
         gap: 40px;
+        margin-bottom: 50px;
     }
 }
-
 @media screen and (max-width: 659px) {
-    .reviews__content {
+    .slider__content {
         flex-direction: column-reverse;
         gap: 15px;
     }

@@ -37,20 +37,17 @@
               fill="#283645" />
           </svg>
         </button>
-        <ul class="slider__slideres">
-          <li class="slider__slider">
-            <input type="radio" class="slider__input visually-hidden" name="slide" value="slide1" id="slide1" checked>
-            <label class="slider__label" for="slide1"></label>
-          </li>
-          <li class="slider__slider">
-            <input type="radio" class="slider__input visually-hidden" name="slide" value="slide2" id="slide2">
-            <label class="slider__label" for="slide2"></label>
-          </li>
-          <li class="slider__slider">
-            <input type="radio" class="slider__input visually-hidden" name="slide" value="slide3" id="slide3">
-            <label class="slider__label" for="slide3"></label>
-          </li>
-        </ul>
+        <div class="slider__content">
+          <blockquote class="reviews__blockquote">
+            <p class="reviews__statement">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+              привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </blockquote>
+          <div class="reviews__author-info">
+            <p class="reviews__author-name">Николай Петров</p>
+            <p class="reviews__author-bio">25 лет, водитель трамвая</p>
+          </div>
+        </div>
         <button class="slider__arrow-button slider__arrow-button_direction_right" aria-label="Next Review">
           <svg xmlns="http://www.w3.org/2000/svg" class="slider__arrow-icon" aria-hidden="true" focusable="false"
             viewBox="0 0 22 41" fill="none">
@@ -59,16 +56,10 @@
               fill="#283645" />
           </svg>
         </button>
-      </div>
-      <div class="reviews__content">
-        <blockquote class="reviews__blockquote">
-          <p class="reviews__statement">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
-            привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-          </p>
-        </blockquote>
-        <div class="reviews__author-info">
-          <p class="reviews__author-name">Николай Петров</p>
-          <p class="reviews__author-bio">25 лет, водитель трамвая</p>
+        <div class="slider__dots">
+          <button class="slider__dot slider__dot_status_active"></button>
+          <button class="slider__dot"></button>
+          <button class="slider__dot"></button>
         </div>
       </div>
     </section>

@@ -50,3 +50,7 @@
 @import url(../blocks/section/__intro/_place/section__intro_place_gallery.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_photo-editor.css);
 
+/* Fieldset */
+@import url(../blocks/fieldset/fieldset.css);
+@import url(../blocks/fieldset/__title/fieldset__title.css);
+

@@ -1,20 +1,14 @@
 .input{
     font-family: "Open Sans", sans-serif;
     display: flex;
+    flex-direction: column;
     position: relative;
-    gap: 74px;
+    max-width: 371px;
+    width: 100%;
 }
 
-@media screen and (max-width: 1199px) {
-    .input{
-        flex-direction: column;
-        gap: 41px;
-    }
-}
-
-/* @media screen and (max-width: 659px) {
+@media screen and (max-width: 659px) {
     .input{
         flex-direction: column-reverse;
-        gap: 41px;
     }
-} */
+} 

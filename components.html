@@ -93,29 +93,27 @@
           <li class="component">
             <h2 class="component__name">Input</h2>
             <p class="component__description">Inputs are used on the page `form`. They are created in order to gain contact information.</p>
-            <div class="component__wrapper ">
-                <div class="input">
-                  <div class="input_type-phone">
-                    <input 
-                        type="tel"
-                        class="input__phone"
-                        name="phone-number"
-                        id="number"
-                        placeholder="Номер, пожалуйста"
-                    >
-                    <label for="number" class="input__label input__label_phone">номер телефона</label>
+            <div class="component__wrapper component__wrapper_theme_light">
+                  <div class="input">
+                      <input 
+                          type="tel"
+                          class="input__input"
+                          name="phone-number"
+                          id="number"
+                          placeholder="Номер, пожалуйста"
+                      >
+                      <label for="number" class="input__label input__label_type_phone">номер телефона</label>
                   </div>
-                  <div class="input_type-email">
+                  <div class="input">
                     <input 
                         type="email"
-                        class="input__email"
+                        class="input__input"
                         name="email-address"
                         id="email"
                         placeholder="Введите почту *"
                     >
-                    <label for="email" class="input__label input__label_email">адрес почты</label>
+                    <label for="email" class="input__label input__label_type_email">адрес почты</label>
                   </div>
-                </div>
             </div>
           </li>
         </ul>

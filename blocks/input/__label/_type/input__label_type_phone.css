@@ -1,25 +1,19 @@
-.input__label_phone::after{
+.input__label_type_phone::after{
     content: "";
     position: absolute;
-    top: 31px;
-    left: 334px;
+    top: 34px;
+    left: 329px;
     transform: translateY(-50%);
     background-color: rgba(229, 229, 229);
-    width: 59px;
-    height: 59px;
+    width: 64px;
+    height: 64.5px;
     background-image: url(/images/input-phone.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-@media screen and (max-width: 1199px) {
-    .input__label_phone::after{
-        left: 459px;
-    }
-}
-
 @media screen and (max-width: 659px) {
-    .input__label_phone::after{
+    .input__label_type_phone::after{
         background: none;
     }
 }

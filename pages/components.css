@@ -42,13 +42,10 @@
 
 /* Input */
 @import url(../blocks/input/input.css);
-@import url(../blocks/input/__email/input__email.css);
-@import url(../blocks/input/__phone/input__phone.css);
 @import url(../blocks/input/__label/input__label.css);
-@import url(../blocks/input/__label/_phone/input__label_phone.css);
-@import url(../blocks/input/__label/_email/input__label_email.css);
-@import url(../blocks/input/_type-phone/input_type-phone.css);
-@import url(../blocks/input/_type-email/input_type-email.css);
+@import url(../blocks/input/__input/input__input.css);
+@import url(../blocks/input/__label/_type/input__label_type_email.css);
+@import url(../blocks/input/__label/_type/input__label_type_phone.css);
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

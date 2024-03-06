@@ -1,35 +1,35 @@
-.input__email{
-    max-width: 371px;
+.input__input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input__input{
     width: 100%;
     outline: none;
-    padding: 20px 0 20px 20px;
+    padding: 23px 0 23px 20px;
     color: rgba(40, 54, 69);
     border: 2px solid rgba(229, 229, 229) ;
     border-radius: 2px;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
+    gap: 20px;
 }
 
-.input__email::placeholder{
+.input__input::placeholder{
     font-size: 18px;
     color: rgba(40, 54, 69);
 }
 
-.input__email:hover{
+.input__input:hover{
     border: 2px solid rgba(40, 54, 69);
 }
 
-.input__email:active{
+.input__input:active{
     border: 2px solid rgba(210, 40, 86);
 }
 
-@media screen and (max-width: 1199px) {
-    .input__email{
-        max-width: 496px;
-    }
-}
-
 @media screen and (max-width: 659px) {
-    .input__email{
-        max-width: 276px;
+    .input__input{
+        flex-direction: column-reverse;
     }
 }

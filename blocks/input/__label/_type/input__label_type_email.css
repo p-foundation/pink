@@ -1,26 +1,19 @@
-.input__label_email::after{
+.input__label_type_email::after{
     content: "";
     position: absolute;
-    top: 31px;
-    left: 890.5px;
+    top: 34px;
+    left: 329px;
     transform: translateY(-50%);
     background-color: rgba(229, 229, 229);
-    width: 59px;
-    height: 59px;
+    width: 64px;
+    height: 64.5px;
     background-image: url(/images/input-mail.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-@media screen and (max-width: 1199px) {
-    .input__label_email::after{
-        left: 459px;
-        top: 186.5px;
-    }
-}
-
 @media screen and (max-width: 659px) {
-    .input__label_email::after{
+    .input__label_type_email::after{
         background: none;
     }
 }

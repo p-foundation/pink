@@ -92,15 +92,16 @@
           </li>
           <li class="component">
             <h2 class="component__name">Input</h2>
-            <p class="component__description">Inputs are used on the page `form`. They are created in order to gain contact information.</p>
+            <p class="component__description">Inputs are used on the page `form`. The inputs are located in the `contact info` fieldset. The elements are created to get the user's phone number and email.</p> 
+              <p class="component__description">The elements have modifiers with the key `type` and values `email` and `phone`. The modifier is used to position the pseudo element in the format of icons.</p>
             <div class="component__wrapper component__wrapper_theme_light">
                   <div class="input">
                       <input 
-                          type="tel"
-                          class="input__input"
-                          name="phone-number"
-                          id="number"
-                          placeholder="Номер, пожалуйста"
+                        type="tel"
+                        class="input__input"
+                        name="phone-number"
+                        id="number"
+                        placeholder="Номер, пожалуйста"
                       >
                       <label for="number" class="input__label input__label_type_phone">номер телефона</label>
                   </div>

@@ -27,9 +27,3 @@
 .input__input:active{
     border: 2px solid rgba(210, 40, 86);
 }
-
-@media screen and (max-width: 659px) {
-    .input__input{
-        flex-direction: column-reverse;
-    }
-}

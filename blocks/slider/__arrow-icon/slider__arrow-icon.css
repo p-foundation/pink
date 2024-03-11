@@ -1,13 +1,5 @@
 .slider__arrow-icon{
     width: 22px;
     height: 41px;
-    color: rgb(40, 54, 69);
-    transition: all .7s ease;
-    cursor: pointer;
-}
-.slider__arrow-icon:hover{
-  color: rgb(126 134 143);
-}
-.slider__arrow-icon:active{
-  color: rgb(233 235 236);
+    fill: currentColor;
 }

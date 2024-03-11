@@ -4,6 +4,15 @@
     position: absolute;
     top: 29px;
     padding: 0;
+    color: rgb(40, 54, 69);
+    transition: all .7s ease;
+    cursor: pointer;
+}
+.slider__arrow-button:hover{
+  color: rgb(126 134 143);
+}
+.slider__arrow-button:active{
+  color: rgb(233 235 236);
 }
 
 @media screen and (max-width:1199px) {

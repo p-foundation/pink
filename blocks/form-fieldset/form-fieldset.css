@@ -2,6 +2,7 @@
   border: rgb(229, 229, 229) solid 2px;
   width: 100%;
   box-sizing: border-box;
+  margin: 0;
 }
 @media (max-width:659px){
   .form-fieldset{

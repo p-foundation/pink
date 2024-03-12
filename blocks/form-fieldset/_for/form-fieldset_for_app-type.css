@@ -1,0 +1,13 @@
+.form-fieldset_for_app-type{
+  padding: 54px 74px;
+}
+@media (max-width:1199px){
+  .form-fieldset_for_app-type{
+    padding: 54px 60px;
+  }
+}
+@media (max-width:659px){
+  .form-fieldset_for_app-type{
+    padding: 0px;
+  }
+}

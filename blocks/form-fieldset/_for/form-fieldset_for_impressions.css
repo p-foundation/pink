@@ -1,0 +1,13 @@
+.form-fieldset_for_impressions{
+  padding: 44px 60px;
+}
+@media (max-width:1199px){
+  .form-fieldset_for_impressions{
+    padding: 47px 60px 53px 60px;
+  }
+}
+@media (max-width:659px){
+  .form-fieldset_for_impressions{
+    padding:0;
+  }
+}

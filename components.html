@@ -112,8 +112,23 @@
             </section>
           </li> 
           <li class="component">
-            <h2 class="component__name">Fieldset</h2>
-            <p class="component__description">A gray frame with a heading</p>
+            <h2 class="component__name">Form-fieldset</h2>
+            <p class="component__description">The Form-fieldset component follows the BEM naming. The base class for this component is <code>form-fieldset</code>.
+              The Form-fieldset component serves as a container for grouping related form controls. It provides a gray frame with a heading, aiding in structuring and organizing form elements. The heading inside the Fieldset, known as the <code>form-fieldset__legend</code>, helps users understand the purpose of the grouped form elements.</p>
+              <p class="component__description">In addition to the mandatory base class <code>form-fieldset</code>, the <code>fieldset</code> element also uses modifiers:</p>
+              <ul class="component__description">
+                <li><code>form-fieldset_for_app-type</code></li>
+                <li><code>form-fieldset_for_contact-info</code></li>
+                <li><code>form-fieldset_for_impressions</code></li>
+                <li><code>form-fieldset_for_achievements</code></li>
+              </ul>
+              <p class="component__description">also, for the correct settings for the legend element with the base class form-fieldset__legend, the following modifiers are used:</p>
+              <ul class="component__description">
+                <li><code>form-fieldset__legend_for_app-type</code></li>
+                <li><code>form-fieldset__legend_for_contact-info</code></li>
+                <li><code>form-fieldset__legend_for_impressions</code></li>
+                <li><code>form-fieldset__legend_for_achievements</code></li>
+              </ul>
               <div class="component__wrapper component__wrapper_theme_light">
                 <fieldset class="form-fieldset form-fieldset_for_app-type">
                   <legend class="form-fieldset__legend form-fieldset__legend_for_app-type">С каким приложением путешествовали?</legend>

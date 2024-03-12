@@ -1,0 +1,13 @@
+.form-fieldset_for_achievements{
+  padding:54px 66px;
+}
+@media (max-width:1199px){
+  .form-fieldset_for_achievements{
+    padding: 54px 60px;
+  }
+}
+@media (max-width:659px){
+  .form-fieldset_for_achievements{
+    padding:0;
+  }
+}

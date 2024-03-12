@@ -1,0 +1,11 @@
+.form-fieldset__legend{
+  color: rgb(210, 40, 86);
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 auto;
+}
+@media (max-width:659px){
+  .form-fieldset__legend{
+    text-align: center;
+  }
+}

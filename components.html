@@ -96,24 +96,28 @@
               <p class="component__description">The elements have modifiers with the key `type` and values `email` and `phone`. The modifier is used to position the pseudo element in the format of icons.</p>
             <div class="component__wrapper component__wrapper_theme_light">
                   <div class="input">
-                      <input 
+                    <div class="input__wrapper input__wrapper_type_phone">
+                      <input
                         type="tel"
                         class="input__input"
                         name="phone-number"
                         id="number"
                         placeholder="Номер, пожалуйста"
                       >
-                      <label for="number" class="input__label input__label_type_phone">номер телефона</label>
+                    </div>
+                      <label for="number" class="input__label">номер телефона</label>
                   </div>
                   <div class="input">
-                    <input 
+                    <div class="input__wrapper input__wrapper_type_email">
+                      <input 
                         type="email"
                         class="input__input"
                         name="email-address"
                         id="email"
                         placeholder="Введите почту *"
-                    >
-                    <label for="email" class="input__label input__label_type_email">адрес почты</label>
+                      >
+                    </div>
+                    <label for="email" class="input__label">адрес почты</label>
                   </div>
             </div>
           </li>

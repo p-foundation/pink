@@ -44,8 +44,8 @@
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__label/input__label.css);
 @import url(../blocks/input/__input/input__input.css);
-@import url(../blocks/input/__label/_type/input__label_type_email.css);
-@import url(../blocks/input/__label/_type/input__label_type_phone.css);
-
+@import url(../blocks/input/__wrapper/input__wrapper.css);
+@import url(../blocks/input/__wrapper/_type/input__wrapper_type_phone.css);
+@import url(../blocks/input/__wrapper/_type/input__wrapper_type_email.css);
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

@@ -1,0 +1,13 @@
+.form-fieldset_for_contact-info{
+  padding: 44px 62px 23px 60px;
+}
+@media (max-width:1199px) {
+  .form-fieldset_for_contact-info{
+    padding: 46px 60px 37px;
+  } 
+}
+@media (max-width:659px) {
+  .form-fieldset_for_contact-info{
+    padding:0;
+  } 
+}

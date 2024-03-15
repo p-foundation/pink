@@ -17,7 +17,7 @@
 .input__input::placeholder{
     font-family: OpenSans, arial, sans-serif;
     font-size: 18px;
-    line-height: 1;
+    line-height: 30px;
     color: rgba(40, 54, 69);
 }
 

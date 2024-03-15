@@ -2,7 +2,6 @@
     font-size: 18px;
     line-height: 1;
     font-family: OpenSans, arial, sans-serif;
-    display: flex;
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
@@ -25,14 +24,7 @@
   border: 2px solid rgba(40, 54, 69);
 }
 
-.input__input:hover{
-    border: 2px solid rgba(40, 54, 69);
-}
-
-.input__input:active{
-    border: 2px solid rgba(210, 40, 86);
-}
-
+.input__input:active,
 .input__input:focus{
     border: 2px solid rgba(210, 40, 86);
 }

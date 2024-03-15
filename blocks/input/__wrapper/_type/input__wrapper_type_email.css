@@ -1,9 +1,3 @@
 .input__wrapper_type_email::after {
     background-image: url(/images/input-mail.svg);
 }
-
-@media screen and (max-width: 659px) {
-    .input__wrapper_type_email::after{
-        background: none;
-    }
-}

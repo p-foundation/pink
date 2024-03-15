@@ -15,3 +15,9 @@
     background-repeat: no-repeat;
     background-position: calc(50% + 2px) center;
 }
+
+@media screen and (max-width: 659px) {
+    .input__wrapper::after{
+        display: none;
+    }
+}

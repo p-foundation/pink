@@ -8,9 +8,9 @@
   cursor: pointer;
   transition: all .7s ease;
 }
-.slider__dot:hover{
+.slider__dot:not(:disabled):hover{
   background-color: rgb(126 134 143);
 }
-.slider__dot:active{
+.slider__dot:not(:disabled):active{
   background-color: rgb(233 235 236);
 }

@@ -8,5 +8,12 @@
     align-items: center;
     justify-content: center;
     gap: 18px;
+    margin-top: 37px;
+  }
+}
+
+@media screen and (max-width: 659px){
+  .slider__dots{
+    margin-top: 31px;
   }
 }

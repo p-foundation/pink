@@ -2,7 +2,5 @@
   background-color: rgb(255, 255, 255);
   border: 3px solid rgb(40, 54, 69);
   box-sizing: content-box;
-}
-.slider__dot_active:hover{
-  background-color: rgb(255, 255, 255);
+  cursor: auto;
 }

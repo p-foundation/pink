@@ -5,11 +5,7 @@
   gap: 35px;
   max-width: 688px;
 }
-@media screen and (max-width:1199px) {
-  .reviews__content {
-      gap: 40px;
-  }
-}
+
 @media screen and (max-width: 659px) {
   .reviews__content {
       flex-direction: column-reverse;

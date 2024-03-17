@@ -8,12 +8,13 @@
 
 @media screen and (max-width: 1199px) {
     .advantages__title{
-
+      font-size: 18px;
+      text-align: start;
     }
   }
 
 @media screen and (max-width: 659px) {
     .advantages__title{
-
+      text-align: center;
     }
   }

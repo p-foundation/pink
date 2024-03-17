@@ -8,12 +8,17 @@
 
 @media screen and (max-width: 1199px) {
     .advantages__list{
-
+      flex-direction: column;
+      justify-content:start;
+      gap: 37px;
+      padding: 0;
+      margin: 76px 0 0;
     }
   }
 
 @media screen and (max-width: 659px) {
     .advantages__list{
-
+      gap: 33px;
+      margin: 90px 0 0;
     }
   }

@@ -6,18 +6,7 @@
 }
 
 @media screen and (max-width: 1199px) {
-    .advantages__picture{
-
-    }
-
     .advantages__pictures :not(:last-of-type){
-      display: none;
+        display: none;
     }  
   }
-
-@media screen and (max-width: 659px) {
-    .advantages__picture{
-      
-
-    }
-  } 

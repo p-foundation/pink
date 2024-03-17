@@ -9,16 +9,21 @@
 
 @media screen and (max-width: 1199px) {
     .advantages__intro-text{
-
+      font-size: 40px;
+      max-width: 588px;
+      line-height: 55px;
     }
   }
 
 @media screen and (max-width: 659px) {
     .advantages__intro-text{
-
+      font-size: 24px;
+      line-height: 30px;
+      margin: 24px 0 0;
     }
-    .advantages__intro-text:first-of-type{
 
+    .advantages__intro-text:first-of-type{
+      margin: 0;
     }
   }
 

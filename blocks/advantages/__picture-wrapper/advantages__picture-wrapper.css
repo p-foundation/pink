@@ -1,16 +1,15 @@
 .advantages__picture-wrapper{
-    overflow: hidden;
-    height: 302px;
+
 }
 
 @media screen and (max-width: 1199px) {
     .advantages__picture-wrapper{
-        height: 480px;
+
     }
   }
 
   @media screen and (max-width: 659px) {
     .advantages__picture-wrapper{
-        height: 270px;
+
     }
   }

@@ -1,11 +1,9 @@
 .advantages__list-item{
-    box-shadow: 0 -15px 12px -12px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+
 }
 
 @media screen and (max-width: 1199px) {
     .advantages__list-item{
-        box-shadow: none;
-        background: none;
+
     }
   }

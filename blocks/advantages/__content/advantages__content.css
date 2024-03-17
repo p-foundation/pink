@@ -1,15 +1,28 @@
 .advantages__content{
-
+  padding: 0 130px 59px;
+  background-color: rgb(242, 242, 242);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 123"><path fill="%23fff" d="M0 0h1200L0 95z"/></svg>');
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
 }
 
 @media screen and (max-width: 1199px) {
     .advantages__content{
-
+      flex-direction: row;
+      justify-content: center;
+      gap: 42px;
+      padding: 0 20px;
     }
   }
 
 @media screen and (max-width: 659px) {
     .advantages__content{
-
+      align-items: center;
+      flex-direction: column-reverse;
+      gap: 35px;  
     }
   }

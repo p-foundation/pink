@@ -1,5 +1,8 @@
 .advantages__picture{
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 @media screen and (max-width: 1199px) {
@@ -8,12 +11,13 @@
     }
 
     .advantages__pictures :not(:last-of-type){
-
+      display: none;
     }  
   }
 
 @media screen and (max-width: 659px) {
     .advantages__picture{
+      
 
     }
   } 

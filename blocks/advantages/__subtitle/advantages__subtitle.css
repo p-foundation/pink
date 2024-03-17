@@ -1,5 +1,9 @@
 .advantages__subtitle{
-
+  margin: 0;
+  text-align: center;
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 @media screen and (max-width: 1199px) {

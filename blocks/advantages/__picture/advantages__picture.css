@@ -4,9 +4,3 @@
   object-fit: cover;
   object-position: top center;
 }
-
-@media screen and (max-width: 1199px) {
-    .advantages__pictures :not(:last-of-type){
-        display: none;
-    }  
-  }

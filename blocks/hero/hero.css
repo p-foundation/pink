@@ -1,0 +1,35 @@
+.hero{
+    position: relative;
+    padding: 204px 0 0 130px;
+    height: 648px;
+    background-image: url(../../images/hero-phone-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 1050px 645px;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+}
+
+@media(max-width:1199px){
+    .hero{
+        background-position: center bottom;
+        background-size: 800px 545px;
+        padding: 184px 0 0 20px;      
+        height: 545px;  
+        align-items: baseline;
+        background-size: 660px 545px;
+        background-image: url(../../images/hero-phone-tablet.png);
+    }
+}
+
+@media(max-width:659px){
+    .hero{
+        height: 367px;
+        padding: 95px 0 0 0;   
+        align-items: center;  
+        background-size: 320px 286px;
+        background-image: url(../../images/hero-phone-mobile.png);
+        top: 0;
+    }
+}

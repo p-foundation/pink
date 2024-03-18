@@ -1,0 +1,20 @@
+.hero__system-list{
+    display: flex;
+    gap: 34px;
+    align-items: baseline;
+    list-style: none;
+    padding: 0;
+    margin: 67px 0 61px;
+}
+
+@media(max-width:1199px){
+    .hero__system-list{
+        margin: 51px 0 51px 0;
+    }
+}
+
+@media(max-width:659px){
+    .hero__system-list{
+        margin: 28px 0;
+    }
+}

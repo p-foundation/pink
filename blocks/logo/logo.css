@@ -1,0 +1,8 @@
+.logo{
+    transition: all 0.8s ease;
+    color:rgb(255, 255, 255)
+}
+
+.logo:hover{
+    color: rgb(178, 40, 102);
+}

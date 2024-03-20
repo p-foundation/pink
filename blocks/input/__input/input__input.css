@@ -2,7 +2,6 @@
     font-size: 18px;
     line-height: 30px;
     font-family: OpenSans, arial, sans-serif;
-    flex-direction: column;
     width: 100%;
     box-sizing: border-box;
     outline: none;
@@ -10,7 +9,6 @@
     color: rgba(40, 54, 69);
     border: 2px solid rgba(229, 229, 229) ;
     border-radius: 2px;
-    gap: 20px;
     transition: all .3s ease;
 }
 

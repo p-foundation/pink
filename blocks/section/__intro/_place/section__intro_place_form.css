@@ -1,0 +1,16 @@
+.section__intro_place_form {
+  max-width: 756px; 
+  margin: 100px 0 84px;
+}
+@media screen and (max-width: 1199px) {
+  .section__intro_place_form {
+    max-width: 490px;
+    margin: 100px 0 82px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .section__intro_place_form {
+    max-width: 280px;
+    margin: 55px 0 54px;
+  }
+}

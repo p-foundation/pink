@@ -1,0 +1,15 @@
+.intro_page_index{
+  height: 853px;
+  background-position: bottom center;
+}
+
+@media (max-width: 1199px){
+  .intro_page_index{
+    height: 729px;
+  }
+}
+@media(max-width: 659px){
+  .intro_page_index{
+    height: 733px;
+  }
+}

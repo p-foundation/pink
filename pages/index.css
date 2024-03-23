@@ -17,6 +17,7 @@
 
 /* Intro Block */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/_page/intro_page_index.css);
 
 /* Hero Block */
 @import url(../blocks/hero/hero.css);

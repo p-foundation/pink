@@ -36,6 +36,112 @@
               </a>
             </div>
           </li>
+          <li class="component">
+            <h2 class="component__name">Button</h2>
+            <p class="component__description">Buttons are used on pages form and catalog.</p>
+            <p class="component__description">Each button must use the base class "button" and the "view" key modifier. Available options for "view" key modifier:</p>
+            <ul class="component__description">
+              <li>button_view_primary</li>
+              <li>button_view_secondary</li>
+              <li>button_view_tertiary</li>
+            </ul>
+            <p class="component__description">By default, the button has a width of 100%. It can be changed by using the "place" key modifiers ("button_place_form" or "button_place_photo-editor") or the layout of the parent element (for instance, leveraging CSS Flexbox or CSS Grid capabilities, adjusting parent paddings, etc.).</p>
+            <!--
+              Classes that you can use:
+              button
+
+              button_view_primary
+              button_view_secondary
+              button_view_tertiary
+
+              button_place_form
+              button_place_photo-editor
+             -->
+            <div class="component__wrapper component__wrapper_theme_light">
+              <!-- Pink button -->
+              <button class="button button_view_primary button_place_photo-editor">Запостить</button>
+              <!-- Grey button -->
+              <button class="button button_view_secondary button_place_photo-editor">Отмена</button>
+              <!-- Green button -->
+              <button class="button button_view_tertiary button_place_form">Отправить форму</button>
+            </div>
+          </li>
+          <li class="component">
+            <h2 class="component__name">Radio Button</h2>
+            <p class="component__description">Radio buttons are used on page form.</p>
+            <p class="component__description">When you add new radio buttons you need to change the 'value' and 'id' for the inputs. Also change the label. The 'for' in the label and the 'id' in the input must be the same, to be able to select this position by clicking on the text.</p>
+            <div class="component__wrapper component__wrapper_theme_light">
+              <div class="radio-input">
+                <input
+                  type="radio"
+                  class="radio-input__input visually-hidden"
+                  name="device"
+                  value="ios"
+                  id="ios"
+                >
+                <label for="ios" class="radio-input__label">Pink для iOS</label>
+              </div>
+            </div>
+          </li>
+          <li class="component">
+            <h2 class="component__name">Textarea</h2>
+            <p class="component__description">Textarea is utilized within a website form to allow users to express their feelings and designed to be responsive across a range of devices, including desktops, tablets, and mobile screens.</p>
+            <div class="component__wrapper component__wrapper_theme_light">
+              <textarea class="textarea" id="impressions" name="impressions" rows='4' placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            </div>
+          </li>
+          <li class="component">
+            <h2 class="component__name">Section Intro</h2>
+            <p class="component__description">The <code>section__intro</code> element is a part of the BEM block <code>section</code> and is designed to provide introductory text within various sections of the application.</p>
+            <p>The use of the base class <code>section__intro</code> is mandatory for all instances of this element, and it must be accompanied by one of the following modifiers:</p>
+            <ul class="component__description">
+              <li><code>section__intro_place_form</code></li>
+              <li><code>section__intro_place_gallery</code></li>
+              <li><code>section__intro_place_photo-editor</code></li>
+            </ul>
+            <p class="component__description">
+              The base class <code>section__intro</code> defines the typography styling of the text element, such as <code>font-size</code>, <code>line-height</code>, and more.
+              The modifiers then refine the placement of the text within different sections of the application.
+            </p>
+            <br/>
+            <section class="section">
+              <p class="section__intro section__intro_place_gallery">
+                Взгляните на фотографии, которые выкладывают пользователи!
+                Видите, как не хватает ваших?
+              </p>
+            </section>
+          </li> 
+          <li class="component">
+            <h2 class="component__name">Input</h2>
+            <p class="component__description">Inputs are used on the page `form`. The inputs are located in the `contact info` fieldset. The elements are created to get the user's phone number and email.</p> 
+              <p class="component__description">The elements have modifiers with the key `type` and values `email` and `phone`. The modifier is used to position the pseudo element in the format of icons.</p>
+              <div class="component__wrapper component__wrapper_theme_light" style="width: 374px;">
+                  <div class="input">
+                    <div class="input__wrapper input__wrapper_type_phone">
+                      <input
+                        type="tel"
+                        class="input__input"
+                        name="phone-number"
+                        id="number"
+                        placeholder="Номер, пожалуйста"
+                      >
+                    </div>
+                    <label for="number" class="input__label">номер телефона</label>
+                  </div>
+                  <div class="input">
+                    <div class="input__wrapper input__wrapper_type_email">
+                      <input 
+                        type="email"
+                        class="input__input"
+                        name="email-address"
+                        id="email"
+                        placeholder="Введите почту *"
+                      >
+                    </div>
+                    <label for="email" class="input__label">адрес почты</label>
+                  </div>
+            </div>
+          </li>
         </ul>
       </section>
     </div>

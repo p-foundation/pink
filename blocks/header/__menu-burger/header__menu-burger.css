@@ -1,0 +1,12 @@
+.header__menu-burger{
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media(min-width:1199px){
+    .header__menu-burger{
+        display: none;
+    }
+}

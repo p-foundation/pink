@@ -1,0 +1,22 @@
+.advantages__picture-wrapper{
+  width: 300px;
+  height: 298px;
+}
+
+@media screen and (max-width: 1199px) {
+    .advantages__picture-wrapper{
+      width: 268px;
+      height: 482px;  
+    }
+
+    .advantages__picture-wrapper:not(:last-of-type){
+      display: none;
+    }  
+  }
+
+@media screen and (max-width: 659px) {
+    .advantages__picture-wrapper{
+      width: 157px;
+      height: 285px;  
+    }
+  } 

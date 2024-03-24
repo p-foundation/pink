@@ -28,7 +28,7 @@
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__container/hero__container.css);
 
-/*Block Advantages*/
+/* Advantages Block */
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/advantages/__list-item/advantages__list-item.css);
 @import url(../blocks/advantages/__intro/advantages__intro.css);

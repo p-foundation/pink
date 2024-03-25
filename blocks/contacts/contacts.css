@@ -6,13 +6,13 @@
   padding: 44px 0 20px;
   }
 
-  @media (max-width: 660px){
+  @media (max-width: 1199px){
     .contacts{
       padding: 42px 0 30px;
     }
   }
 
-  @media (max-width: 320px){
+  @media (max-width: 659px){
     .contacts{
       padding: 42px 0 35px;
     }

@@ -4,13 +4,13 @@
   border: none;
 }
 
-@media (max-width: 660px){
+@media (max-width: 1199px){
   .map__iframe{
     min-height: 374px;
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 659px){
   .map__iframe{
     min-height: 200px;
   }

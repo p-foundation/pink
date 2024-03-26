@@ -8,7 +8,6 @@
 @media(max-width:659px){
     .intro{
         background-image: url(../../images/intro-background-mobile.png);
-        background-size: cover;
     }
 }
 

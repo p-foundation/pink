@@ -1,12 +1,8 @@
 .intro{
     width: 100%;
-    margin: 0 auto;
-    position: relative;
-    color: rgb(255, 255, 255);
     background-image: url(../../images/intro-background-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
 @media(max-width:659px){

@@ -22,7 +22,6 @@
 
 .checkbox__label::after{
     content:url(../../../images/checkbox-tick.svg);
-    justify-content: center;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -38,6 +37,7 @@
     border-color: rgb(40, 54, 69);
 }
 
-.checkbox__input:active + .checkbox__label::before, .checkbox__input:focus + .checkbox__label::before{
+.checkbox__input:active + .checkbox__label::before,
+.checkbox__input:focus + .checkbox__label::before{
     border-color: rgb(210, 40, 86);
 }

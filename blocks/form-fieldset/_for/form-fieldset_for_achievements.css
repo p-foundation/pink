@@ -9,5 +9,6 @@
 @media (max-width:659px){
   .form-fieldset_for_achievements{
     padding:0;
+    background-color:rgba(242, 242, 242, 1);
   }
 }

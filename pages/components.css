@@ -58,5 +58,10 @@
 @import url(../blocks/input/__wrapper/_type/input__wrapper_type_phone.css);
 @import url(../blocks/input/__wrapper/_type/input__wrapper_type_email.css);
 
+/* text-input UI Component*/
+@import url(../blocks/text-input/text-input.css);
+@import url(../blocks/text-input/__input/text-input__input.css);
+@import url(../blocks/text-input/__label/text-input__label.css);
+
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

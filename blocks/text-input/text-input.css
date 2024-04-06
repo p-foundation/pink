@@ -1,0 +1,5 @@
+.text-input {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}

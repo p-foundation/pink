@@ -2,7 +2,7 @@
   width: 27px;
   height: 34px;
   color: rgba(210, 40, 86, 1);
-  transition: all .7s ease;
+  transition: var(--common-transition);
 }
 
 .footer__author-logo:hover{

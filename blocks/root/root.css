@@ -1,3 +1,7 @@
+:root {
+  --common-transition: all .5s ease;
+}
+
 html{
   height: 100%;
 }

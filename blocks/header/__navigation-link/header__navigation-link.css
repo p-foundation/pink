@@ -1,7 +1,7 @@
 .header__navigation-link{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    transition: all 0.5s ease;
+    transition: var(--common-transition);
 }
 
 .header__navigation-link:hover{

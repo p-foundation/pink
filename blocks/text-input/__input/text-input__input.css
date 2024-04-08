@@ -8,6 +8,7 @@
     font-family: OpenSans, arial, sans-serif;
     line-height: 30px;
     font-size: 18px;
+    box-sizing: border-box;
 }
 .text-input__input:hover {
     border-color: rgb(40, 54, 69);

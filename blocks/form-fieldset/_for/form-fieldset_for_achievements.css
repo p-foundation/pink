@@ -1,5 +1,8 @@
+
 .form-fieldset_for_achievements{
-  padding:54px 66px;
+  padding: 54px 74px;
+  display: flex;
+  flex-wrap: wrap;
 }
 @media (max-width:1199px){
   .form-fieldset_for_achievements{
@@ -8,7 +11,7 @@
 }
 @media (max-width:659px){
   .form-fieldset_for_achievements{
-    padding:0;
+    padding: 0 0 42px;
     background-color:rgba(242, 242, 242, 1);
   }
 }

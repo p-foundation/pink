@@ -4,6 +4,7 @@
   font-size: 14px;
   text-align: center;
   margin: 0 auto;
+  letter-spacing: 0.2px;
 }
 @media (max-width:659px){
   .form-fieldset__legend{

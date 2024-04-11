@@ -1,6 +1,6 @@
 .logo2 {
   color: rgb(40, 54, 69);
-  transition: all .7s ease;
+  transition: var(--common-transition);
 }
 
 .logo2:hover{

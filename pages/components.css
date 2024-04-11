@@ -2,6 +2,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+/* Root */
+@import url(../blocks/root/root.css);
+
 /* Page Block */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
@@ -40,18 +43,25 @@
 /* Textarea UI Component */
 @import url(../blocks/textarea/textarea.css);
 
-/* Visually Hidden Mix */
-@import url(../blocks/visually-hidden/visually-hidden.css);
-
-/* Section-intro Block*/
+/* Section-intro UI Component*/
 @import url(../blocks/section/__intro/section__intro.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_form.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_gallery.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_photo-editor.css);
 
+
+/* Input UI Component*/
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/__label/input__label.css);
+@import url(../blocks/input/__input/input__input.css);
+@import url(../blocks/input/__wrapper/input__wrapper.css);
+@import url(../blocks/input/__wrapper/_type/input__wrapper_type_phone.css);
+@import url(../blocks/input/__wrapper/_type/input__wrapper_type_email.css);
+
 /* Checkbox UI Component */
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__label/checkbox__label.css);
 
-
+/* Visually Hidden Mix */
+@import url(../blocks/visually-hidden/visually-hidden.css);

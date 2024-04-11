@@ -1,0 +1,23 @@
+.input__wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.input__wrapper::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px; 
+    width: 60px;
+    height: calc(100% - 2 * 2px);
+    border-radius: 0 1px 1px 0;
+    background-color: rgba(229, 229, 229);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 2px) center;
+}
+
+@media screen and (max-width: 659px) {
+    .input__wrapper::after{
+        display: none;
+    }
+}

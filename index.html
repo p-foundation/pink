@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,13 +20,13 @@
           <nav>
             <ul class="header__nav-list">
               <li>
-                <a href="" class="header__navigation-link header__navigation-link_active">Главная</a>
+                <a class="header__navigation-link header__navigation-link_active">Главная</a>
               </li>
               <li>
                 <a href="" class="header__navigation-link">Фотографии</a>
               </li>
               <li>
-                <a href="" class="header__navigation-link">Конкурс</a>
+                <a href="form.html" class="header__navigation-link">Конкурс</a>
               </li>
               <li>
                 <a href="" class="header__navigation-link">HTML Academy</a>
@@ -37,7 +36,7 @@
           </nav>
         </div>
       </header>
-      <div class="intro">
+      <div class="intro intro_page_index">
         <section class="hero">
           <h1 class="visually-hidden">Pink App</h1>
           <div class="hero__container">
@@ -60,11 +59,47 @@
           </div>
         </section>
       </div>
+    <section class="advantages">
+      <h2 class="visually-hidden">Преимущества пользоваться приложением pink</h2>
+      <div class="advantages__intro">
+        <p class="advantages__intro-text">Устали от серости мегаполиса?</p>
+        <p class="advantages__intro-text">Нам есть, что вам<br> предложить!</p>
+      </div>
+      <div class="advantages__content">
+        <div class="advantages__pictures">
+            <picture class="advantages__picture-wrapper">
+              <img class="advantages__picture" src="images/advantages-iphone-grey-desktop.png" alt="Телефон с серым изображением мусорников">
+            </picture>
+            <picture class="advantages__picture-wrapper">
+              <img class="advantages__picture" src="images/advantages-iphone-pink-desktop.png" alt="Телефон с розовым изображением мусорников">
+            </picture>
+            <picture class="advantages__picture-wrapper">
+              <source srcset="images/advantages-iphone-smiler-mobile.png" media="(max-width: 659px)">
+              <source srcset="images/advantages-iphone-smiler-tablet.png" media="(max-width: 1199px)">
+              <img class="advantages__picture" src="images/advantages-iphone-smiler-desktop.png" alt="Телефон с изображением улыбающегося смайлика">
+            </picture>
+        </div>
+        <ul class="advantages__list">
+          <li class="advantages__list-item">
+            <h3 class="advantages__title">Поднимает настроение</h3>
+            <p class="advantages__subtitle">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="advantages__list-item">
+            <h3 class="advantages__title">Меняет мир вокруг</h3>
+            <p class="advantages__subtitle">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="advantages__list-item">
+            <h3 class="advantages__title">Заводит новых друзей</h3>
+            <p class="advantages__subtitle">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+      </div>
+    </section>
     <section class="research">
       <h2 class="visually-hidden">Исcледование приложения</h2>
       <picture>
-        <source srcset="images/research-timer-tablet.png" media="(max-width: 660px)">
-        <img src="images/research-timer-desktop.png" alt="Картинка таймера" class="research__image">
+        <source srcset="images/research-timer-tablet.png" media="(max-width: 1199px)">
+        <img class="research__image" src="images/research-timer-desktop.png" alt="Картинка таймера" loading="lazy">
       </picture>
       <div class="research__inner-wrapper">
         <p class="research__title">Эффект на&nbsp;24&nbsp;часа!</p>
@@ -129,7 +164,7 @@
       <h2 class="visually-hidden">Интерактивная карта</h2>
       <iframe class="map__iframe"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257198127!2d30.32047247725667!3d59.93871916209366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRltGPLCAxOTExODY!5e0!3m2!1suk!2sua!4v1699848438116!5m2!1suk!2sua"
-        allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <footer class="footer">
         <div class="footer__container">

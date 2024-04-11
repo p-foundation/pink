@@ -2,6 +2,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+/* Root */
+@import url(../blocks/root/root.css);
+
 /* Page Block */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
@@ -17,6 +20,7 @@
 
 /* Intro Block */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/_page/intro_page_index.css);
 
 /* Hero Block */
 @import url(../blocks/hero/hero.css);
@@ -27,6 +31,19 @@
 @import url(../blocks/hero/__system/hero__system.css);
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__container/hero__container.css);
+
+/* Advantages Block */
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__list-item/advantages__list-item.css);
+@import url(../blocks/advantages/__intro/advantages__intro.css);
+@import url(../blocks/advantages/__intro-text/advantages__intro-text.css);
+@import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__picture-wrapper/advantages__picture-wrapper.css);
+@import url(../blocks/advantages/__picture/advantages__picture.css);
+@import url(../blocks/advantages/__pictures/advantages__pictures.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__content/advantages__content.css);
 
 /* Research Block */
 @import url(../blocks/research/research.css);

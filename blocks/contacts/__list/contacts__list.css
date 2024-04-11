@@ -8,14 +8,14 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 660px){
+@media screen and (max-width: 1199px){
   .contacts__list{
     margin-top: 33px;
     gap: 42px;
   }
 }
 
-@media (max-width:320px){
+@media screen and (max-width: 659px){
   .contacts__list{
     gap:19px;
   }

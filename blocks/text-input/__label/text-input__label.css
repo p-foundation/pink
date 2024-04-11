@@ -4,11 +4,9 @@
     text-transform: uppercase;
     font-family: OpenSans, arial, sans-serif;
     line-height: 30px;
-    letter-spacing: 0.5px;
 }
 @media screen and (max-width: 659px) {
     .text-input__label {
       padding-left: 21px;
     }
   }
-  

@@ -156,22 +156,33 @@
           </div>
         </li>
         <li class="component">
-          <h2 class="component__name">text-input</h2>
-          <p class="component__description">Inputs are used on the `form` page. Elements are created to get the last
+            <h2 class="component__name">Checkbox</h2>
+            <p class="component__description">Checkbox are used on page form.</p>
+            <p class="component__description">When you add new checkbox you need to change the <code>value</code> and <code>id</code> for the inputs. Also change the label. The <code>for</code> in the label and the <code>id</code> in the input must be the same, to be able to select this position by clicking on the text.</p>
+            <div class="component__wrapper component__wrapper_theme_light">
+              <div class="checkbox">
+                <input class="checkbox__input visually-hidden" id="selfie" type="checkbox" name="achievements" value="selfie">
+                <label class="checkbox__label" for="selfie">Сделал селфи с акулой</label>
+              </div>
+            </div>
+         </li>
+         <li class="component">
+           <h2 class="component__name">Text-input</h2>
+           <p class="component__description">Inputs are used on the `form` page. Elements are created to get the last
             name, first name and middle name of the user.</p>
-          <p class="component__description">When you add new text input you need to change the `placeholder` and `id`
+           <p class="component__description">When you add new text input you need to change the `placeholder` and `id`
             for the inputs. Also change the label. The `for` in the label and the `id` in the input must be the same,
             they were connected .</p>
-          <div class="component__wrapper component__wrapper_theme_light">
-            <div class="text-input">
-              <label class="text-input__label" for="surname">Фамилия:</label>
-              <input class="text-input__input" type="text" name="surname" placeholder="Укажите фамилию *" id="surname">
-            </div>
-          </div>
-        </li>
-      </ul>
-    </section>
-  </div>
-</body>
-
+           <div class="component__wrapper component__wrapper_theme_light">
+             <div class="text-input">
+               <label class="text-input__label" for="surname">Фамилия:</label>
+               <input class="text-input__input" type="text" name="surname" placeholder="Укажите фамилию *" id="surname">
+             </div>
+           </div>
+         </li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
+

@@ -50,6 +50,7 @@
 @import url(../blocks/section/__intro/_place/section__intro_place_gallery.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_photo-editor.css);
 
+
 /* Input UI Component*/
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__label/input__label.css);
@@ -57,6 +58,10 @@
 @import url(../blocks/input/__wrapper/input__wrapper.css);
 @import url(../blocks/input/__wrapper/_type/input__wrapper_type_phone.css);
 @import url(../blocks/input/__wrapper/_type/input__wrapper_type_email.css);
+
+/* Checkbox UI Component */
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__label/checkbox__label.css);
 
 /* Text-input UI Component*/
 @import url(../blocks/text-input/text-input.css);

@@ -3,11 +3,9 @@
     text-decoration: none;
     transition: var(--common-transition);
 }
-
-.header__navigation-link:hover{
+.header__navigation-link:not(.header__navigation-link_active):hover{
     color: rgb(178, 40, 102);
 }
-
-.header__navigation-link:active{
+.header__navigation-link:not(.header__navigation-link_active):active{
     color: rgb(255, 255, 255, 0.5);
 }

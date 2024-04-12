@@ -1,0 +1,12 @@
+.text-input {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+@media screen and (max-width: 659px) {
+  .text-input {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+  }
+}

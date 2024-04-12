@@ -1,0 +1,25 @@
+.text-input__input {
+    width: 100%;
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: 2px;
+    transition: var(--common-transition);
+    outline: none;
+    padding: 16px 20px;
+    font-family: OpenSans, arial, sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.text-input__input:hover {
+    border-color: rgb(40, 54, 69);
+}
+.text-input__input:active,
+.text-input__input:focus {
+    border: 2px solid rgb(210, 40, 86);
+}
+.text-input__input::placeholder {
+    font-size: 18px;
+    color: rgb(40, 54, 69);
+    font-family: OpenSans, arial, sans-serif;
+    line-height: 30px;
+}

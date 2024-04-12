@@ -1,0 +1,10 @@
+.popup__paragraph_for_success-event{
+    margin-bottom: 39px;
+    max-width: 415px;
+}
+
+@media screen and (max-width: 1199px){
+    .popup__paragraph_for_success-event{
+      margin-bottom: 30px;
+    }
+}

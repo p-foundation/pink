@@ -1,0 +1,23 @@
+.popup__paragraph{
+    letter-spacing: 0.35px;
+    font-family: OpenSans, arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .popup__paragraph{
+      padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .popup__paragraph{
+      padding: 0 10px;
+      max-width: 289px;
+      letter-spacing: 0.3px;
+      font-size: 14px;
+    }
+}

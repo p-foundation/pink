@@ -1,6 +1,7 @@
 .popup__footer_for_success-event{
     /* max-width: 460px; */
     padding: 41px 160px;
+    background-color: rgba(242, 242, 242);
 }
 
 @media screen and (max-width: 1199px) {

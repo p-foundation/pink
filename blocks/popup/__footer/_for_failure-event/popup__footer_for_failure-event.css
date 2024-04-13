@@ -1,19 +1,20 @@
 .popup__footer_for_failure-event{
-    /* max-width: 310px; */
+    max-width: 301px;
     padding: 41px 240px;
+    background-color: rgba(242, 242, 242);
 }
 
 @media screen and (max-width: 1199px) {
     .popup__footer_for_failure-event{
-      /* max-width: 330px; */
-      padding: 0 80px 36px 80px;
+      max-width: 300px;
+      padding: 0 80px 45px 80px;
       background-color: rgba(255, 255, 255);
     }
 }
 
 @media screen and (max-width: 659px) {
     .popup__footer_for_failure-event{
-      /* max-width: 280px; */
-      padding: 0 20px 35px 20px;
+      max-width: 280px;
+      padding: 0 20px 41px 20px;
     }
 }

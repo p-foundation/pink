@@ -3,22 +3,20 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    margin: 0 0 5px 0;
+    margin: 0 0 23px 0;
     text-align: center;
 }
 
 @media screen and (max-width: 1199px) {
     .popup__title{
-    margin: 0 0 4px 0;
-    padding: 0 100px;
+        padding: 0 100px;
     }
 }
 
 @media screen and (max-width: 659px) {
     .popup__title{
-      padding: 0 25px;
-      font-size: 18px;
-      line-height: 24px;
-      margin: 0 0 10px 0;
+        padding: 0 25px;
+        font-size: 18px;
+        line-height: 24px;
     }
 }

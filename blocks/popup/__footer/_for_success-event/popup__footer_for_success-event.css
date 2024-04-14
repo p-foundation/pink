@@ -1,5 +1,5 @@
 .popup__footer_for_success-event{
-    /* max-width: 460px; */
+    max-width: 460px;
     padding: 41px 160px;
     background-color: rgba(242, 242, 242);
 }
@@ -7,13 +7,13 @@
 @media screen and (max-width: 1199px) {
     .popup__footer_for_success-event{
       padding: 41px 80px;
-      /* max-width: 320px; */
+      max-width: 300px;
   }
 }
 
 @media screen and (max-width: 659px) {
     .popup__footer_for_success-event{
-      /* max-width: 280px; */
+      max-width: 280px;
       padding: 42px 20px;
     }
 }

@@ -5,6 +5,14 @@
 
 @media screen and (max-width: 1199px){
     .popup__paragraph_for_success-event{
-      margin-bottom: 30px;
+    max-width: 310px;
+    margin:0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 659px){
+    .popup__paragraph_for_success-event{
+    max-width: 265px;
+    margin:0 0 35px 0;
     }
 }

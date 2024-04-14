@@ -1,17 +1,17 @@
 .popup__paragraph_for_failure-event{
-    margin-bottom: 62px;
+    margin: 0 0 62px 0;
     max-width: 370px;
 }
 
 @media screen and (max-width: 1199px){
     .popup__paragraph_for_failure-event{
     max-width: 300px;
-    margin-bottom: 23px;
+    margin:0 0 23px 0;
     }
 }
 
 @media screen and (max-width: 659px){
     .popup__paragraph_for_failure-event{
-      margin-bottom: 33px;
+      margin:0 0 33px 0;
     }
 }

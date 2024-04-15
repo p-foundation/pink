@@ -1,3 +1,8 @@
 .form-fieldset__legend_for_contact-info{
-  padding: 14px 31px;
+  padding: 0 31px;
+}
+@media (max-width:659px) {
+  .form-fieldset__legend_for_contact-info{
+    display: none;
+  } 
 }

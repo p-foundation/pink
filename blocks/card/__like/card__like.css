@@ -1,0 +1,7 @@
+.card__like{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding-top: 25px;
+
+}

@@ -77,6 +77,7 @@
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/__span/card__span.css);
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

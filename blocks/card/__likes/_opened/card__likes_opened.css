@@ -1,0 +1,6 @@
+.card__likes_opened{
+  grid-row: -1;
+  grid-column: 2; 
+  justify-content: end;
+  display: flex;
+}

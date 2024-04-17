@@ -2,6 +2,14 @@
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  padding-top: 25px;
-
+  margin-top: auto;
+  margin-bottom: 3px;
+  align-items: center;
+  letter-spacing: 0.4px;
+}
+@media screen and (max-width: 659px){
+  .card__like{
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
 }

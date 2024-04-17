@@ -78,6 +78,12 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__span/card__span.css);
-
+/*  Opened-Card*/
+@import url(../blocks/card/__image/_opened/card__image_opened.css);
+@import url(../blocks/card/__opened/card__opened.css);
+@import url(../blocks/card/__content/_opened/card__content_opened.css);
+@import url(../blocks/card/__paragraph/_opened/card__paragraph_opened.css);
+@import url(../blocks/card/__likes/_opened/card__likes_opened.css);
+@import url();
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

@@ -1,4 +1,6 @@
 .card__description{
-  padding: 30px 30px;
-  letter-spacing: 0.9px;
+  padding: 22px 30px ;
+  height: 120px;
+  display: flex; 
+  flex-direction: column;
 }

@@ -1,0 +1,18 @@
+.popup__paragraph_for_success-event{
+    margin: 0 0 39px 0;
+    max-width: 415px;
+}
+
+@media screen and (max-width: 1199px){
+    .popup__paragraph_for_success-event{
+    max-width: 310px;
+    margin:0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 659px){
+    .popup__paragraph_for_success-event{
+    max-width: 265px;
+    margin:0 0 35px 0;
+    }
+}

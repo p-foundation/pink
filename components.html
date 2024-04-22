@@ -180,6 +180,25 @@
              </div>
            </div>
          </li>
+         <li class="component">
+          <h2 class="component__name">Modal window</h2>
+          <p class="component__description">The modal window is used on the <code>form</code> page. 
+          It allows you to understand whether the operation was successful or not.</p>
+          <p class="component__description"> To see the window, you need to add a modifier <code>_active</code> to the popup class.  Also It has two modifiers <code>_for_success-event</code> and <code>_for_failure-event</code>. They are 
+          used for the <code>popup__paragraph</code> and <code>popup__footer</code> classes.</p>
+          <div class="component__wrapper component__wrapper_theme_light">
+            <div class="popup_active">
+              <div class="popup__container">
+                <h2 class="popup__title">Что-то пошло не так!</h2>
+                <p class="popup__paragraph popup__paragraph_for_failure-event">Проверьте поля, выделенные красным,
+                  скорее всего вы забыли их заполнить</p>
+                <div class="popup__footer popup__footer_for_failure-event">
+                  <button class="button button_view_tertiary" type="button">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         </li>
         </ul>
       </section>
     </div>

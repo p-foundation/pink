@@ -1,0 +1,20 @@
+.card__content_opened{
+  padding:18px 27px ;
+  line-height: 24px;
+  background-color: #F2F2F2;
+  color: #283645;
+  max-width: calc(1200px - 2* 130px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (max-width: 1199px)  {
+  .card__content_opened{
+    max-width: calc(1200px - 2* 21px);
+  }
+}
+@media screen and (max-width: 659px)  {
+  .card__content_opened{
+    grid-template-rows: auto;
+  }
+}

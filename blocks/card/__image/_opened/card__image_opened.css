@@ -1,0 +1,4 @@
+.card__image_opened{
+  width: 100%;
+  object-fit: cover;
+}

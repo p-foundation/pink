@@ -1,0 +1,14 @@
+.card__like{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 12px;
+  align-items: center;
+  letter-spacing: -.4px;
+}
+@media screen and (max-width: 659px){
+  .card__like{
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,10 @@
+.card__button{
+  border: none;
+  background-color: transparent;
+  padding: 0 4px 0 0;
+}
+@media screen and (max-width:659px){
+  .card__button{
+    padding: 0 18px 0 0;
+  }
+}

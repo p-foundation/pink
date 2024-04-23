@@ -20,7 +20,6 @@
 @media screen and (max-width: 659px) {
   .table__cell {
     min-width: calc(93vw - 58px);
-    /* min-width: calc(90vw - 42px); */
     text-transform: uppercase;
     padding-top: 15px;
     padding-bottom: 15px;

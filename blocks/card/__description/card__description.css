@@ -1,6 +1,7 @@
 .card__description{
-  padding: 22px 30px ;
-  height: 120px;
+  padding: 20px 28px ;
   display: flex; 
   flex-direction: column;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
 }

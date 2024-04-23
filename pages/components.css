@@ -84,6 +84,6 @@
 @import url(../blocks/card/__content/_opened/card__content_opened.css);
 @import url(../blocks/card/__paragraph/_opened/card__paragraph_opened.css);
 @import url(../blocks/card/__likes/_opened/card__likes_opened.css);
-@import url();
+@import url(../blocks/card/__button/_opened/card__button_opened.css);
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

@@ -1,6 +1,15 @@
 .card__likes_opened{
   grid-row: -1;
   grid-column: 2; 
-  justify-content: end;
   display: flex;
+  justify-content: end;
+}
+@media screen and (max-width: 659px){
+  .card__likes_opened{
+    justify-content: left;
+    grid-row: 3;
+    grid-column: 1; 
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
 }

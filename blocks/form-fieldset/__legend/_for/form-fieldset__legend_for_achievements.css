@@ -1,23 +1,9 @@
-.form-fieldset__legend_for_achievements{
-  padding: 0 31px;
-  background-color:rgb(255, 255, 255);
-  position: absolute;
-  top: -9px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-@media screen and (max-width: 1199px) {
-  .form-fieldset__legend_for_achievements{
-    padding: 0 31px;
-  width: 470px;
-  }
+.form-fieldset__legend_for_achievements {
+  padding: 0 31px; 
 }
 @media screen and (max-width: 659px) {
-  .form-fieldset__legend_for_achievements{
-    width: 100%;
-    position: static;
-    transform: none;
-    padding:42px 35px 44px;
-    background-color:rgba(242, 242, 242, 1);
+  .form-fieldset__legend_for_achievements {
+    top: 38px;
+    padding: 0;
   }
 }

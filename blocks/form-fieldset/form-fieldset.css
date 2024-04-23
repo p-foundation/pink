@@ -1,12 +1,8 @@
-.form-fieldset{
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  position: relative;
-  border: rgb(229, 229, 229) solid 2px;
-}
-@media (max-width:659px){
-  .form-fieldset{
-    border:0;
+.form-fieldset {
+  border: 2px solid rgb(229, 229, 229); }
+
+@media screen and (max-width: 659px) {
+  .form-fieldset { 
+    border: none; 
   }
 }

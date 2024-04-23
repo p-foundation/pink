@@ -1,8 +1,9 @@
 .form-fieldset__legend_for_impressions{
   padding: 0 38px;
 }
-@media (max-width:1199px){
-  .form-fieldset__legend_for_impressions{
-    padding: 14px 38px;
+@media screen and (max-width: 659px) {
+  .form-fieldset__legend_for_impressions {
+    top: 34px;
+    padding: 0;
   }
 }

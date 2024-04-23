@@ -123,7 +123,7 @@
           <button class="slider__dot" type="button" aria-label="Анлим тариф"></button>
         </div>
       </section>
-      <!-- <section class="contacts">
+      <section class="contacts">
         <h2 class="contacts__title">Остались вопросы?Свяжитесь с нами!</h2>
         <ul class="contacts__list">
           <li class="contacts__item">
@@ -143,41 +143,9 @@
       <section class="map">
         <h2 class="visually-hidden">Интерактивная карта</h2>
         <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257198127!2d30.32047247725667!3d59.93871916209366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRltGPLCAxOTExODY!5e0!3m2!1suk!2sua!4v1699848438116!5m2!1suk!2sua" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section> -->
+      </section>
     </div>
     <script>
- let buttons = document.querySelectorAll('.slider__dot');
-let price = document.querySelector('.price');
-
-buttons.forEach((button, index) => {
-  button.addEventListener('click', function() {
-    let alignValue;
-
-    switch (index) {
-      case 0:
-        alignValue = 'flex-start';
-        break;
-      case 1:
-        alignValue = 'center';
-        break;
-      case 2:
-        alignValue = 'flex-end';
-        break;
-    }
-
-    price.style.alignItems = alignValue;
-
-    buttons.forEach(btn => {
-      btn.removeAttribute('disabled');
-      btn.classList.remove('slider__dot_active');
-    });
-
-    this.setAttribute('disabled', true);
-    this.classList.add('slider__dot_active');
-  });
-});
-
-
     </script>
   </body>
 </html>

@@ -3,6 +3,6 @@
     color:rgb(255, 255, 255)
 }
 
-.logo:hover{
+.logo[href]:hover{
     color: rgb(178, 40, 102);
 }

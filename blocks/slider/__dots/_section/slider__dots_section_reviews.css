@@ -1,11 +1,11 @@
 @media screen and (max-width: 1199px){
-  .slider__dots{
+  .slider__dots_section_reviews{
     display: flex;
   }
 }
 
 @media screen and (max-width: 659px){
-  .slider__dots{
+  .slider__dots_section_reviews{
     margin-top: 31px;
   }
 }

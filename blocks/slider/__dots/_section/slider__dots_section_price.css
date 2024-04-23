@@ -1,11 +1,11 @@
 @media screen and (max-width: 659px){
-  .slider__dots{
+  .slider__dots_section_price{
     display: flex;
   }
 }
 
 @media screen and (max-width: 659px){
-  .slider__dots{
+  .slider__dots_section_price{
     margin-top: 40px;
   }
 }

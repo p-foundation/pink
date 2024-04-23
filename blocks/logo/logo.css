@@ -6,3 +6,8 @@
 .logo[href]:hover{
     color: rgb(178, 40, 102);
 }
+
+.logo[href]:active{
+    color: rgb(255, 255, 255);
+    opacity: 0.3;
+  }

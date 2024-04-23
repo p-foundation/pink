@@ -1,0 +1,3 @@
+.slider__content {
+  /* margin: 0 auto; due to this style we don't see slider__dots in section price if we set for class price align-items to something other than center. And we will need to do this if we add js. So we should move margin to the file reviews__content, where we need it  and this file we can remove at all*/
+}

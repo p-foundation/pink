@@ -1,0 +1,11 @@
+@media screen and (max-width: 1199px){
+  .slider__dots{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 659px){
+  .slider__dots{
+    margin-top: 31px;
+  }
+}

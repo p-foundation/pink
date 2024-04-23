@@ -5,16 +5,28 @@
 
 .table__header_hit::after {
   content: "Хит";
-  color: #fff;
-  background-color: #d22856;
+  color: rgb(255, 255, 255);
+  background-color: rgb(210, 40, 86);
   text-transform: uppercase;
-  text-align: center;
   transform: rotate(-45deg);
-  width: 86px;
-  height: 19px;
-  line-height: 1.3;
-  top: 14px;
-  left: -22px;
   position: absolute;
   overflow: hidden;
+  font-size: 14px;
+  left: -88px;
+  top: 15px;
+  width: 100%;
+  padding: 3px;
+}
+
+@media screen and (max-width: 1199px){
+  .table__header_hit::after{
+    left: -57px;
+    top: 15px;
+  }
+}
+@media screen and (max-width: 659px){
+  .table__header_hit::after{
+    left: -111px;
+    top: 17px;
+  }
 }

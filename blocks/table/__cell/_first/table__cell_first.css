@@ -1,0 +1,16 @@
+.table__cell_first{
+  text-align: left;
+  padding-right: 47px;
+}
+
+@media screen and (max-width: 1199px) {
+  .table__cell_first {
+    padding-right: 0;
+    padding-left: 16px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .table__cell_first {
+    display: none;
+  }
+}

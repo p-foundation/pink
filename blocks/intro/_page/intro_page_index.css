@@ -1,0 +1,9 @@
+.intro_page_index{
+  background-position: bottom center;
+}
+
+@media(max-width: 659px){
+  .intro_page_index{
+    padding: 0 0 270px;
+  }
+}

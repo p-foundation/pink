@@ -1,0 +1,9 @@
+.advantages__list-item{
+  max-width: 240px;
+}
+
+@media screen and (max-width: 1199px) {
+    .advantages__list-item{
+      max-width: 400px;
+    }
+  }

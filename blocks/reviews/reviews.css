@@ -1,0 +1,19 @@
+.reviews {
+    width: 100%;
+    padding: 190px 130px 56px;
+    box-sizing: border-box;
+    background-image: url(../../images/reviews-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 80px;
+}
+@media screen and (max-width: 1199px) {
+    .reviews {
+        padding: 65px 20px 5px;
+        background-image: none;
+    }
+}
+@media screen and (max-width: 659px) {
+    .reviews {
+        padding: 50px 20px;
+    }
+}

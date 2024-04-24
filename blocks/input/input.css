@@ -1,0 +1,15 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 659px) {
+    .input{
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+} 

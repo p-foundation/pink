@@ -1,0 +1,16 @@
+.reviews__author-bio {
+    margin: 2px 0 0;
+    color: rgb(40, 54, 69);
+    font-size: 18px;
+    line-height: 30px;
+}
+@media screen and (max-width:1199px) {
+    .reviews__author-bio {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 659px) {
+    .reviews__author-bio {
+        display: none;
+    }
+}

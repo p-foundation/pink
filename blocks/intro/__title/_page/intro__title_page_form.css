@@ -1,0 +1,16 @@
+.intro__title_page_form{
+  max-width: 757px;
+}
+@media (max-width: 1199px){
+  .intro__title_page_form {
+    max-width: 620px;
+    padding: 177px 0 59px;
+  }
+}
+
+@media (max-width: 659px){
+  .intro__title_page_form {
+    max-width: 280px;
+    padding: 95px 0 43px;
+  }
+}

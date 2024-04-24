@@ -1,4 +1,4 @@
-@media (max-width:660px){
+@media screen and (max-width: 1199px){
   .contacts__item_type_email{
     order: 2;
   }

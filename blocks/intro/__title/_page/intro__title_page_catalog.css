@@ -1,0 +1,14 @@
+.intro__title_page_catalog{
+  max-width: 357px;
+}
+@media (max-width: 1199px){
+  .intro__title_page_catalog {
+    padding: 177px 0 130px;
+  }
+}
+@media (max-width: 659px){
+  .intro__title_page_catalog {
+    max-width: 280px;
+    padding: 95px 0 76px;
+  }
+}

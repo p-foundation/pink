@@ -2,10 +2,51 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+/* Root */
+@import url(../blocks/root/root.css);
+
 /* Page Block */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__footer/page__footer.css);
 
+/* Header Block */
+@import url(../blocks/header/__menu-burger/header__menu-burger.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav-list/header__nav-list.css);
+@import url(../blocks/header/__navigation-link/header__navigation-link.css);
+@import url(../blocks/header/__navigation-link/_active/header__navigation-link_active.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+
+/* Intro Block */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/_page/intro_page_index.css);
+
+/* Hero Block */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__info/hero__info.css);
+@import url(../blocks/hero/__system-list/hero__system-list.css);
+@import url(../blocks/hero/__system/hero__system.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__container/hero__container.css);
+
+/* Advantages Block */
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__list-item/advantages__list-item.css);
+@import url(../blocks/advantages/__intro/advantages__intro.css);
+@import url(../blocks/advantages/__intro-text/advantages__intro-text.css);
+@import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__picture-wrapper/advantages__picture-wrapper.css);
+@import url(../blocks/advantages/__picture/advantages__picture.css);
+@import url(../blocks/advantages/__pictures/advantages__pictures.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__content/advantages__content.css);
 
 /* Research Block */
 @import url(../blocks/research/research.css);
@@ -14,6 +55,25 @@
 @import url(../blocks/research/__paragraph/research__paragraph.css);
 @import url(../blocks/research/__inner-wrapper/research__inner-wrapper.css);
 @import url(../blocks/research/__title/research__title.css);
+
+/* Reviews Block */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__content/reviews__content.css);
+@import url(../blocks/reviews/__author-bio/reviews__author-bio.css);
+@import url(../blocks/reviews/__author-name/reviews__author-name.css);
+@import url(../blocks/reviews/__blockquote/reviews__blockquote.css);
+@import url(../blocks/reviews/__statement/reviews__statement.css);
+
+/* Slider Block */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__arrow-button/slider__arrow-button.css);
+@import url(../blocks/slider/__arrow-icon/slider__arrow-icon.css);
+@import url(../blocks/slider/__dot/slider__dot.css);
+@import url(../blocks/slider/__dots/slider__dots.css);
+@import url(../blocks/slider/__dot/_active/slider__dot_active.css);
+@import url(../blocks/slider/__content/slider__content.css);
+@import url(../blocks/slider/__arrow-button/_direction/slider__arrow-button_direction_left.css);
+@import url(../blocks/slider/__arrow-button/_direction/slider__arrow-button_direction_right.css);
 
 /* Contacts Block */
 @import url(../blocks/contacts/contacts.css);
@@ -28,7 +88,7 @@
 @import url(../blocks/map/map.css);
 @import url(../blocks/map/__iframe/map__iframe.css);
 
-/*Block Footer*/
+/* Footer Block */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__author-logo/footer__author-logo.css);
@@ -39,24 +99,6 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__author-link/footer__author-link.css);
 
-/*Block Logo*/
-@import url(../blocks/logo2/logo2.css);
-@import url(../blocks/logo2/__icon/logo2__icon.css);
-
-/* Visually Hidden Mix */
-@import url(../blocks/visually-hidden/visually-hidden.css);
-/* Header Block */
-@import url(../blocks/header/__menu-burger/header__menu-burger.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__nav-list/header__nav-list.css);
-@import url(../blocks/header/__navigation-link/header__navigation-link.css);
-@import url(../blocks/header/__navigation-link/_active/header__navigation-link_active.css);
-@import url(../blocks/header/__container/header__container.css);
-@import url(../blocks/header/__menu-icon/header__menu-icon.css);
-
-/* Intro Block */
-@import url(../blocks/intro/intro.css);
-
 /* Logo Block */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_mobile.css);
@@ -64,15 +106,9 @@
 @import url(../blocks/logo/__icon/_screen/logo__icon_screen_desktop.css);
 @import url(../blocks/logo/__icon/logo__icon.css);
 
-/* Hero Block */
-@import url(../blocks/hero/hero.css);
-@import url(../blocks/hero/__title/hero__title.css);
-@import url(../blocks/hero/__button/hero__button.css);
-@import url(../blocks/hero/__info/hero__info.css);
-@import url(../blocks/hero/__system-list/hero__system-list.css);
-@import url(../blocks/hero/__system/hero__system.css);
-@import url(../blocks/hero/__subtitle/hero__subtitle.css);
-@import url(../blocks/hero/__container/hero__container.css);
+/* Logo2 Block */
+@import url(../blocks/logo2/logo2.css);
+@import url(../blocks/logo2/__icon/logo2__icon.css);
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

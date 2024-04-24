@@ -68,6 +68,7 @@
 @import url(../blocks/text-input/__label/text-input__label.css);
 
 /* Modal window UI Component*/
+@import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/_active/popup_active.css);
 @import url(../blocks/popup/__footer/_for_failure-event/popup__footer_for_failure-event.css);
@@ -77,7 +78,6 @@
 @import url(../blocks/popup/__paragraph/_for_success-event/popup__paragraph_for_success-event.css);
 @import url(../blocks/popup/__paragraph/popup__paragraph.css);
 @import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/popup.css);
 
 /* Visually Hidden Mix */
 @import url(../blocks/visually-hidden/visually-hidden.css);

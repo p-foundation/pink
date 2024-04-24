@@ -1,8 +1,8 @@
-.form-fieldset {
-  border: 2px solid rgb(229, 229, 229); }
-
-@media screen and (max-width: 659px) {
-  .form-fieldset { 
-    border: none; 
-  }
+.form-fieldset{
+    border: 2px solid rgb(229, 229, 229);
+}
+@media screen and (max-width: 659px){
+    .form-fieldset{
+        border: none;
+    }
 }

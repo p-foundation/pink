@@ -40,27 +40,25 @@
 /* Textarea UI Component */
 @import url(../blocks/textarea/textarea.css);
 
-/* Visually Hidden Mix */
-@import url(../blocks/visually-hidden/visually-hidden.css);
-
-/* Section-intro Block*/
+/* Section Intro UI Component */
 @import url(../blocks/section/__intro/section__intro.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_form.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_gallery.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_photo-editor.css);
 
-/* Form-fieldset */
-/* fieldset */
+/* Form Fieldset UI Component */
 @import url(../blocks/form-fieldset/form-fieldset.css);
-@import url(../blocks/form-fieldset/_for/form-fieldset_for_contact-info.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_personal-info.css);
 @import url(../blocks/form-fieldset/_for/form-fieldset_for_app-type.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_contact-info.css);
 @import url(../blocks/form-fieldset/_for/form-fieldset_for_achievements.css);
 @import url(../blocks/form-fieldset/_for/form-fieldset_for_impressions.css);
-@import url(../blocks/form-fieldset/_for/form-fieldset_for_personal-info.css);
-/* legend */
 @import url(../blocks/form-fieldset/__legend/form-fieldset__legend.css);
 @import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_app-type.css);
 @import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_contact-info.css);
 @import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_achievements.css);
 @import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_impressions.css);
+
+/* Visually Hidden Mix */
+@import url(../blocks/visually-hidden/visually-hidden.css);

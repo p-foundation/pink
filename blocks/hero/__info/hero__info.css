@@ -7,7 +7,7 @@
     width: 300px;
 }
 
-@media(max-width:659px){
+@media screen and (max-width:659px){
     .hero__info{
         padding-top: 28px;
         margin-top: 269px;

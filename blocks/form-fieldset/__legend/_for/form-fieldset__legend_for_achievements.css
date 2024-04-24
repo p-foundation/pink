@@ -1,0 +1,9 @@
+.form-fieldset__legend_for_achievements{
+    padding: 0 31px;
+}
+@media screen and (max-width: 659px){
+    .form-fieldset__legend_for_achievements{
+        top: 38px;
+        padding: 0;
+    }
+}

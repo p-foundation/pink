@@ -36,6 +36,19 @@
 @import url(../blocks/button/_place/button_place_form.css);
 @import url(../blocks/button/_place/button_place_photo-editor.css);
 
+/* Form Fieldset UI Component */
+@import url(../blocks/form-fieldset/form-fieldset.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_personal-info.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_app-type.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_contact-info.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_achievements.css);
+@import url(../blocks/form-fieldset/_for/form-fieldset_for_impressions.css);
+@import url(../blocks/form-fieldset/__legend/form-fieldset__legend.css);
+@import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_app-type.css);
+@import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_contact-info.css);
+@import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_achievements.css);
+@import url(../blocks/form-fieldset/__legend/_for/form-fieldset__legend_for_impressions.css);
+
 /* Radio Input UI Component */
 @import url(../blocks/radio-input/radio-input.css);
 @import url(../blocks/radio-input/__label/radio-input__label.css);
@@ -43,14 +56,14 @@
 /* Textarea UI Component */
 @import url(../blocks/textarea/textarea.css);
 
-/* Section-intro UI Component*/
-@import url(../blocks/section/__intro/section__intro.css);
+/* Section Intro UI Component */
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/__intro/section__intro.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_form.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_gallery.css);
 @import url(../blocks/section/__intro/_place/section__intro_place_photo-editor.css);
 
-/* Input UI Component*/
+/* Input UI Component */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/__label/input__label.css);
 @import url(../blocks/input/__input/input__input.css);

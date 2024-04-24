@@ -1,0 +1,9 @@
+.form-fieldset_for_impressions{
+    padding: 29px 60px 43px;
+}
+@media screen and (max-width: 659px){
+    .form-fieldset_for_impressions{
+        position: relative;
+        padding: 68px 20px 52px;
+    }
+}

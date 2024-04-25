@@ -3,10 +3,11 @@
   transition: var(--common-transition);
 }
 
-.logo2:hover{
+.logo2[href]:hover{
   color: rgba(210, 40, 86, 1);
 }
 
-.logo2:active{
+.logo2[href]:active{
+  color: rgb(40, 54, 69);
   opacity: 0.3;
 }

@@ -1,0 +1,10 @@
+.form-fieldset_for_achievements{
+    padding: 42px 60px 60px;
+}
+@media screen and (max-width: 659px){
+	  .form-fieldset_for_achievements{
+        position: relative;
+        padding: 117px 20px 46px;
+        background-color: rgb(242, 242, 242);
+    }
+}

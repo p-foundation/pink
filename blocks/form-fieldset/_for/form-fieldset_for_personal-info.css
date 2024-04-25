@@ -1,0 +1,8 @@
+.form-fieldset_for_personal-info{
+    border: none;
+}
+@media screen and (max-width: 659px){
+    .form-fieldset_for_personal-info{
+        padding: 0 20px 44px;
+    }
+}

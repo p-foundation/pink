@@ -1,0 +1,16 @@
+.form-fieldset__legend_for_app-type{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    padding: 0 25px;
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 659px){
+    .form-fieldset__legend_for_app-type{
+        top: 40px;
+        padding: 0;
+        background-color: rgb(242, 242, 242);
+    }
+}

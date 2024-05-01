@@ -1,4 +1,4 @@
-.card__opened{
+.card_opened{
   width: 100%;
   margin-bottom: 50px;
   grid-template-rows:  1fr ;
@@ -7,7 +7,7 @@
   line-height: 0;
   position: relative;
 }
-.card__opened::before {
+.card_opened::before {
   content: "Панорама дня";
   position: absolute;
   top: 54px;
@@ -21,13 +21,13 @@
   background-color: #d22856;
 }
 @media screen and (max-width:1199px){
-  .card__opened::before {
+  .card_opened::before {
     top: 57px;
     right: 20px;
   }
 }
 @media screen and (max-width:659px){
-  .card__opened::before {
+  .card_opened::before {
     top: 0;
     right: 20px;
   }

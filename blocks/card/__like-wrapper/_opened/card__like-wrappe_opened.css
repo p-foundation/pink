@@ -1,11 +1,11 @@
-.card__likes_opened{
+.card__like-wrapper_opened{
   grid-row: -1;
   grid-column: 2; 
   display: flex;
   justify-content: end;
 }
 @media screen and (max-width: 659px){
-  .card__likes_opened{
+  .card__like-wrapper_opened{
     justify-content: left;
     grid-row: 3;
     grid-column: 1; 

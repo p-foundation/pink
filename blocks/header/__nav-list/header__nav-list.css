@@ -10,7 +10,7 @@
     line-height: 18px;
 }
 
-@media screen and (max-width:1199px){
+@media screen and (max-width: 1199px){
     .header__nav-list{
         display: none;
     }

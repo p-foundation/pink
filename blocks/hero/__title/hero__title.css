@@ -8,14 +8,14 @@
     margin: 0;
 }
 
-@media screen and (max-width:1199px){
+@media screen and (max-width: 1199px){
     .hero__title{
         font-size: 40px;
         font-weight: 300;
     }
 }
 
-@media screen and (max-width:659px){
+@media screen and (max-width: 659px){
     .hero__title{
         font-size: 24px;
 

@@ -8,13 +8,13 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width:1199px){
+@media screen and (max-width: 1199px){
     .header__container{
         padding: 27px 20px 43px;
     }
 }
 
-@media screen and (max-width:659px){
+@media screen and (max-width: 659px){
     .header__container{
         align-items: center;
         padding: 22px 20px;

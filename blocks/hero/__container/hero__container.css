@@ -4,14 +4,14 @@
 
 }
 
-@media(max-width:1199px){
+@media screen and (max-width: 1199px){
     .hero__container{
         max-width:240px;
         padding: 0 30px 30px;
     }
 }
 
-@media(max-width:659px){
+@media screen and (max-width: 659px){
     .hero__container{
         max-width:280px;
     }

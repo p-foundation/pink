@@ -5,7 +5,7 @@
   gap: 73px;
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .research {
     background: rgb(255, 255, 255);
     padding: 54px 20px 44px;

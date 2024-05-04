@@ -4,7 +4,7 @@
     font-size: 18px;
     line-height: 30px;
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
     .reviews__author-bio {
         font-size: 14px;
     }

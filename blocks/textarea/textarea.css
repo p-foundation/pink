@@ -19,13 +19,13 @@ textarea::placeholder {
   line-height: 1.66;
 }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .textarea {
     height: 189px;
   }
 }
 
-@media (max-width: 659px) {
+@media screen and (max-width: 659px) {
   .textarea {
     height: 197px;
   }

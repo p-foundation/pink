@@ -4,7 +4,7 @@
     font-weight: 700;
     line-height: 30px;
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
     .reviews__author-name {
         font-size: 20px;
     }

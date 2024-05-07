@@ -16,9 +16,9 @@
   letter-spacing: -.6px;
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
+  color: rgb(255,255,255);
   text-transform: uppercase;
-  background-color: #d22856;
+  background-color: rgb(210,40,86);
 }
 @media screen and (max-width:1199px){
   .card_opened::before {

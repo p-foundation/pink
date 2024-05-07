@@ -1,21 +1,6 @@
 .card{
-  display: grid;
-  grid-template-columns: repeat(auto-fill,300px);
-  grid-gap: 54px 20px ;
   list-style: none;
   height: 100%;
   padding: 0;
   line-height: 24px;
-}
-@media screen and (max-width: 1199px){
-  .card{
-    grid-template-columns:  1fr 1fr;
-    grid-gap: 20px 20px ;
-  }
-}
-@media screen and (max-width: 659px){
-  .card{
-    grid-template-columns:1fr;
-    grid-gap: 20px 0;
-  }
 }

@@ -1,6 +1,4 @@
 .card__button_opened{
-    border: none;
-    background-color: transparent;
     padding: 0 0 0 16px;
   }
   @media screen and (max-width:659px){
